@@ -1,0 +1,88 @@
+# Guide to Contributing to Aeon
+
+Thank you for your interest in contributing to Aeon! We greatly value any contribution, whether it's code, documentation, bug reports, or ideas.
+
+To ensure a smooth and respectful collaboration process, please follow these guidelines.
+
+## 1. Code of Conduct
+
+This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+## 2. How to Report a Bug (Bug Report)
+
+If you find a bug, please open an "Issue" on our GitHub repository. Include the following information:
+
+* **Clear and concise title:** Describe the problem.
+* **Steps to reproduce:** Detailed instructions for us to replicate the bug.
+* **Expected behavior:** What you expected to happen.
+* **Actual behavior:** What actually happened.
+* **Screenshots or logs:** If relevant.
+* **Your environment:** Operating system, software versions (Node.js, Hardhat, etc.).
+
+## 3. How to Suggest a Feature (Feature Request)
+
+If you have an idea for a new feature or improvement:
+
+* Open an "Issue" on GitHub.
+* Describe the feature in detail, explaining the problem it solves and how it would benefit the project.
+* If possible, include usage examples or mockups.
+
+## 4. How to Contribute Code (Pull Request)
+
+We value code contributions. To submit a "Pull Request" (PR):
+
+1.  **Fork** this repository to your GitHub account.
+2.  **Clone your fork** to your local machine.
+    ```bash
+    git clone [https://github.com/YOUR_GITHUB_USERNAME/Aeon-Project.git](https://github.com/YOUR_GITHUB_USERNAME/Aeon-Project.git)
+    cd Aeon-Project
+    ```
+    *(Replace `YOUR_GITHUB_USERNAME` with your GitHub username and `Aeon-Project` with your repository name)*
+3.  **Create a new branch** for your feature or bug fix.
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+4.  **Make your changes.** Ensure your code follows style guides and that tests pass.
+5.  **Write unit tests** for your new or modified code.
+6.  **Run tests** to ensure everything works.
+    ```bash
+    npx hardhat test # Or the relevant test command
+    ```
+7.  **Commit your changes** with a clear and descriptive message.
+    ```bash
+    git commit -m "feat: Add new feature X"
+    ```
+    *(Use prefixes like `feat:` for new features, `fix:` for bug fixes, `docs:` for documentation, etc.)*
+8.  **Push your branch to your GitHub fork.**
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+9.  **Open a "Pull Request"** from your branch on GitHub to the `main` (or `master`) branch of this repository.
+10. **Describe your PR** in detail, explaining what problem it solves or what feature it adds.
+
+## 5. Development Environment Setup
+
+To start developing, you will need:
+
+* Node.js (version 18.x or higher)
+* npm (comes with Node.js)
+* Git
+
+Once the repository is cloned, install dependencies:
+```bash
+npm install
+```
+And then compile the contracts:
+```bash
+npx hardhat compile
+```
+Refer to the main `README.md` for more details on setup.
+
+## 6. Questions and Support
+
+If you have questions or need help, you can:
+
+* Open an "Issue" on GitHub with your question.
+* Join our Discord/Telegram channel (if you create one).
+
+Thank you again for your contribution!
