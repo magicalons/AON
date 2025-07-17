@@ -1,0 +1,89 @@
+    # Guía para Contribuir a Aeon
+
+    ¡Gracias por tu interés en contribuir a Aeon! Valoramos enormemente cualquier aportación, ya sea código, documentación, informes de errores o ideas.
+
+    Para asegurar un proceso de colaboración fluido y respetuoso, por favor, sigue estas directrices.
+
+    ## 1. Código de Conducta
+
+    Este proyecto se rige por el [Código de Conducta de Contribuidores](CODE_OF_CONDUCT.md). Al participar, se espera que mantengas este código.
+
+    ## 2. Cómo Reportar un Error (Bug Report)
+
+    Si encuentras un error, por favor, abre un "Issue" (incidencia) en nuestro repositorio de GitHub. Incluye la siguiente información:
+
+    * **Título claro y conciso:** Describe el problema.
+    * **Pasos para reproducir:** Instrucciones detalladas para que podamos replicar el error.
+    * **Comportamiento esperado:** Qué esperabas que ocurriera.
+    * **Comportamiento actual:** Qué ocurrió realmente.
+    * **Capturas de pantalla o logs:** Si son relevantes.
+    * **Tu entorno:** Sistema operativo, versiones de software (Node.js, Hardhat, etc.).
+
+    ## 3. Cómo Sugerir una Característica (Feature Request)
+
+    Si tienes una idea para una nueva característica o mejora:
+
+    * Abre un "Issue" en GitHub.
+    * Describe la característica en detalle, explicando el problema que resuelve y cómo beneficiaría al proyecto.
+    * Si es posible, incluye ejemplos de uso o maquetas.
+
+    ## 4. Cómo Contribuir con Código (Pull Request)
+
+    Valoramos las contribuciones de código. Para enviar un "Pull Request" (PR):
+
+    1.  **Haz un "fork"** de este repositorio a tu cuenta de GitHub.
+    2.  **Clona tu fork** a tu máquina local.
+        ```bash
+        git clone [https://github.com/TU_USUARIO_GITHUB/Aeon-Project.git](https://github.com/TU_USUARIO_GITHUB/Aeon-Project.git)
+        cd Aeon-Project
+        ```
+        *(Reemplaza `TU_USUARIO_GITHUB` con tu nombre de usuario de GitHub y `Aeon-Project` con el nombre de tu repositorio)*
+    3.  **Crea una nueva rama** para tu característica o corrección de error.
+        ```bash
+        git checkout -b feature/nombre-de-tu-caracteristica
+        ```
+    4.  **Realiza tus cambios.** Asegúrate de que tu código sigue las guías de estilo y que las pruebas pasan.
+    5.  **Escribe pruebas unitarias** para tu código nuevo o modificado.
+    6.  **Ejecuta las pruebas** para asegurarte de que todo funciona.
+        ```bash
+        npx hardhat test # O el comando de pruebas relevante
+        ```
+    7.  **Haz "commit" de tus cambios** con un mensaje claro y descriptivo.
+        ```bash
+        git commit -m "feat: Añade nueva característica X"
+        ```
+        *(Usa prefijos como `feat:` para nuevas características, `fix:` para correcciones de errores, `docs:` para documentación, etc.)*
+    8.  **Sube tu rama a tu fork de GitHub.**
+        ```bash
+        git push origin feature/nombre-de-tu-caracteristica
+        ```
+    9.  **Abre un "Pull Request"** desde tu rama en GitHub hacia la rama `main` (o `master`) de este repositorio.
+    10. **Describe tu PR** en detalle, explicando qué problema resuelve o qué característica añade.
+
+    ## 5. Configuración del Entorno de Desarrollo
+
+    Para empezar a desarrollar, necesitarás:
+
+    * Node.js (versión 18.x o superior)
+    * npm (viene con Node.js)
+    * Git
+
+    Una vez clonado el repositorio, instala las dependencias:
+    ```bash
+    npm install
+    ```
+    Y luego compila los contratos:
+    ```bash
+    npx hardhat compile
+    ```
+    Consulta el `README.md` principal para más detalles sobre la configuración.
+
+    ## 6. Preguntas y Soporte
+
+    Si tienes preguntas o necesitas ayuda, puedes:
+
+    * Abrir un "Issue" en GitHub con tu pregunta.
+    * Unirte a nuestro canal de Discord/Telegram (si lo creas).
+
+    ¡Gracias de nuevo por tu contribución!
+    
