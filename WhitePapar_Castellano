@@ -1,0 +1,215 @@
+# Whitepaper de Aeon: IA Descentralizada para la Seguridad de Infraestructuras Críticas
+
+## Resumen Ejecutivo (Executive Summary)
+
+En la era digital actual, las infraestructuras críticas que sustentan nuestras sociedades —desde los sistemas financieros y las redes de defensa hasta la atención sanitaria— se encuentran en una encrucijada de vulnerabilidad sin precedentes. La creciente sofisticación de los ataques cibernéticos, sumada a la inminente amenaza de la computación cuántica, expone estas infraestructuras a riesgos catastróficos. Las soluciones de Inteligencia Artificial (IA) existentes, predominantemente centralizadas y carentes de una estandarización de riesgos global, no solo son intrínsecamente vulnerables, sino que también carecen de la resiliencia y la confianza necesarias para proteger activos de valor incalculable.
+
+**Aeon** emerge como la respuesta pionera a este desafío existencial. Somos la primera plataforma de Inteligencia Artificial **descentralizada** a nivel mundial, diseñada específicamente para operar con una seguridad, auditabilidad y resiliencia sin igual. Nuestra solución se fundamenta en tres pilares innovadores:
+
+1.  **Certificación ISO 31000 Integrada:** Incorporamos el estándar internacional de gestión de riesgos ISO 31000 desde el diseño, garantizando un marco robusto para la identificación, análisis, evaluación y tratamiento de riesgos. Esto no solo asegura el cumplimiento normativo, sino que también infunde una confianza indispensable para la adopción por parte de empresas y gobiernos.
+
+2.  **Seguridad Post-Quantum (PQM) Nativa:** Anticipándonos a la era de la computación cuántica, Aeon implementa algoritmos criptográficos resistentes a los ataques cuánticos. Esto asegura la integridad y confidencialidad de los datos y las operaciones a largo plazo, protegiendo contra amenazas futuras que invalidarían las criptografías actuales.
+
+3.  **Arquitectura Híbrida Avanzada:** Nuestra plataforma combina la inmutabilidad y la transparencia de la tecnología blockchain con la resiliencia y el alcance de las redes satelitales y los principios de Web3. Esta sinergia permite a Aeon operar de forma continua y segura, incluso en escenarios de interrupción de la conectividad convencional, ofreciendo una capacidad de operación sin precedentes fuera del internet tradicional.
+
+El mercado objetivo de Aeon abarca sectores críticos como **Gobiernos y Defensa**, **Instituciones Financieras** y **Empresas de Tecnología**, todos ellos con una necesidad urgente de soluciones de IA seguras, auditables y conformes con los estándares. El token AON, con un suministro total de 1.000 millones, es el motor económico de este ecosistema, facilitando transacciones, incentivando la participación de la comunidad y financiando el desarrollo continuo a través de un modelo de tokenomics sostenible que incluye tarifas y mecanismos de quema.
+
+Con una hoja de ruta ambiciosa que prevé el desarrollo del smart contract, un MVP funcional de IA con PQM, y la certificación ISO 31000 en los primeros meses, Aeon no solo busca ser líder en seguridad de IA, sino establecer un nuevo estándar global para la infraestructura digital del futuro. Buscamos una inversión inicial de entre 50.000 y 100.000 euros para catalizar el desarrollo, asegurar certificaciones clave y expandir nuestra comunidad.
+
+## 1. Problema Actual (Problem Statement)
+
+La infraestructura digital global, columna vertebral de la economía, la seguridad nacional y los servicios esenciales, enfrenta una escalada sin precedentes en la complejidad y frecuencia de las amenazas cibernéticas. Más allá de los ataques convencionales, la inminente llegada de la computación cuántica presenta un riesgo existencial que podría desmantelar los cimientos de la criptografía moderna, dejando expuestos sistemas que hoy consideramos inexpugnables.
+
+### 1.1. Vulnerabilidad de las Infraestructuras Críticas
+
+Sectores como las finanzas, la defensa, la energía y la salud son blancos primarios debido al valor y la sensibilidad de sus datos y operaciones. Un ataque exitoso no solo implica pérdidas económicas masivas, sino que puede desestabilizar naciones, comprometer la privacidad de millones de ciudadanos y paralizar servicios vitales. Informes recientes de agencias de ciberseguridad y empresas de análisis de riesgos destacan:
+
+* **Aumento de ataques sofisticados:** Ransomware, ataques a la cadena de suministro y APTs (Amenazas Persistentes Avanzadas) dirigidas a infraestructuras críticas han crecido exponencialmente, con un costo promedio por brecha de datos que supera los millones de dólares.
+
+* **Dependencia de sistemas heredados:** Muchas infraestructuras críticas operan con sistemas antiguos que no fueron diseñados para resistir las amenazas actuales, creando puntos ciegos y vulnerabilidades difíciles de parchear.
+
+* **Falta de estandarización global:** La ausencia de un marco unificado y adoptado globalmente para la gestión de riesgos en el ámbito de la IA y la ciberseguridad dificulta la interoperabilidad y la confianza entre entidades y naciones.
+
+### 1.2. La Amenaza Cuántica (Quantum Threat)
+
+La computación cuántica, aunque aún en sus primeras fases, representa una amenaza disruptiva para la seguridad de la información. Los algoritmos cuánticos, como el algoritmo de Shor y el algoritmo de Grover, tienen el potencial de romper la criptografía de clave pública (RSA, ECC) y la criptografía simétrica (AES) en un futuro previsible. Esto significa que:
+
+* **Comunicaciones y datos históricos comprometidos:** La información cifrada hoy podría ser descifrada retroactivamente una vez que las computadoras cuánticas sean lo suficientemente potentes.
+
+* **Firmas digitales invalidas:** La autenticación de transacciones financieras, identidades digitales y comunicaciones seguras podría ser falsificada, socavando la confianza en todo el ecosistema digital.
+
+* **Infraestructuras críticas en riesgo directo:** Los sistemas de control industrial, las redes de energía y las bases de datos sensibles que dependen de la criptografía actual quedarían expuestos.
+
+### 1.3. Limitaciones de las Soluciones de IA Centralizadas
+
+Las implementaciones actuales de Inteligencia Artificial, aunque potentes, presentan deficiencias inherentes que las hacen inadecuadas para la protección de infraestructuras críticas:
+
+* **Puntos únicos de fallo (Single Points of Failure):** La centralización de datos y modelos de IA crea objetivos atractivos para los atacantes. Un compromiso en un nodo central puede paralizar todo el sistema.
+
+* **Falta de transparencia y auditabilidad:** Los modelos de "caja negra" de la IA centralizada dificultan la auditoría independiente y la verificación de su comportamiento, lo que es inaceptable en entornos regulados y de alta seguridad.
+
+* **Riesgos de privacidad:** La agregación masiva de datos en servidores centrales aumenta el riesgo de brechas de privacidad y uso indebido de la información.
+
+* **Vulnerabilidad a la manipulación:** Los modelos de IA centralizados pueden ser susceptibles a ataques de envenenamiento de datos o manipulación de modelos, comprometiendo la integridad de sus decisiones.
+
+* **Incompatibilidad con estándares de riesgo:** La mayoría de las soluciones de IA no están diseñadas intrínsecamente para cumplir con marcos de gestión de riesgos como ISO 31000, lo que dificulta su adopción en entornos empresariales y gubernamentales que exigen un cumplimiento riguroso.
+
+La suma de estas vulnerabilidades crea una brecha crítica en la seguridad digital global, una brecha que las soluciones actuales no pueden cerrar eficazmente. Aeon se posiciona para abordar este vacío con un enfoque radicalmente nuevo.
+
+## 4. Modelo Tokenomics (Economía del Token AON)
+
+El token AON es el corazón económico del ecosistema Aeon, diseñado para incentivar la participación, financiar el desarrollo y asegurar la sostenibilidad a largo plazo del proyecto.
+
+### 4.1. Suministro Total y Distribución Inicial
+
+* **Supply total:** 1,000,000,000 tokens (1 billón de tokens AON).
+
+* **Distribución inicial:**
+
+    * **Private Sale (inversores):** 15% (150,000,000 tokens). Destinado a inversores estratégicos y capital semilla.
+
+    * **Equipo y Advisors:** 15% (150,000,000 tokens), con un **vesting de 1-2 años**. Este periodo de bloqueo y liberación gradual es crucial para demostrar el compromiso a largo plazo del equipo y alinear sus intereses con el éxito del proyecto.
+
+    * **Fondo de Desarrollo:** 5% (50,000,000 tokens). Para financiar la investigación y desarrollo continuo, contratación de talento y mantenimiento de la infraestructura.
+
+    * **Liquidez en DEX:** 30% (300,000,000 tokens). Destinado a proveer liquidez inicial en exchanges descentralizados (DEX) como QuickSwap, facilitando la compra y venta del token AON.
+
+    * **Comunidad / Recompensas:** 35% (350,000,000 tokens). Para incentivar la participación activa de la comunidad, programas de staking, recompensas por contribuciones y airdrops.
+
+### 4.2. Mecanismos de Sostenibilidad y Fees por Transacción
+
+Para asegurar la sostenibilidad del ecosistema y el valor del token, se aplicará una pequeña tarifa por transacción (aproximadamente 3% del valor de la transacción), distribuida de la siguiente manera:
+
+* **Fondo de Desarrollo:** 0.5% – Directamente destinado a financiar el desarrollo tecnológico, la contratación de talento y la operación de los servicios de IA descentralizada.
+
+* **Quema Automática:** 1% – Una porción de los tokens transaccionados se quema automáticamente, reduciendo el suministro total de AON con el tiempo. Este mecanismo deflacionario está diseñado para aumentar la escasez y, potencialmente, el valor del token a largo plazo.
+
+* **Liquidez Automática:** 1% – Esta porción se redirige a los pools de liquidez en DEX, ayudando a mantener la profundidad y estabilidad de la liquidez del token AON.
+
+* **Recompensas para Holders:** 0.5% – Distribuido entre los poseedores de tokens AON, incentivando el holding a largo plazo y la participación en programas de staking.
+
+## 5. Roadmap Detallado (4 Meses)
+
+Este plan de acción está diseñado para maximizar la tracción y la recaudación de fondos en la private sale, mientras se construye una base sólida para el proyecto de IA descentralizada.
+
+### Mes 1: Cimientos Tecnológicos y Preparación para Inversores
+
+* **Token y Contrato Inteligente:** Desarrollo, pruebas exhaustivas y auditoría inicial del contrato inteligente del token AON, implementando la tokenomics definida.
+
+* **MVP de IA (Prueba de Concepto / Funcionalidad Básica):** Desarrollo de una versión extremadamente básica pero funcional del componente de IA con PQM, junto con una interfaz mínima (APK o web app simple) o una API que demuestre la esencia de la validación descentralizada de IA.
+
+* **Preparación del Repositorio Open Source:** Asegurar un `README.md` impecable, el archivo `LICENSE` (licencia de código abierto), y un borrador de `CONTRIBUTING.md` (guía para colaboradores).
+
+* **Material de Inversión:** Creación de un pitch deck profesional, un whitepaper (o al menos un "litepaper" si el whitepaper completo está en desarrollo), y un documento de preguntas frecuentes (FAQ) para inversores.
+
+### Mes 2: Visibilidad Pre-Private Sale y Primeros Contactos
+
+* **Lanzamiento del Repositorio (Público):** Hacer público el repositorio de GitHub (o plataforma similar), incluyendo el MVP funcional de IA.
+
+* **Generación de Intriga:** Inicio de una campaña de "sneak peeks" en redes sociales (Twitter/X, LinkedIn), blogs técnicos (DEV Community, Medium), compartiendo avances del proyecto, logros técnicos y la visión. **No es el anuncio del lanzamiento o private sale aún.**
+
+* **Identificación de "Good First Issues":** Etiquetar tareas sencillas y accesibles en el repositorio para atraer a los primeros colaboradores de código abierto.
+
+* **Preparación de la Campaña de Private Sale:** Definir el proceso detallado para los inversores, incluyendo cómo adquirirán los tokens y la documentación legal necesaria.
+
+### Mes 3: Inicio de la Campaña de Private Sale (Fase 1) y Colaboración Intensiva
+
+* **LANZAMIENTO OFICIAL DE LA PRIVATE SALE:** Anuncio del inicio de la ronda de private sale en todos los canales de comunicación (blog, redes sociales, comunidades de inversores).
+
+    * **Objetivo de Recaudación (Mes 3):** Apuntar a recaudar entre €50,000 y €10,000. Esta tracción inicial es vital para demostrar el interés del mercado.
+
+* **Marketing Dirigido a Inversores:** Contacto activo y personalizado con inversores ángel y fondos de capital semilla que se alineen con la visión de IA descentralizada y blockchain de Aeon.
+
+* **Búsqueda Activa de Colaboradores:** Intensificación de la búsqueda de desarrolladores y colaboradores para el core del proyecto de IA y blockchain. Ofrecer guía y soporte para sus primeras contribuciones.
+
+* **Gestión de la Comunidad:** Apertura y gestión activa de canales de comunicación (ej. Discord, Telegram) para responder preguntas, fomentar la discusión y generar un fuerte sentido de comunidad.
+
+### Mes 4: Anuncio Público del Proyecto y Cierre de Private Sale
+
+* **GRAN ANUNCIO PÚBLICO DEL PROYECTO (Lanzamiento):**
+
+    * Publicación de un artículo completo en el blog/sitio web del proyecto.
+
+    * Anuncio en todas las plataformas clave: Reddit (r/opensource, r/programming, etc.), DEV Community, Hacker News, Twitter/X, LinkedIn.
+
+    * Destacar el MVP de IA, la visión del proyecto, el modelo tokenomics y los logros alcanzados.
+
+* **CIERRE DE LA PRIVATE SALE:** Búsqueda activa de los últimos compromisos para alcanzar el objetivo total de €50,000 - €100,000.
+
+* **Escalar el Desarrollo y la Comunidad:** Con los fondos y el interés inicial, el enfoque se desplaza a expandir el desarrollo de la IA y la infraestructura descentralizada, y a crecer la base de usuarios y colaboradores.
+
+* **Comunicación Post-Lanzamiento:** Informar a la comunidad sobre los próximos pasos, la hoja de ruta a corto y medio plazo, y cómo se utilizarán los fondos recaudados.
+
+## 6. Ventaja Competitiva
+
+* Primero en el mundo con IA descentralizada + ISO 31000 + PQM.
+
+* Enfoque en seguridad real, auditoría y cumplimiento, no solo hype tecnológico.
+
+* Integración híbrida para resiliencia en redes satelitales y mesh.
+
+## 7. Solicitud de Inversión
+
+Buscamos recaudar entre €50,000 y €100,000 para:
+
+* Certificación ISO y auditorías de seguridad.
+
+* Desarrollo tecnológico avanzado.
+
+* Estrategia de marketing y crecimiento de comunidad.
+
+## 8. Equipo y Asesores (Team & Advisors)
+
+* **Propósito:** Generar confianza mostrando la experiencia y credibilidad del equipo.
+
+* **Contenido:**
+
+    * **Biografías:** Para cada miembro clave del equipo (fundadores, líderes de desarrollo, seguridad, IA, operaciones), incluir:
+
+        * Nombre y rol.
+
+        * Experiencia relevante (empresas anteriores, proyectos, logros).
+
+        * Educación relevante.
+
+        * Enlaces a LinkedIn (muy importante).
+
+    * **Asesores:** Si tienes asesores, incluir sus nombres, roles y por qué son valiosos para el proyecto.
+
+## 9. Seguridad y Auditorías (Security & Audits)
+
+* **Propósito:** Reafirmar el compromiso con la seguridad, más allá de PQM e ISO.
+
+* **Contenido:**
+
+    * **Auditorías de Smart Contracts:** Mencionar a la empresa auditora (si ya la tienes en mente) y el alcance de la auditoría.
+
+    * **Pruebas:** Describir el enfoque de pruebas (unitarias, integración, fuzzing).
+
+    * **Manejo de vulnerabilidades:** ¿Cómo se gestionarán y corregirán las vulnerabilidades descubiertas?
+
+    * **Seguridad de la infraestructura:** ¿Cómo se asegura la infraestructura de la IA descentralizada y las redes satelitales?
+
+## 10. Consideraciones Legales y de Cumplimiento (Legal & Compliance)
+
+* **Propósito:** Abordar las implicaciones legales y regulatorias.
+
+* **Contenido:**
+
+    * **Clasificación del token:** ¿Es un token de utilidad, de seguridad, híbrido? (Esto es crucial legalmente).
+
+    * **Jurisdicción:** ¿Dónde está registrada la entidad legal del proyecto?
+
+    * **Cumplimiento normativo:** Compromiso con las leyes y regulaciones aplicables (KYC/AML si aplica).
+
+    * **Descargos de responsabilidad:** Incluir los descargos de responsabilidad estándar sobre riesgos de inversión.
+
+## 11. Conclusión
+
+* **Propósito:** Resumir los puntos clave y reiterar la visión.
+
+* **Contenido:**
+
+    * Reafirmar la oportunidad y la solución única.
+
+    * Llamada a la acción (ej. "Únete a nuestra comunidad", "Contacta para inversión").
