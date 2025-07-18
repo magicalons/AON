@@ -1,0 +1,67 @@
+
+IA Descentralizada, Soberanía Digital y Seguridad Post-Cuántica (PQC)
+
+¡Bienvenido a AON!
+
+AON es un proyecto de código abierto en desarrollo que busca construir una infraestructura digital segura, soberana y resistente a la computación cuántica. Nuestro objetivo es empoderar a los usuarios con control total sobre sus datos e identidades mediante la integración de tecnologías avanzadas como la Criptografía Post-Cuántica (PQC), Identidad Digital Auto-Soberana (SSI) y una arquitectura descentralizada.
+Estado Actual
+
+El desarrollo está en curso. Estamos buscando feedback técnico y colaboradores para co-crear la primera versión alpha. ¡Únete a nosotros para explorar el código y contribuir!
+
+Explora el Repositorio en GitHub: https://github.com/magicalons/AON
+
+Arquitectura Planeada
+Micro-Sistema Operativo (Solo Lectura)
+
+Diseñado desde cero para resiliencia y transparencia. Proporciona un entorno seguro para operaciones críticas y aislamiento de procesos.
+Aplicación APK
+
+Facilita la gestión de identidades y conexiones seguras en dispositivos móviles.
+Criptografía Post-Cuántica (PQC)
+
+Algoritmos planeados (seleccionados por NIST):
+
+    Kyber (cifrado de clave pública).
+
+    Dilithium (firmas digitales).
+
+    Falcon y SPHINCS+ como alternativas para casos específicos.
+
+Identidad Digital Auto-Soberana (SSI)
+
+Basada en estándares Web3 y Decentralized Identifiers (DID). Permite a los usuarios controlar y auditar el acceso a sus datos.
+Gestión Segura de Identidades y Dispositivos (SM-DP+)
+
+Vinculación robusta entre identidades y dispositivos físicos mediante perfiles eSIM.
+Inteligencia Artificial
+
+Motor para validación de integridad y detección de anomalías.
+Gobernanza Descentralizada
+
+El token AON permitirá participación comunitaria y certificación de perfiles eSIM terrestres y satelitales.
+Roadmap Técnico
+Fase 1 (0-6 meses)
+
+    Diseño de arquitectura y PoC (Prueba de Concepto) de micro-SO.
+
+    Implementación inicial de algoritmos PQC (Kyber y Dilithium).
+
+    Preparación de entorno SDK para desarrollo de APK.
+
+    Auditoría comunitaria y pruebas de seguridad.
+
+    Expansión a servicios financieros descentralizados.
+
+Llamado a la Comunidad
+
+Este proyecto busca abrir un diálogo con desarrolladores, criptógrafos y defensores de la privacidad. Invitamos a la comunidad a:
+
+    Revisar nuestra arquitectura.
+
+    Proponer mejoras o auditorías de seguridad.
+
+    Participar en el desarrollo del repositorio público.
+
+Juntos podemos construir una internet más segura, privada y soberana.
+
+Repositorio: https://github.com/magicalons/AON
