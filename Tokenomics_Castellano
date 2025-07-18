@@ -8,9 +8,9 @@ Este documento detalla la economía propuesta para el token AON, diseñado para 
 
 ## 1. Visión y Utilidad del Token
 
-El token AON no es solo una criptomoneda; es la llave para una nueva era de soberanía digital y conectividad.
+El token AON no es solo una criptomoneda; es la llave para una nueva era de soberanía digital y conectividad de alto valor.
 
-* **Conectividad Global de por Vida:** Cada token AON otorga un derecho de acceso de por vida a la conectividad global (eSIM satelital y terrestre) dentro del ecosistema AON. Este es un valor fundamental que elimina barreras y facturas mensuales.
+* **Conectividad Global de por Vida (Activo Exclusivo):** Cada token AON otorga un derecho de acceso de por vida a la conectividad global (eSIM satelital y terrestre) dentro del ecosistema AON. Este es un activo digital de valor fundamental y altamente exclusivo que elimina barreras y facturas mensuales recurrentes para sus poseedores.
 * **Gobernanza Descentralizada (DAO):** Los poseedores de tokens AON tendrán poder de voto en la [DAO de AON](https://github.com/magicalons/AON/blob/main/GOVERNANCE.md) (enlace sugerido a un futuro archivo de gobernanza), permitiéndoles definir colectivamente el futuro del proyecto. Esto incluye desde políticas de uso y límites de datos, hasta la evolución de la infraestructura y la asignación de fondos de la tesorería.
 * **Acceso a Servicios de Seguridad Avanzados:** La IA de AON provee **auditoría forense en tiempo real y detección de anomalías**. La comunidad decidirá si estos servicios de seguridad críticos se ofrecen como un bien común para los poseedores de tokens, o si ciertas funcionalidades avanzadas requerirán el uso o *staking* de tokens adicionales, para mantener la sostenibilidad de la red.
 
@@ -18,29 +18,29 @@ El token AON no es solo una criptomoneda; es la llave para una nueva era de sobe
 
 ## 2. Suministro y Distribución Inicial
 
-El suministro total de tokens AON está diseñado para fomentar una distribución justa y apoyar el crecimiento a largo plazo del ecosistema.
+El suministro total de tokens AON está diseñado para reflejar su naturaleza exclusiva y de alto valor, fomentando una distribución justa y apoyando el crecimiento a largo plazo del ecosistema.
 
-* **Suministro Total:** **1.000.000.000 (1 mil millones) de tokens AON.**
+* **Suministro Total:** **5.000 (cinco mil) tokens AON.**
 
-* **Asignación de Distribución:**
+* **Asignación de Distribución:** Los porcentajes se han ajustado proporcionalmente para este suministro limitado.
 
-    * **Comunidad y Recompensas:** **35%**
-        * Destinado a airdrops iniciales, incentivos para contribuciones open source (código, documentación, traducciones), programas de *bug bounty*, y recompensas por participación activa en la gobernanza y los canales de la comunidad.
-        * *Objetivo:* Construir una base de usuarios amplia y comprometida que sea la fuerza motriz del proyecto.
-    * **Liquidez DEX:** **30%**
+    * **Comunidad y Recompensas:** **35% (1.750 tokens)**
+        * Destinado a recompensar la participación temprana y de alto valor, contribuciones open source (código, documentación, traducciones), programas de *bug bounty*, y recompensas por participación activa en la gobernanza y los canales de la comunidad.
+        * *Objetivo:* Construir una base de usuarios altamente comprometida que sea la fuerza motriz del proyecto, dada la exclusividad del activo.
+    * **Liquidez DEX:** **30% (1.500 tokens)**
         * Asignado para proporcionar liquidez inicial en intercambios descentralizados (DEX), asegurando un mercado saludable y accesible para el token AON desde el lanzamiento.
-    * **Private Sale:** **15%**
+    * **Private Sale:** **15% (750 tokens)**
         * Dirigido a inversores estratégicos y socios iniciales que aporten capital y valor a largo plazo al proyecto.
-    * **Equipo y Advisors:** **15%**
+    * **Equipo y Advisors:** **15% (750 tokens)**
         * Destinado a recompensar y retener al equipo fundador y a los asesores clave. Estos tokens estarán sujetos a un **calendario de *vesting*** (ej. bloqueo de 1 año, luego liberación lineal durante 3 años adicionales) para alinear sus intereses con el éxito a largo plazo del proyecto.
-    * **Fondo de Desarrollo (Tesorería DAO):** **5%**
+    * **Fondo de Desarrollo (Tesorería DAO):** **5% (250 tokens)**
         * Un fondo inicial para cubrir los gastos esenciales de desarrollo, investigación PQC, auditorías de seguridad (incluyendo la ISO 31000), y necesidades operativas críticas. Este fondo será gestionado y auditado por la DAO.
 
 ---
 
 ## 3. Mecanismos de Sostenibilidad y Valor del Ecosistema
 
-La sostenibilidad de AON no depende de tarifas mensuales, sino de un modelo económico intrínseco al token, impulsado por la comunidad.
+La sostenibilidad de AON no depende de tarifas mensuales, sino de un modelo económico intrínseco al token, impulsado por la comunidad, que soporta un servicio de conectividad de tan alto valor.
 
 * **Financiamiento de la Tesorería de la DAO:** La **Tesorería de la DAO**, inicialmente nutrida por una parte de la asignación del Fondo de Desarrollo, y posteriormente por los *fees* de transacción y otras fuentes aprobadas por la comunidad, será el motor financiero para cubrir los costos continuos. Estos incluyen la adquisición de ancho de banda a proveedores satelitales/terrestres, desarrollo futuro, y operaciones de mantenimiento.
 * **Fees de Transacción y Quema Automática:** Las transacciones dentro del ecosistema AON (por ejemplo, transferencias de tokens, interacciones con contratos inteligentes relacionados con servicios) incurrirán en pequeñas *fees*.
@@ -61,16 +61,16 @@ La naturaleza open source de AON significa que sus tokenomics son dinámicos y e
 
 ## 5. El Airdrop Inicial y la Expansión Comunitaria
 
-El airdrop inicial de AON será una herramienta estratégica para sembrar la semilla de nuestra comunidad y viralizar nuestra visión.
+El airdrop inicial de AON será una herramienta estratégica para sembrar la semilla de nuestra comunidad altamente comprometida y atraer a los primeros poseedores de este activo único.
 
-* **Objetivo:** Distribuir tokens a usuarios que demuestren interés genuino y compromiso con la visión de AON de soberanía digital, seguridad post-cuántica y conectividad descentralizada.
+* **Objetivo:** Distribuir tokens a usuarios que demuestren un interés genuino y un compromiso excepcional con la visión de AON de soberanía digital, seguridad post-cuántica y conectividad descentralizada. Dada la escasez, se buscará la calidad de la participación sobre la cantidad.
 * **Criterios de Elegibilidad (Ejemplos, detalles en anuncio oficial):**
-    * Participación activa en discusiones en nuestros canales de Discord/Telegram.
-    * Contribuciones valiosas al código base (Pull Requests, *issues*, revisiones).
-    * Creación de contenido educativo y de difusión sobre AON (blogs, videos, tutoriales).
-    * Compartir y promover la visión y anuncios clave de AON en redes sociales.
-    * Participación en encuestas, quizzes o AMAs para demostrar comprensión del proyecto.
-* **Mecanismos Anti-Sybil:** Implementaremos estrategias robustas, incluyendo el análisis de comportamiento y, potencialmente, soluciones de Prueba de Humanidad (PoH), para detectar y mitigar bots y ataques Sybil, asegurando que los tokens lleguen a usuarios humanos reales comprometidos con el proyecto.
+    * Participación activa y valiosa en discusiones en nuestros canales de Discord/Telegram.
+    * Contribuciones significativas al código base (Pull Requests de alta calidad, resolución de *issues*, revisiones).
+    * Creación de contenido educativo y de difusión de alta calidad sobre AON (blogs técnicos, videos explicativos, tutoriales).
+    * Compartir y promover la visión y anuncios clave de AON en redes sociales con un alcance e impacto demostrables.
+    * Participación en encuestas, quizzes o AMAs para demostrar una comprensión profunda del proyecto.
+* **Mecanismos Anti-Sybil:** Implementaremos estrategias robustas, incluyendo el análisis de comportamiento y, potencialmente, soluciones de Prueba de Humanidad (PoH), para detectar y mitigar bots y ataques Sybil, asegurando que los tokens lleguen a usuarios humanos reales que aporten valor al proyecto.
 
 ---
 
