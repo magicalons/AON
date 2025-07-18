@@ -1,1 +1,83 @@
+# Gobernanza Descentralizada de AON (DAO)
+
+---
+
+La esencia de AON radica en su naturaleza de código abierto y definida por la comunidad. Creemos que las decisiones sobre el futuro de nuestra infraestructura segura, soberana y de conectividad global deben residir en las manos de sus usuarios y contribuyentes. Por ello, AON está gobernado por una **Organización Autónoma Descentralizada (DAO)**, empoderada por el token AON.
+
+Este documento describe la estructura y el proceso de gobernanza de la DAO de AON.
+
+---
+
+## 1. El Token AON: Tu Voz en la DAO
+
+El **token AON** no solo representa acceso de por vida a la conectividad global; es tu poder de voto dentro de la DAO.
+
+* **Poder de Voto:** Cada token AON que poseas equivale a un voto en las propuestas de la DAO. Cuantos más tokens poseas, mayor será tu influencia proporcional en las decisiones del proyecto.
+* **Incentivo a la Participación:** Los poseedores de tokens serán incentivados a participar activamente en la gobernanza, ya que sus decisiones impactarán directamente el valor y la evolución de la red AON.
+
+---
+
+## 2. Proceso de Propuestas y Votación
+
+La gobernanza de AON seguirá un ciclo de vida estructurado para asegurar que todas las propuestas sean consideradas y votadas de manera justa y transparente.
+
+### Fases de una Propuesta:
+
+1.  **Discusión Informal (Off-Chain):**
+    * **Propósito:** Generar ideas, debatir conceptos y recopilar feedback inicial antes de una propuesta formal.
+    * **Dónde:** Principalmente en nuestro [Canal de Discord](LINK_A_TU_CANAL_DE_DISCORD) o [Foro de Gobernanza](LINK_A_TU_FORO_DE_GOBERNANZA_EJ_SNAPSHOT_FORUM).
+    * **Resultado:** Un borrador de la propuesta con apoyo inicial de la comunidad.
+
+2.  **Creación Formal de Propuesta (On-Chain/Off-Chain con Verificación):**
+    * **Quién puede proponer:** Los poseedores de tokens que cumplan con un umbral mínimo de AON (ej. `X` tokens AON). Este umbral será definido y ajustable por la DAO.
+    * **Contenido de la Propuesta:**
+        * **Título Claro:** Resumen conciso.
+        * **Descripción Detallada:** Problema, solución propuesta, justificación, impacto (positivo/negativo), y cualquier cambio técnico o de tokenomics necesario.
+        * **Opciones de Votación:** Opciones claras como "Sí", "No", "Abstenerse".
+    * **Plataforma:** Las propuestas se formalizarán en nuestra plataforma de votación (ej. [Snapshot para votación off-chain](LINK_A_TU_ESPACIO_EN_SNAPSHOT_SI_USAS_ESTO) o directamente vía contrato de gobernanza on-chain).
+
+3.  **Período de Votación:**
+    * **Duración:** Las propuestas estarán abiertas a votación durante un período definido (ej. 72 horas, 5 días), decidido por la DAO.
+    * **Quórum:** Un número mínimo de votos (un porcentaje del suministro total o de los tokens en *staking*) debe participar para que la votación sea válida. Este quórum será definido y ajustable por la DAO.
+    * **Mayoría:** La propuesta se aprueba si alcanza la mayoría requerida (ej. simple mayoría de los votos emitidos, o una mayoría cualificada).
+
+4.  **Implementación de la Propuesta Aprobada:**
+    * Si una propuesta es aprobada, el equipo central (inicialmente) o un grupo de ejecutores designados por la DAO será responsable de implementar los cambios aprobados.
+    * Las acciones que requieran cambios en contratos inteligentes o en el código base serán ejecutadas de manera transparente y verificable.
+
+---
+
+## 3. Áreas de Gobernanza
+
+La DAO de AON tendrá autoridad sobre aspectos críticos del proyecto, incluyendo, pero no limitado a:
+
+* **Evolución del Tokenomics:** Ajustes a las asignaciones de tokens, porcentajes de *fees*, mecanismos de quema, incentivos por *staking*.
+* **Políticas de Uso de la eSIM:** Definición de límites de datos, prioridades de red, o cualquier otra política de uso de la conectividad (si la comunidad lo considera necesario para la sostenibilidad).
+* **Asignación de Fondos de la Tesorería:** Cómo se utilizan los fondos acumulados en la tesorería de la DAO (para desarrollo, mantenimiento de red, alianzas, recompensas comunitarias, auditorías).
+* **Alianzas Estratégicas:** Aprobación de acuerdos con proveedores SM-DP+, operadores satelitales/terrestres, o cualquier otra asociación importante.
+* **Actualizaciones del Protocolo y Arquitectura:** Cambios en el micro-OS, la aplicación APK, la implementación de PQC, o el motor de IA.
+* **Programas de Recompensas y Airdrops:** Definición de futuros airdrops o programas de recompensas para la comunidad.
+
+---
+
+## 4. Transparencia y Responsabilidad
+
+* **Auditoría On-Chain:** Todas las votaciones y las transacciones de la Tesorería de la DAO serán registradas en la blockchain, garantizando total transparencia y auditabilidad.
+* **Canales de Comunicación Abiertos:** Se anima a la comunidad a participar activamente en las discusiones y a solicitar aclaraciones sobre cualquier propuesta o decisión.
+
+---
+
+## 5. Participa en la Gobernanza
+
+Tu participación es vital para el éxito y la verdadera descentralización de AON.
+
+* **Adquiere tokens AON:** Para obtener poder de voto.
+* **Únete a nuestros canales de discusión:** [Discord](LINK_A_TU_CANAL_DE_DISCORD), [Telegram](LINK_A_TU_GRUPO_DE_TELEGRAM).
+* **Sigue el Foro de Gobernanza:** [Enlace al Foro de Gobernanza o Plataforma de Votación](LINK_A_TU_FORO_DE_GOBERNANZA_O_PLATAFORMA_DE_VOTACION).
+* **Contribuye con ideas y feedback:** Tu perspectiva es invaluable.
+
+Juntos construiremos una infraestructura de conectividad verdaderamente soberana y comunitaria.
+
+---
+
 
