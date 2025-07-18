@@ -1,4 +1,5 @@
 # AON
+
 Pitch para Proyecto IA Descentralizada con ISO 31000 & Seguridad PQM1. 
 
 Problema ActualLas infraestructuras críticas (finanzas, defensa, salud) están cada vez más expuestas a riesgos cibernéticos y futuros ataques cuánticos. Las soluciones de IA actuales son centralizadas, no cumplen con estándares internacionales de gestión de riesgos, y son vulnerables a la próxima generación de ataques.
