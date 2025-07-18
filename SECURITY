@@ -1,0 +1,47 @@
+# Política de Seguridad de AON
+
+---
+
+En AON, la seguridad es nuestra máxima prioridad. Estamos construyendo una infraestructura crítica y resistente a la cuántica, y dependemos de la comunidad para ayudarnos a identificar y corregir cualquier debilidad. Este documento describe nuestra política y el proceso para reportar vulnerabilidades de seguridad.
+
+---
+
+## Cómo Reportar una Vulnerabilidad
+
+Agradecemos enormemente cualquier esfuerzo por identificar y reportar vulnerabilidades de forma responsable. Si encuentras un fallo de seguridad o una debilidad en AON, por favor, sigue estos pasos:
+
+1.  **Reporte Privado:** Envía un correo electrónico detallado a [**security@aon.org**] (cambia esto por tu dirección de correo electrónico de seguridad dedicada) o utiliza nuestro [**formulario de reporte seguro**] (si tienes uno, ej. un enlace a un formulario en Google Forms o Typeform).
+2.  **Información Clave:** Incluye tanta información como sea posible para ayudarnos a entender y reproducir el problema:
+    * Una descripción clara de la vulnerabilidad.
+    * Pasos para reproducirla.
+    * El componente afectado (ej. "contrato de gobernanza", "micro-OS", "APK", "algoritmo PQC XYZ").
+    * Cualquier código de explotación o prueba de concepto (PoC).
+    * Configuración de tu entorno (sistema operativo, versiones, etc.).
+3.  **No Divulgues Públicamente:** Por favor, abstente de divulgar la vulnerabilidad públicamente hasta que hayamos tenido la oportunidad de investigarla y desplegar una solución. La divulgación responsable ayuda a proteger a nuestra comunidad.
+
+---
+
+## Nuestro Proceso de Respuesta
+
+Nos comprometemos a responder rápidamente a todos los reportes de seguridad.
+
+1.  **Confirmación:** Recibirás una confirmación de la recepción de tu reporte en un plazo de **24-48 horas hábiles**.
+2.  **Evaluación:** Nuestro equipo de seguridad evaluará la vulnerabilidad reportada para entender su impacto y alcance. Esto puede tardar varios días, dependiendo de la complejidad.
+3.  **Actualizaciones:** Te mantendremos informado sobre el progreso de nuestra investigación y la resolución del problema.
+4.  **Resolución y Parcheo:** Trabajaremos diligentemente para desarrollar e implementar un parche. Nuestro objetivo es resolver las vulnerabilidades críticas lo antes posible.
+5.  **Divulgación Pública (Responsable):** Una vez que la vulnerabilidad haya sido parcheada y desplegada, publicaremos una divulgación detallada (que puede incluir un CVE, si aplica) para informar a la comunidad, reconociendo tu contribución (a menos que prefieras permanecer anónimo).
+
+---
+
+## Programas de Bug Bounty
+
+AON valora las contribuciones de la comunidad a nuestra seguridad. Planeamos lanzar un **programa de Bug Bounty** oficial en una etapa futura (o ya está activo, si lo está). Los detalles sobre el alcance, las recompensas y las reglas se publicarán en una sección dedicada de nuestra documentación o a través de una plataforma de Bug Bounty externa.
+
+---
+
+## Puntos Clave Adicionales
+
+* **Alcance:** Esta política se aplica a todos los componentes del proyecto AON, incluyendo el código de los contratos inteligentes, el micro-OS, la aplicación APK, las implementaciones PQC y los módulos de IA.
+* **Agradecimientos:** Apreciamos tu ayuda para mantener AON seguro para todos. ¡Gracias por tu compromiso con la seguridad!
+
+---
