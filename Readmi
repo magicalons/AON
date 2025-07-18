@@ -1,6 +1,80 @@
 
-IA Descentralizada, Soberanía Digital y Seguridad Post-Cuántica (PQC)
 
+Decentralized AI, Digital Sovereignty, and Post-Quantum Security (PQC)
+
+Welcome to AON!
+
+AON is an open-source project under development that seeks to build a secure, sovereign, and quantum-resistant digital infrastructure. Our goal is to empower users with full control over their data and identities through the integration of advanced technologies such as Post-Quantum Cryptography (PQC), Self-Sovereign Identity (SSI), and a decentralized architecture.
+Current Status
+
+Development is underway. We are seeking technical feedback and collaborators to co-create the first alpha version. Join us to explore the code and contribute!
+
+Explore the GitHub Repository: https://github.com/magicalons/AON
+
+Planned Architecture
+Micro-Operating System (Read-Only)
+
+Designed from scratch for resilience and transparency. It provides a secure environment for critical operations and process isolation.
+APK Application
+
+Facilitates identity management and secure connections on mobile devices.
+Post-Quantum Cryptography (PQC)
+
+Planned algorithms (selected by NIST):
+
+    Kyber (public-key encryption).
+
+    Dilithium (digital signatures).
+
+    Falcon and SPHINCS+ as alternatives for specific cases.
+
+Self-Sovereign Digital Identity (SSI)
+
+Based on Web3 standards and Decentralized Identifiers (DID). It allows users to control and audit access to their data.
+Secure Identity and Device Management (SM-DP+)
+
+Robust linking between identities and physical devices through eSIM profiles.
+Artificial Intelligence
+
+Engine for integrity validation and anomaly detection.
+Decentralized Governance
+
+The AON token will enable community participation and certification of terrestrial and satellite eSIM profiles.
+Technical Roadmap
+Phase 1 (0-6 months)
+
+    Architecture design and PoC (Proof of Concept) of micro-OS.
+
+    Initial implementation of PQC algorithms (Kyber and Dilithium).
+
+    SDK environment preparation for APK development.
+
+    Community audit and security testing.
+
+    Expansion to decentralized financial services.
+
+Call to the Community
+
+This project seeks to open a dialogue with developers, cryptographers, and privacy advocates. We invite the community to:
+
+    Review our architecture.
+
+    Propose improvements or security audits.
+
+    Participate in the development of the public repository.
+
+Together we can build a more secure, private, and sovereign internet.
+
+
+Repository: https://github.com/magicalons/AON
+
+
+#####################################################################################################################################################
+#####################################################################################################################################################
+
+
+
+AON: IA Descentralizada, Soberanía Digital y Seguridad Post-Cuántica (PQC)
 ¡Bienvenido a AON!
 
 AON es un proyecto de código abierto en desarrollo que busca construir una infraestructura digital segura, soberana y resistente a la computación cuántica. Nuestro objetivo es empoderar a los usuarios con control total sobre sus datos e identidades mediante la integración de tecnologías avanzadas como la Criptografía Post-Cuántica (PQC), Identidad Digital Auto-Soberana (SSI) y una arquitectura descentralizada.
@@ -8,8 +82,7 @@ Estado Actual
 
 El desarrollo está en curso. Estamos buscando feedback técnico y colaboradores para co-crear la primera versión alpha. ¡Únete a nosotros para explorar el código y contribuir!
 
-Explora el Repositorio en GitHub: https://github.com/magicalons/AON
-
+[Explora el Repositorio en GitHub: https://github.com/magicalons/AON]
 Arquitectura Planeada
 Micro-Sistema Operativo (Solo Lectura)
 
@@ -61,7 +134,3 @@ Este proyecto busca abrir un diálogo con desarrolladores, criptógrafos y defen
     Proponer mejoras o auditorías de seguridad.
 
     Participar en el desarrollo del repositorio público.
-
-Juntos podemos construir una internet más segura, privada y soberana.
-
-Repositorio: https://github.com/magicalons/AON
