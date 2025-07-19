@@ -1,215 +1,239 @@
-# Aeon Whitepaper: Decentralized AI for Critical Infrastructure Security
+# AON Whitepaper: Decentralized AI for Critical Infrastructure Security
+
+---
 
 ## Executive Summary
 
-In today's digital age, the critical infrastructures that underpin our societies—from financial systems and defense networks to healthcare—stand at an unprecedented crossroads of vulnerability. The increasing sophistication of cyberattacks, coupled with the imminent threat of quantum computing, exposes these infrastructures to catastrophic risks. Existing Artificial Intelligence (AI) solutions, predominantly centralized and lacking global risk management standardization, are not only inherently vulnerable but also lack the resilience and trust needed to protect invaluable assets.
+In today's digital age, the critical infrastructures underpinning our societies—from financial systems and defense networks to healthcare—find themselves at an unprecedented crossroads of vulnerability. The increasing sophistication of cyberattacks, coupled with the imminent threat of quantum computing, exposes these infrastructures to catastrophic risks. Existing Artificial Intelligence (AI) solutions, predominantly centralized and lacking global risk standardization, are not only intrinsically vulnerable but also lack the resilience and trust necessary to protect invaluable assets.
 
-**Aeon** emerges as the pioneering answer to this existential challenge. We are the world's first **decentralized** Artificial Intelligence platform, specifically designed to operate with unparalleled security, auditability, and resilience. Our solution is built upon three innovative pillars:
+**AON** emerges as the pioneering answer to this existential challenge. We are the world's first **decentralized** Artificial Intelligence platform, specifically designed to operate with unparalleled security, auditability, and resilience. Our solution is built upon innovative pillars and a unique value proposition:
 
-1.  **Integrated ISO 31000 Certification:** We incorporate the ISO 31000 international risk management standard from the design phase, ensuring a robust framework for risk identification, analysis, evaluation, and treatment. This not only guarantees regulatory compliance but also instills indispensable trust for adoption by enterprises and governments.
+1.  **Lifetime Global Connectivity (Exclusive Asset):** With an ultra-limited supply of **5,000 AON tokens**, each token represents a **lifetime satellite and terrestrial eSIM global connectivity**, eliminating barriers and recurring bills and symbolizing sovereignty over personal connectivity.
+2.  **Integrated ISO 31000 Certification:** We incorporate the international ISO 31000 risk management standard from design, ensuring a robust framework for risk identification, analysis, evaluation, and treatment. This not only guarantees regulatory compliance but also instills indispensable trust for adoption by enterprises and governments.
+3.  **Native Post-Quantum Security (PQM):** Anticipating the era of quantum computing, AON implements quantum-resistant cryptographic algorithms (PQM). We have selected and implemented robust algorithms like **Kyber** for public-key encryption and **Dilithium** for digital signatures, both recommended by NIST. This ensures the long-term integrity and confidentiality of data and operations within the AON ecosystem, protecting against future threats that would invalidate current cryptography.
+4.  **Real-Time Forensic Auditing & Digital Sovereignty (SSI & Web3 DID):** A decentralized AI engine enables real-time anomaly detection and active forensic auditing. This is built upon Self-Sovereign Identity (SSI) and Web3 Decentralized Identifiers (DID), ensuring full user control over their data and identity.
+5.  **Advanced Hybrid Architecture:** Our platform combines the immutability and transparency of blockchain technology with the resilience and reach of satellite networks and Web3 principles. This synergy allows AON to operate continuously and securely, even in scenarios of conventional connectivity disruption, offering unprecedented operational capability outside the traditional internet, including robust Secure Identity and Device Management (SM-DP+) linked to risk standards.
 
-2.  **Native Post-Quantum Security (PQM):** Anticipating the era of quantum computing, Aeon implements quantum-resistant cryptographic algorithms. This ensures the long-term integrity and confidentiality of data and operations, protecting against future threats that would invalidate current cryptographies.
+AON's target market spans critical sectors such as **Governments and Defense**, **Financial Institutions**, and **Technology Companies**, all with an urgent need for secure, auditable, and compliant AI solutions. The AON token is the economic engine of this ecosystem, facilitating transactions, incentivizing community participation, and funding continuous development through a sustainable tokenomics model that includes fees and burning mechanisms.
 
-3.  **Advanced Hybrid Architecture:** Our platform combines the immutability and transparency of blockchain technology with the resilience and reach of satellite networks and Web3 principles. This synergy allows Aeon to operate continuously and securely, even in scenarios of conventional connectivity disruption, offering unprecedented operational capability outside the traditional internet.
+With an ambitious roadmap envisioning smart contract development, a functional AI MVP with PQM, and ISO 31000 certification in the initial months, AON aims not only to be a leader in AI security but to set a new global standard for the digital infrastructure of the future. We seek an initial investment of between €50,000 and €100,000 to catalyze development, secure key certifications, and expand our community.
 
-Aeon's target market spans critical sectors such as **Governments and Defense**, **Financial Institutions**, and **Technology Companies**, all with an urgent need for secure, auditable, and standard-compliant AI solutions. The AON token, with a total supply of 1 billion, is the economic engine of this ecosystem, facilitating transactions, incentivizing community participation, and funding continuous development through a sustainable tokenomics model that includes fees and burning mechanisms.
+---
 
-With an ambitious roadmap that includes smart contract development, a functional AI MVP with PQM, and ISO 31000 certification in the initial months, Aeon aims not only to be a leader in AI security but to establish a new global standard for the future of digital infrastructure. We seek an initial investment of €50,000 to €100,000 to catalyze development, secure key certifications, and expand our community.
+## 1. Problem Statement
 
-## 1. Current Problem (Problem Statement)
-
-The global digital infrastructure, the backbone of the economy, national security, and essential services, faces an unprecedented escalation in the complexity and frequency of cyber threats. Beyond conventional attacks, the imminent arrival of quantum computing poses an existential risk that could dismantle the foundations of modern cryptography, leaving systems we now consider impregnable exposed.
+The global digital infrastructure, the backbone of the economy, national security, and essential services, faces an unprecedented escalation in the complexity and frequency of cyber threats. Beyond conventional attacks, the imminent arrival of quantum computing presents an existential risk that could dismantle the foundations of modern cryptography, leaving systems we currently consider impregnable exposed.
 
 ### 1.1. Vulnerability of Critical Infrastructures
 
 Sectors such as finance, defense, energy, and healthcare are primary targets due to the value and sensitivity of their data and operations. A successful attack not only implies massive economic losses but can destabilize nations, compromise the privacy of millions of citizens, and paralyze vital services. Recent reports from cybersecurity agencies and risk analysis firms highlight:
 
-* **Increase in Sophisticated Attacks:** Ransomware, supply chain attacks, and APTs (Advanced Persistent Threats) targeting critical infrastructures have grown exponentially, with an average cost per data breach exceeding millions of dollars.
-
-* **Reliance on Legacy Systems:** Many critical infrastructures operate with outdated systems not designed to withstand current threats, creating blind spots and vulnerabilities difficult to patch.
-
-* **Lack of Global Standardization:** The absence of a unified and globally adopted framework for risk management in AI and cybersecurity hinders interoperability and trust between entities and nations.
+* **Increase in sophisticated attacks:** Ransomware, supply chain attacks, and APTs (Advanced Persistent Threats) targeting critical infrastructures have grown exponentially, with an average cost per data breach exceeding millions of dollars.
+* **Reliance on legacy systems:** Many critical infrastructures operate with outdated systems not designed to withstand current threats, creating blind spots and vulnerabilities difficult to patch.
+* **Lack of global standardization:** The absence of a unified and globally adopted framework for risk management in the field of AI and cybersecurity hinders interoperability and trust among entities and nations.
 
 ### 1.2. The Quantum Threat
 
 Quantum computing, although still in its early stages, represents a disruptive threat to information security. Quantum algorithms, such as Shor's algorithm and Grover's algorithm, have the potential to break public-key cryptography (RSA, ECC) and symmetric cryptography (AES) in the foreseeable future. This means that:
 
-* **Compromised Communications and Historical Data:** Information encrypted today could be retroactively decrypted once quantum computers become powerful enough.
-
-* **Invalid Digital Signatures:** The authentication of financial transactions, digital identities, and secure communications could be forged, undermining trust in the entire digital ecosystem.
-
-* **Critical Infrastructures at Direct Risk:** Industrial control systems, power grids, and sensitive databases that rely on current cryptography would be exposed.
+* **Compromised communications and historical data:** Information encrypted today could be retroactively decrypted once quantum computers become powerful enough.
+* **Invalid digital signatures:** The authentication of financial transactions, digital identities, and secure communications could be forged, undermining trust in the entire digital ecosystem.
+* **Critical infrastructures at direct risk:** Industrial control systems, energy grids, and sensitive databases that rely on current cryptography would be exposed.
 
 ### 1.3. Limitations of Centralized AI Solutions
 
-Current Artificial Intelligence implementations, while powerful, have inherent deficiencies that make them unsuitable for protecting critical infrastructures:
+Current Artificial Intelligence implementations, while powerful, exhibit inherent deficiencies that make them unsuitable for protecting critical infrastructures:
 
-* **Single Points of Failure:** The centralization of data and AI models creates attractive targets for attackers. A compromise in a central node can paralyze the entire system.
-
-* **Lack of Transparency and Auditability:** The "black box" nature of centralized AI models makes independent auditing and verification of their behavior difficult, which is unacceptable in regulated and high-security environments.
-
+* **Single Points of Failure:** Centralization of data and AI models creates attractive targets for attackers. A compromise in a central node can paralyze the entire system.
+* **Lack of Transparency and Auditability:** Centralized AI "black box" models make independent auditing and verification of their behavior difficult, which is unacceptable in regulated and high-security environments.
 * **Privacy Risks:** The massive aggregation of data on central servers increases the risk of privacy breaches and misuse of information.
+* **Vulnerability to Manipulation:** Centralized AI models can be susceptible to data poisoning attacks or model manipulation, compromising the integrity of their decisions.
+* **Incompatibility with Risk Standards:** Most AI solutions are not intrinsically designed to comply with risk management frameworks like ISO 31000, hindering their adoption in enterprise and government environments that demand rigorous compliance.
 
-* **Vulnerability to Manipulation:** Centralized AI models can be susceptible to data poisoning or model manipulation attacks, compromising the integrity of their decisions.
+The sum of these vulnerabilities creates a critical gap in global digital security—a gap that current solutions cannot effectively close. AON positions itself to address this void with a radically new approach.
 
-* **Incompatibility with Risk Standards:** Most AI solutions are not intrinsically designed to comply with risk management frameworks like ISO 31000, which hinders their adoption in enterprise and government environments that demand rigorous compliance.
+---
 
-The sum of these vulnerabilities creates a critical gap in global digital security, a gap that current solutions cannot effectively close. Aeon is positioned to address this void with a radically new approach.
+## 2. Our Unique Solution
 
-## 4. Tokenomics Model (AON Token Economy)
+AON is not merely a technology platform; it is a next-generation security and connectivity infrastructure designed to counter present and future threats. Our solution is distinguished by the synergistic integration of advanced technologies and a decentralized governance model.
 
-The AON token is the economic heart of the Aeon ecosystem, designed to incentivize participation, fund development, and ensure the project's long-term sustainability.
+### 2.1. Lifetime Global Connectivity via the AON Token
+
+At the heart of AON's value proposition is the AON token, with an **ultra-limited total supply of 5,000 units**. Each AON token represents a **right to lifetime global connectivity**, materialized through a **satellite and terrestrial eSIM**. This model eliminates the need for contracts, monthly bills, and roaming concerns, offering true sovereignty over personal connectivity.
+
+### 2.2. Integrated ISO 31000 Certification
+
+We implement the international ISO 31000 standard for risk management from the earliest stages of design and development. This ensures that every AON component, from the micro-OS to smart contracts, is developed with a proactive risk mindset. ISO 31000 certification not only validates our commitment to security and resilience but also provides the trust and compliance framework necessary for adoption by governments, financial institutions, and large enterprises.
+
+### 2.3. Native Post-Quantum Security (PQM)
+
+Anticipating the era of quantum computing, AON incorporates quantum-resistant cryptographic algorithms (PQM). We have selected and implemented robust algorithms such as **Kyber** for public-key encryption and **Dilithium** for digital signatures, both recommended by NIST. This ensures that communications, data, and identities within the AON ecosystem remain secure and confidential long-term, even against the threat of large-scale quantum computers.
+
+### 2.4. Real-Time Forensic Auditing & Decentralized Artificial Intelligence
+
+AON integrates a decentralized Artificial Intelligence engine designed for **integrity validation and real-time anomaly detection**. This AI not only monitors network and device behavior but also performs **active forensic auditing**, identifying attack patterns and emerging vulnerabilities. Being decentralized, this AI avoids single points of failure and enhances transparency and resistance to manipulation.
+
+### 2.5. Digital Sovereignty with SSI and Web3 DID
+
+Digital identity in AON is based on the principles of **Self-Sovereign Identity (SSI)** and **Web3 Decentralized Identifiers (DID)**. This allows users to have full and auditable control over their data and identities, without relying on centralized authorities. Robust linking between these identities and physical devices is achieved through eSIM profiles securely managed via **SM-DP+**, ensuring that connectivity provisioning is intrinsically linked to user sovereignty and risk management standards.
+
+### 2.6. Advanced Hybrid Architecture for Extreme Resilience
+
+AON operates on a unique hybrid architecture combining the immutability of **blockchain technology** with the resilience and global reach of **satellite networks** and **Web3 principles**. This synergy enables AON to function continuously and securely, even in scenarios of conventional connectivity disruption or targeted attacks on terrestrial infrastructures. The integration of additional mesh networks further enhances this unprecedented operational capability.
+
+---
+
+## 3. Target Market
+
+AON is positioned to address the security and connectivity needs of the most critical and demanding sectors globally.
+
+### 3.1. Governments and Defense
+
+* **Secure Intelligence and Communication Systems:** Provide an AI and connectivity infrastructure that is impregnable to quantum and centralized attacks, ideal for sensitive operations, classified communications, and autonomous defense systems.
+* **Sovereign Auditing and Compliance:** Offer an auditable and transparent platform that complies with the highest standards of security and data sovereignty, crucial for national security.
+
+### 3.2. Financial Institutions
+
+* **Risk Management and Regulatory Compliance:** Implement AI solutions for fraud detection, risk analysis, and compliance with regulations (AML, KYC) with an unprecedented level of transparency and attack resistance.
+* **Transaction Security:** Protect financial transactions and data against current and future threats (including quantum), ensuring the integrity and confidentiality of assets.
+
+### 3.3. Technology Companies and IoT Projects
+
+* **Platform for Decentralized AI Applications:** Offer a robust and secure foundation for developers and companies to build their own decentralized AI applications, leveraging AON's PQM and real-time auditing.
+* **Lifetime Connectivity for IoT Devices:** Provide a low-maintenance, high-security connectivity solution for fleets of IoT devices, eliminating the need for contracts and managing connectivity autonomously and securely.
+
+### 3.4. Emerging Markets (Africa & Latin America)
+
+* **Democratization of Connectivity:** Initiate AON's expansion in regions with high demand for affordable and reliable internet access, where traditional infrastructure is limited or costly.
+* **Digital Inclusion:** Empower communities and businesses in these regions with sovereign, secure, and resilient connectivity, catalyzing economic and social development.
+
+---
+
+## 4. Tokenomics (AON Token Economy)
+
+The AON token is the economic heart of the AON ecosystem, designed to incentivize participation, fund development, and ensure the project's long-term sustainability, reflecting its exclusive and high-value nature.
 
 ### 4.1. Total Supply and Initial Distribution
 
-* **Total Supply:** 1,000,000,000 tokens (1 billion AON tokens).
+* **Total Supply:** **5,000 (five thousand) AON tokens.** This low supply underscores the exclusivity and high value of each unit, given that each token represents a lifetime global connectivity eSIM.
 
-* **Initial Distribution:**
+* **Distribution Allocation:** Percentages have been proportionally adjusted for this limited supply, seeking a balance between liquidity, development, rewards, and funding.
 
-    * **Private Sale (Investors):** 15% (150,000,000 tokens). Allocated to strategic investors and seed capital.
-
-    * **Team and Advisors:** 15% (150,000,000 tokens), with a **1-2 year vesting period**. This lock-up and gradual release schedule is crucial to demonstrate the team's long-term commitment and align their interests with the project's success.
-
-    * **Development Fund:** 5% (50,000,000 tokens). To fund continuous research and development, talent acquisition, and infrastructure maintenance.
-
-    * **DEX Liquidity:** 30% (300,000,000 tokens). Allocated to provide initial liquidity on decentralized exchanges (DEX) like QuickSwap, facilitating the buying and selling of the AON token.
-
-    * **Community / Rewards:** 35% (350,000,000 tokens). To incentivize active community participation, staking programs, contribution rewards, and airdrops.
+    * **Community & Rewards:** **35% (1,750 tokens)**
+        * Allocated for early and high-value participation rewards, open-source contributions (code, documentation, translations), bug bounty programs, and rewards for active engagement in governance and community channels.
+        * *Goal:* To build a highly engaged and committed user base that serves as the driving force of the project, given the asset's exclusivity.
+    * **DEX Liquidity:** **30% (1,500 tokens)**
+        * Assigned to provide initial liquidity on Decentralized Exchanges (DEXs), ensuring a healthy and accessible market for the AON token from launch. This is crucial for adoption and price discovery.
+    * **Private Sale:** **15% (750 tokens)**
+        * Targeted at strategic investors and early partners who bring capital and long-term value to the project. These funds will be used to fuel development and expansion.
+    * **Team & Advisors:** **15% (750 tokens)**
+        * Intended to reward and retain the core team and key advisors. These tokens will be subject to a rigorous **vesting schedule** to align their incentives with the project's long-term success. A common model includes an **initial cliff of 6 to 12 months**, followed by **linear release over an additional 2 to 4 years**. For advisors and key contributors, more agile vesting models, such as **weekly or bi-weekly distributions for 4 to 6 months** after an initial commitment period, may apply to encourage continuous dedication.
+        * **Value-Adjusted Compensation (Post-Initial Vesting):** Following the completion of the initial vesting schedule (e.g., the first 4 months), the AON DAO may vote to approve **additional token disbursements** for key contributors, **adjusted to the AON token's current market price**. This mechanism aims to ensure the real value of compensation is maintained, incentivizing continued commitment and protecting contributors against market volatility. The implementation of this mechanism, including its parameters (e.g., target fiat value, adjustment frequency, maximum token release limits via this method), will be subject to **detailed proposals and DAO voting**, ensuring transparent and controlled management of the token supply.
+    * **Development Fund (DAO Treasury):** **5% (250 tokens)**
+        * An initial fund to cover essential development expenses, PQC research, security audits (including ISO 31000 for risk management), and critical operational needs. This fund will be transparently managed and audited by the DAO, ensuring the project's sustainability.
 
 ### 4.2. Sustainability Mechanisms and Transaction Fees
 
-To ensure the ecosystem's sustainability and the token's value, a small transaction fee (approximately 3% of the transaction value) will be applied, distributed as follows:
+To ensure the ecosystem's sustainability and token value, a small transaction fee will be applied, designed to be efficient and non-intrusive.
 
-* **Development Fund:** 0.5% – Directly allocated to fund technological development, talent acquisition, and the operation of decentralized AI services.
+* **Transaction Fees:** Transactions within the AON ecosystem (e.g., token transfers, interactions with service-related smart contracts) will incur small fees. The distribution of these fees will be designed to balance growth and sustainability:
+    * **Development Fund and DAO Treasury:** A portion of these fees will be directed to the DAO Treasury to fund continuous development, bandwidth acquisition from satellite/terrestrial providers, and community rewards, ensuring a sustainable growth cycle.
+    * **Automatic Burn:** Another portion of the fees will be subjected to an **automatic burn**, permanently reducing the total token supply. This deflationary mechanism aims to increase scarcity and, potentially, the long-term value of the AON token. The exact proportion of fees allocated to burning will be defined and adjustable by community vote.
+    * **Automatic Liquidity (Potential):** A portion could be redirected to DEX liquidity pools, helping maintain the depth and stability of the AON token's liquidity.
+    * **Holder Rewards (Potential):** A small portion could be distributed among AON token holders, incentivizing long-term holding and participation in staking programs.
 
-* **Automatic Burning:** 1% – A portion of the transacted tokens is automatically burned, reducing the total supply of AON over time. This deflationary mechanism is designed to increase scarcity and, potentially, the token's value in the long term.
+* **Staking (Future Potential):** The community may vote to implement staking mechanisms where AON token holders lock their tokens to keep their eSIM active (if a "staking-for-activation" model is decided), or to gain enhanced governance rights or additional rewards for securing the network and its services.
 
-* **Automatic Liquidity:** 1% – This portion is redirected to DEX liquidity pools, helping to maintain the depth and stability of the AON token's liquidity.
+---
 
-* **Rewards for Holders:** 0.5% – Distributed among AON token holders, incentivizing long-term holding and participation in staking programs.
+## 5. Detailed Roadmap
 
-## 5. Detailed Roadmap (4 Months)
+This action plan is designed to maximize traction and fundraising in the private sale while building a solid foundation for the decentralized AI project.
 
-This action plan is designed to maximize traction and fundraising in the private sale, while building a solid foundation for the decentralized AI project.
+### Phase 1 (0-6 months): Technological Foundations and Investor Preparation
 
-### Month 1: Technological Foundations and Investor Preparation
+* **Month 1-2:**
+    * **Token and Smart Contract:** Development, thorough testing, and initial auditing of the AON token smart contract, implementing the defined tokenomics.
+    * **AI MVP (Proof of Concept / Basic Functionality):** Development of an extremely basic but functional version of the AI component with PQM, along with a minimal interface (APK or simple web app) or an API demonstrating the essence of decentralized AI validation and anomaly detection.
+    * **Open-Source Repository Preparation:** Ensure an impeccable `README.md`, `LICENSE` file (open-source license), and a draft `CONTRIBUTING.md` (contributor guide).
+    * **Investment Materials:** Creation of a professional pitch deck, a whitepaper (or at least a "litepaper" if the full whitepaper is under development), and a Frequently Asked Questions (FAQ) document for investors.
+* **Month 3:**
+    * **Private Sale Launch:** Announcement of the start of the private sale round across all communication channels (blog, social media, investor communities).
+    * **Fundraising Target (Month 3):** Aim to raise between €50,000 and €100,000 (the total pitch target). This initial traction is vital to demonstrate market interest.
+    * **Targeted Investor Marketing:** Active and personalized outreach to angel investors and seed capital funds that align with AON's vision of decentralized AI and blockchain.
+    * **Active Collaborator Search:** Intensification of the search for developers and collaborators for the core AI and blockchain project. Offer guidance and support for their initial contributions.
+    * **Community Management:** Opening and active management of communication channels (e.g., Discord, Telegram) to answer questions, foster discussion, and build a strong sense of community.
+* **Month 4:**
+    * **Major Public Project Announcement (Launch):**
+        * Publication of a comprehensive article on the project's blog/website.
+        * Announcement on all key platforms: Reddit (r/opensource, r/programming, etc.), DEV Community, Hacker News, Twitter/X, LinkedIn.
+        * Highlight the AI MVP, project vision, tokenomics model, and achievements.
+    * **Private Sale Close:** Active pursuit of final commitments to reach the total target of €50,000 - €100,000.
+    * **Scale Development and Community:** With initial funds and interest, the focus shifts to expanding AI development and decentralized infrastructure, and growing the user and collaborator base.
+    * **Post-Launch Communication:** Inform the community about next steps, short-to-medium term roadmap, and how raised funds will be utilized.
 
-* **Token and Smart Contract:** Development, thorough testing, and initial audit of the AON token smart contract, implementing the defined tokenomics.
-
-* **AI MVP (Proof of Concept / Basic Functionality):** Development of an extremely basic but functional AI component with PQM, along with a minimal interface (APK or simple web app) or an API demonstrating the essence of decentralized AI validation.
-
-* **Open Source Repository Preparation:** Ensure an impeccable `README.md`, the `LICENSE` file (open-source license), and a draft of `CONTRIBUTING.md` (contributor guide).
-
-* **Investment Materials:** Creation of a professional pitch deck, a whitepaper (or at least a "litepaper" if the full whitepaper is in development), and a Frequently Asked Questions (FAQ) document for investors.
-
-### Month 2: Pre-Private Sale Visibility and Initial Contacts
-
-* **Repository Launch (Public):** Make the GitHub repository (or similar platform) public, including the functional AI MVP.
-
-* **Intrigue Generation:** Begin a "sneak peeks" campaign on social media (Twitter/X, LinkedIn), technical blogs (DEV Community, Medium), sharing project updates, technical achievements, and the vision. **This is not yet the launch or private sale announcement.**
-
-* **Identify "Good First Issues":** Tag simple and accessible tasks in the repository to attract initial open-source contributors.
-
-* **Private Sale Campaign Preparation:** Define the detailed process for investors, including how they will acquire tokens and the necessary legal documentation.
-
-### Month 3: Private Sale Campaign Start (Phase 1) and Intensive Collaboration
-
-* **OFFICIAL PRIVATE SALE LAUNCH:** Announce the start of the private sale round on all communication channels (blog, social media, investor communities).
-
-    * **Fundraising Target (Month 3):** Aim to raise between €10,000 and €40,000. This initial traction is vital to demonstrate market interest.
-
-* **Investor-Targeted Marketing:** Active and personalized outreach to angel investors and seed capital funds aligned with Aeon's vision of decentralized AI and blockchain.
-
-* **Active Collaborator Search:** Intensify the search for developers and collaborators for the core AI and blockchain project. Offer guidance and support for their first contributions.
-
-* **Community Management:** Open and actively manage communication channels (e.g., Discord, Telegram) to answer questions, foster discussion, and build a strong sense of community.
-
-### Month 4: Public Project Announcement and Private Sale Close
-
-* **MAJOR PUBLIC PROJECT ANNOUNCEMENT (Launch):**
-
-    * Publish a comprehensive article on the project's blog/website.
-
-    * Announce on all key platforms: Reddit (r/opensource, r/programming, etc.), DEV Community, Hacker News, Twitter/X, LinkedIn.
-
-    * Highlight the AI MVP, project vision, tokenomics model, and achievements.
-
-* **PRIVATE SALE CLOSE:** Actively seek final commitments to reach the total target of €50,000 - €100,000.
-
-* **Scale Development and Community:** With initial funds and interest, the focus shifts to expanding AI development and decentralized cloud infrastructure, and growing the user and contributor base.
-
-* **Post-Launch Communication:** Inform the community about next steps, the short- to medium-term roadmap, and how raised funds will be utilized.
+---
 
 ## 6. Competitive Advantage
 
-* First in the world with decentralized AI + ISO 31000 + PQM.
+AON stands out for its pioneering approach and unique integration of cutting-edge technologies.
 
-* Focus on real security, auditability, and compliance, not just technological hype.
+* **Global Pioneers:** We are the **world's first decentralized AI infrastructure** integrating **ISO 31000 + PQM + Lifetime Connectivity** in a single token.
+* **Holistic Security Focus:** We prioritize **real security**, **real-time auditing**, and **regulatory compliance**, transcending mere technological *hype*.
+* **Extreme Resilience:** Our hybrid integration ensures uninterrupted operation across **satellite and mesh networks**, offering unprecedented robustness.
 
-* Hybrid integration for resilience across satellite and mesh networks.
+---
 
 ## 7. Investment Request
 
-We seek to raise between €50,000 and €100,000 for:
+We are seeking to raise between **€50,000 and €100,000** to catalyze the following critical project phases:
 
-* ISO certification and security audits.
+* Obtaining **ISO 31000 Certification** and conducting comprehensive security audits of our contracts and systems.
+* Driving **advanced technological development** of our core components (Micro-OS, APK, AI, PQC, SSI/DID, SM-DP+).
+* Funding our **marketing and high-value community growth strategy**, attracting early adopters and key collaborators.
 
-* Advanced technological development.
+---
 
-* Marketing strategy and community growth.
+## 8. Team & Advisors
 
-## 8. Team and Advisors
-
-* **Purpose:** To build trust by showcasing the team's experience and credibility.
-
+* **Purpose:** To build trust by showcasing the experience and credibility of the individuals behind AON.
 * **Content:**
-
-    * **Biographies:** For each key team member (founders, development leads, security, AI, operations), include:
-
+    * **Core Team Biographies:** For each key team member (founders, development leads, security, AI, operations), include:
         * Name and role.
-
-        * Relevant experience (previous companies, projects, achievements).
-
+        * Relevant experience (previous companies, projects, specific achievements in blockchain, security, AI, telecommunications).
         * Relevant education.
+        * Links to professional profiles (e.g., LinkedIn, GitHub, Twitter).
+    * **Advisors:** If you have advisors, include their names, roles, and a brief description of why they are valuable to the project (their expertise, network, impact).
 
-        * LinkedIn links (very important).
+---
 
-    * **Advisors:** If you have advisors, include their names, roles, and why they are valuable to the project.
+## 9. Security & Audits
 
-## 9. Security and Audits
-
-* **Purpose:** To reaffirm commitment to security, beyond PQM and ISO.
-
+* **Purpose:** To reaffirm AON's unwavering commitment to security, beyond PQM and ISO 31000.
 * **Content:**
+    * **Smart Contract Audits:** Detail the plan for smart contract security audits (mention the auditing firm if already selected or the type of audits to be conducted).
+    * **Rigorous Testing:** Describe the testing approach (unit, integration, fuzzing, penetration testing, quantum resilience testing).
+    * **Vulnerability Management:** Explain the process for managing and correcting discovered vulnerabilities (reference to `SECURITY.md`).
+    * **Infrastructure Security:** Describe how the decentralized AI infrastructure, satellite networks, and DAO nodes will be secured.
 
-    * **Smart Contract Audits:** Mention the auditing firm (if you have one in mind) and the scope of the audit.
+---
 
-    * **Testing:** Describe the testing approach (unit, integration, fuzzing).
+## 10. Legal & Compliance Considerations
 
-    * **Vulnerability Management:** How will discovered vulnerabilities be managed and corrected?
-
-    * **Infrastructure Security:** How is the decentralized AI infrastructure and satellite networks secured?
-
-## 10. Legal and Compliance Considerations
-
-* **Purpose:** To address legal and regulatory implications.
-
+* **Purpose:** To address legal and regulatory implications, demonstrating a responsible approach.
 * **Content:**
+    * **Token Classification:** Explain the legal classification of the AON token (e.g., utility token, service token, hybrid), which is crucial for regulatory compliance.
+    * **Jurisdiction:** Indicate where the project's legal entity is registered or the jurisdiction under which the DAO operates.
+    * **Regulatory Compliance:** Commitment to applicable laws and regulations (e.g., KYC/AML if applicable, telecom regulations in target markets).
+    * **Disclaimers:** Include standard disclaimers regarding crypto asset investment risks and the experimental nature of the project.
 
-    * **Token Classification:** Is it a utility token, security token, hybrid? (This is legally crucial).
-
-    * **Jurisdiction:** Where is the project's legal entity registered?
-
-    * **Regulatory Compliance:** Commitment to applicable laws and regulations (KYC/AML if applicable).
-
-    * **Disclaimers:** Include standard disclaimers about investment risks.
+---
 
 ## 11. Conclusion
 
-* **Purpose:** To summarize key points and reiterate the vision.
-
+* **Purpose:** To summarize key points, reiterate the vision, and provide a final call to action.
 * **Content:**
-
-    * Reaffirm the opportunity and unique solution.
-
-    * Call to action (e.g., "Join our community," "Contact for investment").
+    * Reaffirm the unique opportunity AON presents for a more secure, sovereign, and connected digital infrastructure.
+    * Reiterate the innovative solution and potential impact.
+    * Clear call to action: "Join our community," "Contact us to explore investment opportunities," "Contribute to our open-source code."
