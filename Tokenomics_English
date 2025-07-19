@@ -8,25 +8,25 @@ This document details the proposed economy for the AON token, designed to empowe
 
 ## 1. Vision and Token Utility: Access, Governance, and Security in the Era of Digital Sovereignty
 
-The AON token is not merely a cryptocurrency; it is the key to a new era of digital sovereignty and high-value connectivity. Its ultra-limited supply and fundamental utility establish it as a digital asset of exceptional exclusivity and value.
+The AON token is not merely a cryptocurrency; it is the key to a new era of digital sovereignty and high-value connectivity. Its strategically managed supply, phased for growth, and fundamental utility establish it as a digital asset of increasing exclusivity and exceptional value.
 
-* **Lifetime Global Connectivity (Exclusive & Scarce Asset):** Each AON token grants a **right to lifetime global connectivity (satellite and terrestrial eSIM)** within the AON ecosystem. This is a fundamental and highly exclusive digital asset that eliminates recurring bills and geographical barriers for its holders, symbolizing sovereignty over personal connectivity.
+* **Lifetime Global Connectivity (Phased Exclusive & Scarce Asset):** Each AON token grants a **right to lifetime global connectivity (satellite and terrestrial eSIM)** within the AON ecosystem. This is a fundamental and highly exclusive digital asset that eliminates recurring bills and geographical barriers for its holders, symbolizing sovereignty over personal connectivity. The number of available eSIMs will strategically grow with the token release phases.
 * **Decentralized Governance (DAO):** AON token holders will have voting power within the [AON DAO](https://github.com/magicalons/AON/blob/main/GOVERNANCE.md) (suggested link to a future governance file), allowing them to collectively define the project's future. This includes everything from usage policies and data limits to infrastructure evolution and treasury fund allocation, ensuring the project remains truly community-driven.
 * **Access to Advanced Security Services:** AON's AI provides **real-time forensic auditing and anomaly detection**, with a focus on Post-Quantum Security (PQC). The community will decide whether these critical security services are offered as a common good for token holders, or if certain advanced functionalities will require additional token usage or staking, to maintain the network's sustainability and value.
 
 ---
 
-## 2. Total Supply and Initial Distribution: Exclusivity and Sustainable Growth
+## 2. Supply and Initial Distribution: Strategic Growth and Controlled Value
 
-The total supply of AON tokens is designed to reflect its exclusive and high-value nature, fostering fair distribution and supporting the ecosystem's long-term growth. Its limited supply ensures that each token is a prized asset.
+The AON token supply is designed for strategic, phased growth, reflecting its exclusive and high-value nature as the ecosystem expands. Its limited supply within each phase ensures that each token is a prized asset, aligned with the network's expansion capacity.
 
-* **Total Supply:** **5,000 (five thousand) AON tokens.** This low supply underscores the exclusivity and high value of each unit.
+* **Initial Supply (Phase 1):** **5,000 (five thousand) AON tokens.** These are the initial tokens to be distributed.
 
-* **Distribution Allocation:** Percentages have been proportionally adjusted for this limited supply, seeking a balance between liquidity, development, rewards, and funding.
+* **Distribution Allocation (Phase 1 - 5,000 tokens):** Percentages are applied to this initial supply, seeking a balance between liquidity, development, rewards, and funding.
 
     * **Community & Rewards:** **35% (1,750 tokens)**
-        * Allocated for initial airdrops, incentives for open-source contributions (code, documentation, translations), bug bounty programs, and rewards for active participation in governance and community channels.
-        * *Goal:* To build a highly engaged and committed user base that serves as the driving force of the project, given the asset's exclusivity.
+        * Allocated for early and high-value participation rewards, open-source contributions (code, documentation, translations), bug bounty programs, and rewards for active engagement in governance and community channels.
+        * *Goal:* To build a highly engaged and committed user base that serves as the driving force of the project, given the asset's initial exclusivity.
     * **DEX Liquidity:** **30% (1,500 tokens)**
         * Assigned to provide initial liquidity on Decentralized Exchanges (DEXs), ensuring a healthy and accessible market for the AON token from launch. This is crucial for adoption and price discovery.
     * **Private Sale:** **15% (750 tokens)**
@@ -36,6 +36,16 @@ The total supply of AON tokens is designed to reflect its exclusive and high-val
         * **Value-Adjusted Compensation (Post-Initial Vesting):** Following the completion of the initial vesting schedule (e.g., the first 4 months), the AON DAO may vote to approve **additional token disbursements** for key contributors, **adjusted to the AON token's current market price**. This mechanism aims to ensure the real value of compensation is maintained, incentivizing continued commitment and protecting contributors against market volatility. The implementation of this mechanism, including its parameters (e.g., target fiat value, adjustment frequency, maximum token release limits via this method), will be subject to **detailed proposals and DAO voting**, ensuring transparent and controlled management of the token supply.
     * **Development Fund (DAO Treasury):** **5% (250 tokens)**
         * An initial fund to cover essential development expenses, PQC research, security audits (including ISO 31000 for risk management), and critical operational needs. This fund will be transparently managed and audited by the DAO, ensuring the project's sustainability.
+
+### 2.2. Supply Expansion Phases: Towards a Total of 20,000 Tokens (Initially)
+
+To finance infrastructure expansion, advanced development, and the attraction of new key talent for AON's evolution, the total token supply will expand strategically over controlled phases.
+
+* **Additional Supply (Phases 2 & 3):** An additional **15,000 tokens** are planned for issuance to cover expansion.
+    * **Purpose:** These tokens will primarily finance infrastructure expansion (bandwidth acquisition, alliances with SM-DP+ and operators), advanced development of AON components, and the attraction of new key talent for the ecosystem's evolution.
+    * **Timing & Mechanism:** These releases will be conducted strategically, considering the token's market value at that time to maximize effective funding and talent acquisition on competitive terms. The DAO will define the exact timing (within the next 2 to 4 months after Phase 1), the split between Phase 2 and 3, and the emission/sale mechanisms for these additional tokens.
+* **Final Total Supply (Pre-Phase 4):** The total AON token supply will reach **20,000 units** after the completion of Phase 3. Each of these tokens will continue to represent a right to lifetime global connectivity.
+* **Phase 4 and Beyond (Community Governance):** Any future expansion of the AON token supply beyond the initial 20,000 tokens (and, consequently, the number of additional eSIMs) will be **entirely decided and governed by the AON DAO through a transparent voting process**. This ensures that the ecosystem's growth is always aligned with the community's vision and needs.
 
 ---
 
@@ -47,6 +57,9 @@ AON's sustainability does not rely on traditional monthly fees but on an intrins
 * **Transaction Fees & Automatic Burn:** Transactions within the AON ecosystem (e.g., token transfers, interactions with service-related smart contracts) will incur small fees.
     * A portion of these fees will be directed to the **DAO Treasury** to fund development and community rewards, ensuring a sustainable growth cycle.
     * Another portion of the fees will be subjected to an **automatic burn**, permanently reducing the total token supply. This deflationary mechanism aims to increase scarcity and, potentially, the long-term value of the AON token. The exact proportion of fees allocated to burning will be defined and adjustable by community vote, allowing for dynamic adaptation to market conditions.
+    * **Automatic Liquidity (Potential):** A portion could be redirected to DEX liquidity pools, helping maintain the depth and stability of the AON token's liquidity.
+    * **Holder Rewards (Potential):** A small portion could be distributed among AON token holders, incentivizing long-term holding and participation in staking programs.
+
 * **Staking (Future Potential):** The community may vote to implement staking mechanisms where AON token holders lock their tokens to keep their eSIM active (if a "staking-for-activation" model is decided), or to gain enhanced governance rights or additional rewards for securing the network and its services.
 
 ---
@@ -55,16 +68,17 @@ AON's sustainability does not rely on traditional monthly fees but on an intrins
 
 AON's open-source nature means its tokenomics are dynamic and entirely under the control of the community, ensuring a decentralized evolutionary path.
 
-* **Proposals & Voting:** Any significant changes to these tokenomics (e.g., adjustments to allocations, fee percentages, introduction of new burning or staking mechanisms, or the parameters for **value-adjusted compensation**) will require a **formal proposal and a vote by AON token holders** through the DAO. This ensures that every decision is democratic and in the best interest of the community.
+* **Proposals & Voting:** Any significant changes to these tokenomics (e.g., adjustments to allocations, fee percentages, introduction of new burning or staking mechanisms, or the parameters for **value-adjusted compensation**, as well as the **issuance of tokens for future expansion phases**) will require a **formal proposal and a vote by AON token holders** through the DAO. This ensures that every decision is democratic and in the best interest of the community.
 * **Full Transparency:** All DAO decisions, treasury fund usage, and transaction details will be transparent and auditable on the blockchain, fostering trust, accountability, and the integrity of the AON ecosystem.
 
 ---
 
 ## 5. The Initial Airdrop and Community Expansion: Sowing Digital Sovereignty
 
-AON's initial airdrop will be a strategic tool to plant the seed of our highly engaged community and attract the first holders of this unique asset. Given the extreme scarcity of the token, the airdrop will focus on the quality of participation and genuine commitment.
+AON's initial airdrop will be a strategic tool to plant the seed of our highly engaged community and attract the first holders of this unique asset. Given the initial scarcity of the token, the airdrop will focus on the quality of participation and genuine commitment.
 
 * **Objective:** To distribute tokens to users who demonstrate genuine interest and exceptional commitment to AON's vision of digital sovereignty, post-quantum security, and decentralized connectivity. The focus will be on the quality of participation over quantity, rewarding true builders and advocates of the project.
+
 * **Eligibility Criteria (Examples, details in official announcement):**
     * Active and valuable participation in discussions on our Discord/Telegram channels, with significant contributions.
     * Verifiable and high-quality contributions to the codebase (meaningful Pull Requests, issue resolution, detailed reviews).
@@ -74,3 +88,78 @@ AON's initial airdrop will be a strategic tool to plant the seed of our highly e
 * **Anti-Sybil Mechanisms:** We will implement robust strategies, including behavioral analysis and, potentially, Proof of Humanity (PoH) solutions, to detect and mitigate bots and Sybil attacks, ensuring tokens reach real human users who add sustainable value to the project.
 
 ---
+
+[**Link to AON Token Smart Contract (once deployed)**]([Your_Link_To_Contract_On_Etherscan_Or_Other_Explorer])
+
+[**Link to DAO Governance Repository (if a separate repository exists)**]([Your_Link_To_DAO_Governance_Repo])
+
+---
+
+---
+
+### **2. Versión en Francés (French Version)**
+
+```markdown
+# Tokenomics du Jeton AON
+
+---
+
+Ce document détaille l'économie proposée pour le jeton AON, conçu pour renforcer la gouvernance décentralisée et assurer la durabilité de notre infrastructure révolutionnaire de connectivité mondiale. En tant que projet open-source et défini par la communauté, ces tokenomics sont un point de départ et sont sujets à l'évolution et au vote de la DAO AON.
+
+---
+
+## 1. Vision et Utilité du Jeton : Accès, Gouvernance et Sécurité à l'Ère de la Souveraineté Numérique
+
+Le jeton AON n'est pas qu'une simple cryptomonnaie ; il est la clé d'une nouvelle ère de souveraineté numérique et de connectivité de grande valeur. Son offre stratégiquement gérée par phases, et son utilité fondamentale en font un actif numérique d'exclusivité croissante et d'une valeur exceptionnelle.
+
+* **Connectivité Mondiale à Vie (Actif Exclusif par Phases) :** Chaque jeton AON confère un **droit d'accès à vie à la connectivité mondiale (eSIM satellite et terrestre)** au sein de l'écosystème AON. Il s'agit d'un actif numérique fondamental et hautement exclusif qui élimine les factures mensuelles récurrentes et les barrières géographiques pour ses détenteurs, symbolisant la souveraineté sur la connectivité personnelle. Le nombre d'eSIM disponibles augmentera stratégiquement avec les phases de libération de jetons.
+* **Gouvernance Décentralisée (DAO) :** Les détenteurs de jetons AON auront un pouvoir de vote au sein de la [DAO AON](https://github.com/magicalons/AON/blob/main/GOVERNANCE.md) (lien suggéré vers un futur fichier de gouvernance), leur permettant de définir collectivement l'avenir du projet. Cela inclut tout, des politiques d'utilisation et des limites de données à l'évolution de l'infrastructure et à l'affectation des fonds de la trésorerie, garantissant que le projet reste véritablement axé sur la communauté.
+* **Accès aux Services de Sécurité Avancés :** L'IA d'AON fournit une **vérification d'intégrité et une détection d'anomalies en temps réel**, en se concentrant sur la sécurité post-quantique (PQC). La communauté décidera si ces services de sécurité critiques sont offerts comme un bien commun aux détenteurs de jetons, ou si certaines fonctionnalités avancées nécessiteront une utilisation ou un *staking* de jetons supplémentaires pour maintenir la durabilité et la valeur du réseau.
+
+---
+
+## 2. Offre Totale et Distribution Initiale : Croissance Stratégique et Valeur Contrôlée
+
+L'offre de jetons AON est conçue pour une croissance stratégique par phases, reflétant sa nature exclusive et de grande valeur à mesure que l'écosystème s'étend. Son offre limitée au sein de chaque phase garantit que chaque jeton est un actif précieux, aligné sur la capacité d'expansion du réseau.
+
+* **Offre Initiale (Phase 1) :** **5 000 (cinq mille) jetons AON.** Ce sont les jetons initiaux à distribuer.
+
+* **Allocation de la Distribution (Phase 1 - 5 000 jetons) :** Les pourcentages sont appliqués à cette offre initiale, recherchant un équilibre entre liquidité, développement, récompenses et financement.
+
+    * **Communauté & Récompenses :** **35% (1 750 jetons)**
+        * Alloué pour les récompenses de participation précoce et de grande valeur, les contributions open-source (code, documentation, traductions), les programmes de *bug bounty* et les récompenses pour la participation active à la gouvernance et aux canaux communautaires.
+        * *Objectif :* Construire une base d'utilisateurs hautement engagés qui serviront de moteur au projet, étant donné l'exclusivité initiale de l'actif.
+    * **Liquidité DEX :** **30% (1 500 jetons)**
+        * Attribué pour fournir une liquidité initiale sur les Échanges Décentralisés (DEX), assurant un marché sain et accessible pour le jeton AON dès son lancement. Ceci est crucial pour l'adoption et la découverte des prix.
+    * **Vente Privée :** **15% (750 jetons)**
+        * Destiné aux investisseurs stratégiques et aux premiers partenaires qui apportent des capitaux et de la valeur à long terme au projet. Ces fonds seront utilisés pour stimuler le développement et l'expansion.
+    * **Équipe et Conseillers :** **15% (750 jetons)**
+        * Destiné à récompenser et à fidéliser l'équipe fondatrice et les principaux conseillers. Ces jetons seront soumis à un **calendrier d'acquisition (*vesting*)** rigoureux afin d'aligner leurs intérêts sur le succès à long terme du projet. Un modèle courant comprend une **période de blocage initial (*cliff*) de 6 à 12 mois**, suivie d'une **libération linéaire sur 2 à 4 années supplémentaires**. Pour les conseillers et les contributeurs clés, des modèles d'acquisition plus agiles, tels que des **distributions hebdomadaires ou bihebdomadaires pendant 4 à 6 mois** après une période d'engagement initiale, peuvent s'appliquer pour encourager un dévouement continu.
+        * **Compensation Ajustée à la Valeur (Post-Acquisition Initiale) :** Après l'achèvement du calendrier d'acquisition initial (par exemple, les 4 premiers mois), la DAO AON pourra voter l'approbation de **déboursements de jetons supplémentaires** pour les contributeurs clés, **ajustés au prix du marché actuel** du jeton AON. Ce mécanisme vise à garantir que la valeur réelle de la compensation est maintenue, incitant à un engagement continu et protégeant les contributeurs contre la volatilité du marché. La mise en œuvre de ce mécanisme, y compris ses paramètres (par exemple, valeur fiduciaire cible, fréquence d'ajustement, limites maximales de libération de jetons par ce moyen), sera soumise à des **propositions détaillées et au vote de la DAO**, garantissant une gestion transparente et contrôlée de l'offre de jetons.
+    * **Fonds de Développement (Trésorerie de la DAO) :** **5% (250 jetons)**
+        * Un fonds initial pour couvrir les dépenses essentielles de développement, la recherche PQC, les audits de sécurité (y compris la norme ISO 31000 pour la gestion des risques) et les besoins opérationnels critiques. Ce fonds sera géré et audité de manière transparente par la DAO, assurant la durabilité du projet.
+
+### 2.2. Phases d'Expansion de l'Offre : Vers un Total de 20 000 Jetons (Initialement)
+
+Pour financer l'expansion de l'infrastructure, le développement avancé et l'attraction de nouveaux talents clés pour l'évolution d'AON, l'offre totale de jetons s'étendra de manière stratégique au cours de phases contrôlées.
+
+* **Offre Supplémentaire (Phases 2 & 3) :** L'émission de **15 000 jetons supplémentaires** est prévue pour couvrir l'expansion.
+    * **Objectif :** Ces jetons serviront principalement à financer l'expansion de l'infrastructure (acquisition de bande passante, alliances avec les fournisseurs SM-DP+ et les opérateurs), le développement avancé des composants AON et l'attraction de nouveaux talents clés pour l'évolution de l'écosystème.
+    * **Calendrier et Mécanisme :** Ces libérations seront menées de manière stratégique, en tenant compte de la valeur marchande du jeton à ce moment-là pour maximiser le financement effectif et l'acquisition de talents à des conditions compétitives. La DAO définira les détails exacts du calendrier (dans les 2 à 4 mois suivant la Phase 1), la répartition entre la Phase 2 et la Phase 3, et les mécanismes d'émission/vente de ces jetons supplémentaires.
+* **Offre Totale Finale (Pré-Phase 4) :** L'offre totale de jetons AON atteindra **20 000 unités** après l'achèvement de la Phase 3. Chacun de ces jetons continuera de représenter un droit d'accès à vie à la connectivité mondiale.
+* **Phase 4 et Au-delà (Gouvernance Communautaire) :** Toute expansion future de l'offre de jetons AON au-delà des 20 000 jetons initiaux (et, par conséquent, du nombre d'eSIM supplémentaires) sera **entièrement décidée et régie par la DAO AON par le biais d'un processus de vote transparent**. Cela garantit que la croissance de l'écosystème est toujours alignée sur la vision et les besoins de la communauté.
+
+---
+
+## 3. Mécanismes de Durabilité et de Valeur de l'Écosystème : Au-delà des Frais Mensuels
+
+La durabilité d'AON ne repose pas sur des frais mensuels traditionnels, mais sur un modèle économique intrinsèque au jeton, piloté par la communauté, qui soutient un service de connectivité de si grande valeur et son infrastructure sous-jacente.
+
+* **Financement de la Trésorerie de la DAO :** La **Trésorerie de la DAO**, initialement alimentée par une partie de l'allocation du Fonds de Développement, puis par les frais de transaction et d'autres sources approuvées par la communauté, sera le moteur financier pour couvrir les coûts continus. Ceux-ci incluent l'acquisition de bande passante auprès des fournisseurs de satellites/terrestres, le développement futur (y compris l'évolution PQC de l'infrastructure) et les opérations de maintenance.
+* **Frais de Transaction et Gravure Automatique :** Les transactions au sein de l'écosystème AON (par exemple, les transferts de jetons, les interactions avec des contrats intelligents liés aux services) entraîneront de petits frais.
+    * Une partie de ces frais sera dirigée vers la **Trésorerie de la DAO** pour financer le développement et les récompenses communautaires, assurant un cycle de croissance durable.
+    * Une autre partie des frais sera soumise à une **gravure automatique**, réduisant en permanence l'offre totale de jetons. Ce mécanisme déflationniste vise à augmenter la rareté et, potentiellement, la valeur à long terme du jeton AON. La proportion exacte des frais destinée à la gravure sera définie et ajustable par vote de la communauté, permettant une adaptation dynamique aux conditions du marché.
+    * **Liquidité Automatique (Potentiel) :** Une portion pourrait être redirigée vers les pools de liquidité sur DEX, aidant à maintenir la profondeur et la stabilité de la liquidité du jeton AON.
+    * **Récompenses pour les Détenteurs (Potentiel) :** Une petite portion pourrait être distribuée aux détenteurs de jetons AON, incitant à la détention à long terme et à la participation aux programmes de *staking*.
+
+*
