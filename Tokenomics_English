@@ -2,80 +2,75 @@
 
 ---
 
-This document outlines the proposed economy for the AON token, designed to empower decentralized governance and ensure the sustainability of our revolutionary global connectivity infrastructure. As an open-source, community-defined project, these tokenomics are a starting point and are subject to evolution and voting by the AON DAO.
+This document details the proposed economy for the AON token, designed to empower decentralized governance and ensure the sustainability of our revolutionary global connectivity infrastructure. As an open-source, community-defined project, these tokenomics are a starting point and are subject to the evolution and voting by the AON DAO.
 
 ---
 
-1. Vision and Token Utility
+## 1. Vision and Token Utility: Access, Governance, and Security in the Era of Digital Sovereignty
 
-The AON token is not merely a cryptocurrency; it is the key to a new era of digital sovereignty and high-value connectivity.
+The AON token is not merely a cryptocurrency; it is the key to a new era of digital sovereignty and high-value connectivity. Its ultra-limited supply and fundamental utility establish it as a digital asset of exceptional exclusivity and value.
 
-* **Lifetime Global Connectivity (Exclusive Asset):** Each AON token grants a right to lifetime global connectivity (satellite and terrestrial eSIM) within the AON ecosystem. This is a fundamental, highly exclusive digital asset that eliminates recurring bills and geographical barriers for its holders.
-* **Decentralized Governance (DAO):** AON token holders will have voting power within the [AON DAO](https://github.com/magicalons/AON/blob/main/GOVERNANCE.md) (suggested link to a future governance file), allowing them to collectively define the project's future. This includes everything from usage policies and data limits to infrastructure evolution and treasury fund allocation.
-* **Access to Advanced Security Services:** AON's AI provides **real-time forensic auditing and anomaly detection**. The community will decide whether these critical security services are offered as a common good for token holders, or if certain advanced functionalities will require additional token usage or staking to maintain network sustainability.
+* **Lifetime Global Connectivity (Exclusive & Scarce Asset):** Each AON token grants a **right to lifetime global connectivity (satellite and terrestrial eSIM)** within the AON ecosystem. This is a fundamental and highly exclusive digital asset that eliminates recurring bills and geographical barriers for its holders, symbolizing sovereignty over personal connectivity.
+* **Decentralized Governance (DAO):** AON token holders will have voting power within the [AON DAO](https://github.com/magicalons/AON/blob/main/GOVERNANCE.md) (suggested link to a future governance file), allowing them to collectively define the project's future. This includes everything from usage policies and data limits to infrastructure evolution and treasury fund allocation, ensuring the project remains truly community-driven.
+* **Access to Advanced Security Services:** AON's AI provides **real-time forensic auditing and anomaly detection**, with a focus on Post-Quantum Security (PQC). The community will decide whether these critical security services are offered as a common good for token holders, or if certain advanced functionalities will require additional token usage or staking, to maintain the network's sustainability and value.
 
 ---
 
-2. Total Supply and Initial Distribution
+## 2. Total Supply and Initial Distribution: Exclusivity and Sustainable Growth
 
-The total supply of AON tokens is designed to reflect its exclusive and high-value nature, fostering fair distribution and supporting the ecosystem's long-term growth.
+The total supply of AON tokens is designed to reflect its exclusive and high-value nature, fostering fair distribution and supporting the ecosystem's long-term growth. Its limited supply ensures that each token is a prized asset.
 
-* **Total Supply:** **5,000 (five thousand) AON tokens.**
+* **Total Supply:** **5,000 (five thousand) AON tokens.** This low supply underscores the exclusivity and high value of each unit.
 
-* **Distribution Allocation:** Percentages have been adjusted proportionally for this limited supply.
+* **Distribution Allocation:** Percentages have been proportionally adjusted for this limited supply, seeking a balance between liquidity, development, rewards, and funding.
 
     * **Community & Rewards:** **35% (1,750 tokens)**
         * Allocated for initial airdrops, incentives for open-source contributions (code, documentation, translations), bug bounty programs, and rewards for active participation in governance and community channels.
         * *Goal:* To build a highly engaged and committed user base that serves as the driving force of the project, given the asset's exclusivity.
     * **DEX Liquidity:** **30% (1,500 tokens)**
-        * Assigned to provide initial liquidity on Decentralized Exchanges (DEXs), ensuring a healthy and accessible market for the AON token from launch.
+        * Assigned to provide initial liquidity on Decentralized Exchanges (DEXs), ensuring a healthy and accessible market for the AON token from launch. This is crucial for adoption and price discovery.
     * **Private Sale:** **15% (750 tokens)**
-        * Targeted at strategic investors and early partners who bring capital and long-term value to the project.
+        * Targeted at strategic investors and early partners who bring capital and long-term value to the project. These funds will be used to fuel development and expansion.
     * **Team & Advisors:** **15% (750 tokens)**
-        * Intended to reward and retain the core team and key advisors. These tokens will be subject to a **vesting schedule** (e.g., 1-year cliff, followed by linear release over 3 additional years) to align their incentives with the project's long-term success.
+        * Intended to reward and retain the core team and key advisors. These tokens will be subject to a rigorous **vesting schedule** to align their incentives with the project's long-term success. A common model includes an **initial cliff of 6 to 12 months**, followed by **linear release over an additional 2 to 4 years**. For advisors and key contributors, more agile vesting models, such as **weekly or bi-weekly distributions for 4 to 6 months** after an initial commitment period, may apply to encourage continuous dedication.
+        * **Value-Adjusted Compensation (Post-Initial Vesting):** Following the completion of the initial vesting schedule (e.g., the first 4 months), the AON DAO may vote to approve **additional token disbursements** for key contributors, **adjusted to the AON token's current market price**. This mechanism aims to ensure the real value of compensation is maintained, incentivizing continued commitment and protecting contributors against market volatility. The implementation of this mechanism, including its parameters (e.g., target fiat value, adjustment frequency, maximum token release limits via this method), will be subject to **detailed proposals and DAO voting**, ensuring transparent and controlled management of the token supply.
     * **Development Fund (DAO Treasury):** **5% (250 tokens)**
-        * An initial fund to cover essential development expenses, PQC research, security audits (including ISO 31000 certification), and critical operational needs. This fund will be managed and audited by the DAO.
+        * An initial fund to cover essential development expenses, PQC research, security audits (including ISO 31000 for risk management), and critical operational needs. This fund will be transparently managed and audited by the DAO, ensuring the project's sustainability.
 
 ---
 
-3. Ecosystem Sustainability and Value Mechanisms
+## 3. Ecosystem Sustainability and Value Mechanisms: Beyond Monthly Fees
 
-AON's sustainability does not rely on monthly fees but on an intrinsic economic model within the token, driven by the community, which supports such a high-value connectivity service.
+AON's sustainability does not rely on traditional monthly fees but on an intrinsic economic model within the token, driven by the community, which supports such a high-value connectivity service and its underlying infrastructure.
 
-* **DAO Treasury Funding:** The **DAO Treasury**, initially funded by a portion of the Development Fund allocation and subsequently by transaction fees and other community-approved sources, will be the financial engine to cover ongoing costs. These include acquiring bandwidth from satellite/terrestrial providers, future development, and maintenance operations.
+* **DAO Treasury Funding:** The **DAO Treasury**, initially funded by a portion of the Development Fund allocation, and subsequently by transaction fees and other community-approved sources, will be the financial engine to cover ongoing costs. These include bandwidth acquisition from satellite/terrestrial providers, future development (including PQC evolution of the infrastructure), and maintenance operations.
 * **Transaction Fees & Automatic Burn:** Transactions within the AON ecosystem (e.g., token transfers, interactions with service-related smart contracts) will incur small fees.
-    * A portion of these fees will be directed to the **DAO Treasury** to fund development and community rewards.
-    * Another portion of the fees will be subjected to an **automatic burn**, permanently reducing the total token supply. This deflationary mechanism aims to increase scarcity and, potentially, the long-term value of the AON token. The exact proportion of fees allocated to burning will be defined and adjustable by community vote.
-* **Staking (Future Potential):** The community may vote to implement staking mechanisms where AON token holders lock their tokens to keep their eSIM active (if a "staking-for-activation" model is decided), or to gain enhanced governance rights or additional rewards for securing the network.
+    * A portion of these fees will be directed to the **DAO Treasury** to fund development and community rewards, ensuring a sustainable growth cycle.
+    * Another portion of the fees will be subjected to an **automatic burn**, permanently reducing the total token supply. This deflationary mechanism aims to increase scarcity and, potentially, the long-term value of the AON token. The exact proportion of fees allocated to burning will be defined and adjustable by community vote, allowing for dynamic adaptation to market conditions.
+* **Staking (Future Potential):** The community may vote to implement staking mechanisms where AON token holders lock their tokens to keep their eSIM active (if a "staking-for-activation" model is decided), or to gain enhanced governance rights or additional rewards for securing the network and its services.
 
 ---
 
-4. Governance and Continuous Evolution
+## 4. Governance and Continuous Evolution: A Community-Driven Future
 
-AON's open-source nature means its tokenomics are dynamic and under the control of the community.
+AON's open-source nature means its tokenomics are dynamic and entirely under the control of the community, ensuring a decentralized evolutionary path.
 
-* **Proposals & Voting:** Any significant changes to these tokenomics (e.g., adjustments to allocations, fee percentages, introduction of new burning or staking mechanisms) will require a **formal proposal and a vote by AON token holders** through the DAO.
-* **Full Transparency:** All DAO decisions, treasury fund usage, and transaction details will be transparent and auditable on the blockchain, fostering trust and accountability.
+* **Proposals & Voting:** Any significant changes to these tokenomics (e.g., adjustments to allocations, fee percentages, introduction of new burning or staking mechanisms, or the parameters for **value-adjusted compensation**) will require a **formal proposal and a vote by AON token holders** through the DAO. This ensures that every decision is democratic and in the best interest of the community.
+* **Full Transparency:** All DAO decisions, treasury fund usage, and transaction details will be transparent and auditable on the blockchain, fostering trust, accountability, and the integrity of the AON ecosystem.
 
 ---
 
-5. Initial Airdrop and Community Expansion
+## 5. The Initial Airdrop and Community Expansion: Sowing Digital Sovereignty
 
-The initial Airdrop for AON will be a strategic tool to plant the seed of our highly engaged community and attract the first holders of this unique asset.
+AON's initial airdrop will be a strategic tool to plant the seed of our highly engaged community and attract the first holders of this unique asset. Given the extreme scarcity of the token, the airdrop will focus on the quality of participation and genuine commitment.
 
-* **Objective:** To distribute tokens to users who demonstrate genuine interest and exceptional commitment to AON's vision of digital sovereignty, post-quantum security, and decentralized connectivity. Given the scarcity, the focus will be on the quality of participation over quantity.
+* **Objective:** To distribute tokens to users who demonstrate genuine interest and exceptional commitment to AON's vision of digital sovereignty, post-quantum security, and decentralized connectivity. The focus will be on the quality of participation over quantity, rewarding true builders and advocates of the project.
 * **Eligibility Criteria (Examples, details in official announcement):**
-    * Active and valuable participation in discussions on our Discord/Telegram channels.
-    * Significant contributions to the codebase (high-quality Pull Requests, issue resolution, reviews).
-    * Creation of high-quality educational and outreach content about AON (technical blogs, explanatory videos, tutorials).
-    * Sharing and promoting AON's vision and key announcements on social media with demonstrable reach and impact.
-    * Participation in surveys, quizzes, or AMAs to demonstrate a deep understanding of the project.
-* **Anti-Sybil Mechanisms:** We will implement robust strategies, including behavioral analysis and, potentially, Proof of Humanity (PoH) solutions, to detect and mitigate bots and Sybil attacks, ensuring tokens reach real human users who add value to the project.
-
----
-
-[**Link to AON Token Smart Contract (once deployed)**]([Your_Link_To_Contract_On_Etherscan_Or_Other_Explorer])
-
-[**Link to DAO Governance Repository (if a separate repository exists)**]([Your_Link_To_DAO_Governance_Repo])
+    * Active and valuable participation in discussions on our Discord/Telegram channels, with significant contributions.
+    * Verifiable and high-quality contributions to the codebase (meaningful Pull Requests, issue resolution, detailed reviews).
+    * Creation of high-quality educational and outreach content about AON (technical blogs, explanatory videos, tutorials) demonstrating deep understanding.
+    * Sharing and promoting AON's vision and key announcements on social media with demonstrable reach and impact, acting as project ambassadors.
+    * Active participation in surveys, quizzes, or AMAs to demonstrate a thorough understanding of the project and its goals.
+* **Anti-Sybil Mechanisms:** We will implement robust strategies, including behavioral analysis and, potentially, Proof of Humanity (PoH) solutions, to detect and mitigate bots and Sybil attacks, ensuring tokens reach real human users who add sustainable value to the project.
 
 ---
