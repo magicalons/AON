@@ -1,4 +1,13 @@
-MIT LicenseCopyright (c) [año] [nombre del titular de los derechos de autor]
+¡Entendido\! Aquí tienes el texto completo y corregido de la **Licencia MIT**, con los derechos de autor asignados a tu nombre y el año actual.
+
+Solo tienes que copiar este texto y pegarlo en el archivo llamado `LICENSE` (sin ninguna extensión) en la raíz de tu repositorio de GitHub.
+
+-----
+
+```
+MIT License
+
+Copyright (c) 2025 Adria Alonso Fernandez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -17,3 +26,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+-----
