@@ -1,0 +1,39 @@
+body {
+  background: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0; padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 480px;
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #333;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.privacy {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.privacy a {
+  color: #0af;
+  text-decoration: none;
+}
+
+.privacy a:hover {
+  text-decoration: underline;
+}

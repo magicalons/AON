@@ -1,0 +1,21 @@
+=== 🔧 DIAGNÓSTICO RESUMIDO DEL SISTEMA ===
+
+🧠 Hostname: magic
+📡 Interfaces activas: 
+🔁 Ping localhost: OK
+🌍 Resolución de localhost: 
+
+🧪 Servicios web detectados: 7
+🧭 Puertos en escucha (HTTP/HTTPS):
+Nada en 80 o 443
+
+🛡 Firewall (iptables activo): 39 reglas
+🧱 Firewall (nftables activo): 4 tablas
+
+🔎 Servicios activos: 40 servicios
+🔥 Últimos errores críticos:
+░░ The process /usr/bin/node could not be executed and failed.
+░░ 
+░░ The error number returned by this process is 2.
+
+✅ Diagnóstico completo en: salida_diagnostico_resumido.txt

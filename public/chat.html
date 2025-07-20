@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8" /><title>Chat AEON P2P</title></head>
+<body>
+  <h2>Chat P2P AEON</h2>
+  <textarea id="chatLog" cols="50" rows="15" readonly></textarea><br/>
+  <input id="msgInput" placeholder="Escribe mensaje..." />
+  <button id="sendBtn">Enviar</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/libsodium-wrappers@0.7.9/dist/modules/libsodium-wrappers.js"></script>
+  <script>
+    (async () => {
+      await sodium.ready;
+
+      const chatLog = document.getElementById('chatLog');
+      const msgInput = document.getElementById('msgInput');
+      const sendBtn = document.getElementById('sendBtn');
+
+      const ws = new WebSocket(`wss://${window.location.host}`);
+
+      // Generar llave simétrica para cifrar mensajes (solo demo)
+      const key = sodium.randombytes_buf(32);
+
+      ws.onopen = () => {
+        chatLog.value += 'Conectado al nodo P2P\n';
+      };
+
+      ws.onmessage = (event) => {
+        try {
+          const data = event.data;
+          const decoded = sodium.from_base64(data);
+          const nonce = decoded.slice(0, 24);
+          const cipher = decoded.slice(24);
+          const decrypted = sodium.crypto_secretbox_open_easy(cipher, nonce, key);
+          const text = new TextDecoder().decode(decrypted);
+          chatLog.value += 'Peer: ' + text + '\n';
+          chatLog.scrollTop = chatLog.scrollHeight;
+        } catch(e) {
+          chatLog.value += 'Error descifrando mensaje\n';
+        }
+      };
+
+      sendBtn.onclick = () => {
+        const text = msgInput.value.trim();
+        if (!text) return;
+        const nonce = sodium.randombytes_buf(24);
+        const encrypted = sodium.crypto_secretbox_easy(new TextEncoder().encode(text), nonce, key);
+        const combined = new Uint8Array(nonce.length + encrypted.length);
+        combined.set(nonce);
+        combined.set(encrypted, nonce.length);
+        ws.send(sodium.to_base64(combined));
+        chatLog.value += 'Yo: ' + text + '\n';
+        msgInput.value = '';
+        chatLog.scrollTop = chatLog.scrollHeight;
+      };
+    })();
+  </script>
+</body>
+</html>

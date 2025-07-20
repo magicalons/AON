@@ -1,0 +1,16 @@
+/home/magic/aeon/p2pcoin_node/target/debug/deps/prost_build-9c3feb50c06fc0b4.d: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ast.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/code_generator.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/extern_paths.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ident.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/message_graph.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/path.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libprost_build-9c3feb50c06fc0b4.rlib: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ast.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/code_generator.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/extern_paths.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ident.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/message_graph.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/path.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libprost_build-9c3feb50c06fc0b4.rmeta: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ast.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/code_generator.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/extern_paths.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ident.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/message_graph.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/path.rs
+
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/lib.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ast.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/code_generator.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/extern_paths.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/ident.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/message_graph.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/src/path.rs:
+
+# env-dep:PROTOC=/usr/bin/protoc
+# env-dep:PROTOC_INCLUDE=/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/include

@@ -1,0 +1,17 @@
+cat > views/register.ejs <<EOF
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro</title>
+</head>
+<body>
+  <h1>Registro</h1>
+  <form action="/register" method="POST">
+    Usuario: <input type="text" name="username" required><br>
+    Contraseña: <input type="password" name="password" required><br>
+    <button type="submit">Registrar</button>
+  </form>
+  <a href="/login">Ir a login</a>
+</body>
+</html>
+EOF

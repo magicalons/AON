@@ -1,0 +1,12 @@
+prefix=/home/magic/aeon/p2pcoin_node/target/debug/build/libsodium-sys-e7bb5ae056a2225d/out/installed
+exec_prefix=${prefix}
+libdir=/home/magic/aeon/p2pcoin_node/target/debug/build/libsodium-sys-e7bb5ae056a2225d/out/installed/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.18
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Libs.private:  -pthread 
+Cflags: -I${includedir}

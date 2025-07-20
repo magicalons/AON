@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    form {
+      background: #222;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #0f0;
+    }
+    input {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+      background: #333;
+      border: 1px solid #555;
+      color: #fff;
+    }
+    button {
+      background: #0f0;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form action="/login" method="post">
+    <h2>Iniciar sesión</h2>
+    <input type="text" name="username" placeholder="Usuario" required />
+    <input type="password" name="password" placeholder="Contraseña" required />
+    <button type="submit">Entrar</button>
+    <p>¿No tienes cuenta? <a href="/register" style="color:#0f0">Regístrate</a></p>
+  </form>
+</body>
+</html>

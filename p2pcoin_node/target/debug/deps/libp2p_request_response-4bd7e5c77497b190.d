@@ -1,0 +1,10 @@
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libp2p_request_response-4bd7e5c77497b190.d: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/codec.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler/protocol.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/liblibp2p_request_response-4bd7e5c77497b190.rlib: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/codec.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler/protocol.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/liblibp2p_request_response-4bd7e5c77497b190.rmeta: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/codec.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler/protocol.rs
+
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/lib.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/codec.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libp2p-request-response-0.19.0/src/handler/protocol.rs:

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Screen Mirror</title>
+  <style>
+    body { background: #111; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
+    video { width: 80%; margin-top: 20px; border: 2px solid #555; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Mirror de Pantalla</h1>
+  <video id="screen" autoplay></video>
+  <script>
+    async function startMirror() {
+      try {
+        const stream = await navigator.mediaDevices.getDisplayMedia({ video: true });
+        document.getElementById('screen').srcObject = stream;
+      } catch (err) {
+        alert('Error al capturar pantalla: ' + err);
+      }
+    }
+    startMirror();
+  </script>
+</body>
+</html>

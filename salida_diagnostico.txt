@@ -1,0 +1,755 @@
+
+🔍 Interfaces de red:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp3s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 08:60:6e:9a:04:d2 brd ff:ff:ff:ff:ff:ff
+3: wlp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 1c:65:9d:5e:34:bb brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.164/24 brd 192.168.1.255 scope global dynamic noprefixroute wlp2s0
+       valid_lft 2942sec preferred_lft 2942sec
+    inet6 2a00:fde0:1656:3900::5/128 scope global dynamic noprefixroute 
+       valid_lft 256742sec preferred_lft 170342sec
+    inet6 2a00:fde0:1656:3900:e08d:35e7:58ae:df9/64 scope global dynamic noprefixroute 
+       valid_lft 259057sec preferred_lft 172657sec
+    inet6 fe80::f6ed:44b4:3a5:6fc8/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: tailscale0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1280 qdisc fq_codel state UNKNOWN group default qlen 500
+    link/none 
+    inet6 fe80::f47f:6181:812e:20ed/64 scope link stable-privacy 
+       valid_lft forever preferred_lft forever
+5: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 02:42:c7:20:a4:06 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+
+🔍 Estado de red y ping localhost:
+PING localhost(localhost (::1)) 56 data bytes
+64 bytes from localhost (::1): icmp_seq=1 ttl=64 time=0.067 ms
+64 bytes from localhost (::1): icmp_seq=2 ttl=64 time=0.082 ms
+64 bytes from localhost (::1): icmp_seq=3 ttl=64 time=0.078 ms
+64 bytes from localhost (::1): icmp_seq=4 ttl=64 time=0.082 ms
+
+--- localhost ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3078ms
+rtt min/avg/max/mdev = 0.067/0.077/0.082/0.006 ms
+
+🔍 Hosts y resolución local:
+::1             localhost ip6-localhost ip6-loopback
+
+🔍 Servicios activos (top 20):
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  containerd.service            loaded active running containerd container runtime
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  docker.service                loaded active running Docker Application Container Engine
+  getty@tty1.service            loaded active running Getty on tty1
+  lightdm.service               loaded active running Light Display Manager
+  low-memory-monitor.service    loaded active running Low Memory Monitor
+  mariadb.service               loaded active running MariaDB 10.11.11 database server
+  ModemManager.service          loaded active running Modem Manager
+  NetworkManager.service        loaded active running Network Manager
+  nodo.service                  loaded active running Servicio Nodo P2P
+  php8.2-fpm.service            loaded active running The PHP 8.2 FastCGI Process Manager
+  pm2-magic.service             loaded active running PM2 process manager
+  polkit.service                loaded active running Authorization Manager
+
+🔍 Puertos en escucha:
+Netid State  Recv-Q Send-Q                     Local Address:Port  Peer Address:PortProcess                                                                                                                                                                
+udp   UNCONN 0      0                                0.0.0.0:32949      0.0.0.0:*    uid:104 ino:16885 sk:1 cgroup:/system.slice/avahi-daemon.service <->                                                                                                  
+udp   UNCONN 0      0                                0.0.0.0:41641      0.0.0.0:*    ino:24170 sk:2 cgroup:/system.slice/tailscaled.service <->                                                                                                            
+udp   UNCONN 0      0                            224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=13985,fd=88)) uid:1000 ino:1488235 sk:3 cgroup:/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-google\x2dchrome-13429.scope <->
+udp   UNCONN 0      0                            224.0.0.251:5353       0.0.0.0:*    users:(("chrome",pid=13429,fd=411)) uid:1000 ino:1479137 sk:4 cgroup:/user.slice/user-1000.slice/user@1000.service/app.slice/app-com.google.Chrome-13429.scope <->    
+udp   UNCONN 0      0                                0.0.0.0:5353       0.0.0.0:*    uid:104 ino:16883 sk:5 cgroup:/system.slice/avahi-daemon.service <->                                                                                                  
+udp   UNCONN 0      0      [fe80::f6ed:44b4:3a5:6fc8]%wlp2s0:546           [::]:*    ino:1454119 sk:1001 cgroup:/system.slice/NetworkManager.service v6only:1 <->                                                                                          
+udp   UNCONN 0      0                                   [::]:41641         [::]:*    ino:24169 sk:1002 cgroup:/system.slice/tailscaled.service v6only:1 <->                                                                                                
+udp   UNCONN 0      0                                   [::]:5353          [::]:*    uid:104 ino:16884 sk:1003 cgroup:/system.slice/avahi-daemon.service v6only:1 <->                                                                                      
+udp   UNCONN 0      0                                   [::]:54857         [::]:*    uid:104 ino:16886 sk:1004 cgroup:/system.slice/avahi-daemon.service v6only:1 <->                                                                                      
+tcp   LISTEN 0      128                            127.0.0.1:631        0.0.0.0:*    ino:21795 sk:2001 cgroup:/system.slice/cups.service <->                                                                                                               
+tcp   LISTEN 0      4096                           127.0.0.1:9050       0.0.0.0:*    ino:23566 sk:2002 cgroup:/system.slice/system-tor.slice/tor@default.service <->                                                                                       
+tcp   LISTEN 0      4096                           127.0.0.1:40845      0.0.0.0:*    ino:22425 sk:2003 cgroup:/system.slice/containerd.service <->                                                                                                         
+tcp   LISTEN 0      80                             127.0.0.1:3306       0.0.0.0:*    uid:113 ino:17280 sk:2004 cgroup:/system.slice/mariadb.service <->                                                                                                    
+tcp   LISTEN 0      128                              0.0.0.0:22         0.0.0.0:*    ino:22616 sk:2005 cgroup:/system.slice/ssh.service <->                                                                                                                
+tcp   LISTEN 0      4096                             0.0.0.0:9000       0.0.0.0:*    users:(("nodo",pid=980,fd=6)) uid:1000 ino:17235 sk:2006 cgroup:/system.slice/nodo.service <->                                                                        
+tcp   LISTEN 0      511                                    *:3443             *:*    users:(("node /home/magi",pid=1509,fd=22)) uid:1000 ino:24485 sk:2007 cgroup:/system.slice/pm2-magic.service v6only:0 <->                                             
+tcp   LISTEN 0      128                                [::1]:631           [::]:*    ino:21794 sk:2008 cgroup:/system.slice/cups.service v6only:1 <->                                                                                                      
+tcp   LISTEN 0      128                                 [::]:22            [::]:*    ino:22618 sk:2009 cgroup:/system.slice/ssh.service v6only:1 <->                                                                                                       
+
+🔍 Firewall (iptables):
+Chain INPUT (policy DROP 152 packets, 150K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+36071   20M ufw-before-logging-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+36071   20M ufw-before-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 4070  693K ufw-after-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+  152  150K ufw-after-logging-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+  152  150K ufw-reject-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+  152  150K ufw-track-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-USER  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-1  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  *      docker0  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     0    --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  docker0 docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-before-logging-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-before-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-after-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-after-logging-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-reject-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-track-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 14 packets, 1887 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+26516   11M ufw-before-logging-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+26516   11M ufw-before-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 4868  529K ufw-after-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 4868  529K ufw-after-logging-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 4868  529K ufw-reject-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 4868  529K ufw-track-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-ISOLATION-STAGE-2  0    --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-ISOLATION-STAGE-2 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       0    --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-USER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-after-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 1064  101K ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:137
+  304 70662 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:138
+    0     0 ufw-skip-to-policy-input  6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:139
+    0     0 ufw-skip-to-policy-input  6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:445
+   10  3347 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:67
+    0     0 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68
+ 2540  368K ufw-skip-to-policy-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type BROADCAST
+
+Chain ufw-after-logging-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+   90 65400 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 12
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8
+    0     0 ufw-user-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-before-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  321 28571 ACCEPT     0    --  lo     *       0.0.0.0/0            0.0.0.0/0           
+29645   18M ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    5   300 ufw-logging-deny  0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID
+    5   300 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 12
+    2   168 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8
+    1   576 ACCEPT     17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp spt:67 dpt:68
+ 6097 1434K ufw-not-local  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 2027  741K ACCEPT     17   --  *      *       0.0.0.0/0            224.0.0.251          udp dpt:5353
+    0     0 ACCEPT     17   --  *      *       0.0.0.0/0            239.255.255.250      udp dpt:1900
+ 4070  693K ufw-user-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-before-logging-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-logging-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-logging-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  323 28651 ACCEPT     0    --  *      lo      0.0.0.0/0            0.0.0.0/0           
+21325   10M ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+ 4868  529K ufw-user-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-logging-allow (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW ALLOW] "
+
+Chain ufw-logging-deny (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    5   300 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID limit: avg 3/min burst 10
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-not-local (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  152  150K RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type LOCAL
+ 2027  741K RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type MULTICAST
+ 3918  543K RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type BROADCAST
+    0     0 ufw-logging-deny  0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10
+    0     0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-reject-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-reject-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-reject-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-skip-to-policy-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-skip-to-policy-input (7 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 3918  543K DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-skip-to-policy-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-track-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-track-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-track-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  580 36192 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate NEW
+ 4274  491K ACCEPT     17   --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate NEW
+
+Chain ufw-user-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:80
+    0     0 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:443
+    0     0 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:3000
+    0     0 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:4000
+
+Chain ufw-user-limit (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 5 LOG flags 0 level 4 prefix "[UFW LIMIT BLOCK] "
+    0     0 REJECT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain ufw-user-limit-accept (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-user-logging-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-logging-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-logging-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+🔍 Firewall (nftables):
+table ip filter {
+	chain ufw-before-logging-input {
+	}
+
+	chain ufw-before-logging-output {
+	}
+
+	chain ufw-before-logging-forward {
+	}
+
+	chain ufw-before-input {
+		iifname "lo" counter packets 321 bytes 28571 accept
+		ct state related,established counter packets 29645 bytes 18365112 accept
+		ct state invalid counter packets 5 bytes 300 jump ufw-logging-deny
+		ct state invalid counter packets 5 bytes 300 drop
+		meta l4proto icmp icmp type destination-unreachable counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type time-exceeded counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type parameter-problem counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type echo-request counter packets 2 bytes 168 accept
+		udp sport 67 udp dport 68 counter packets 1 bytes 576 accept
+		counter packets 6097 bytes 1434349 jump ufw-not-local
+		ip daddr 224.0.0.251 udp dport 5353 counter packets 2027 bytes 740972 accept
+		ip daddr 239.255.255.250 udp dport 1900 counter packets 0 bytes 0 accept
+		counter packets 4070 bytes 693377 jump ufw-user-input
+	}
+
+	chain ufw-before-output {
+		oifname "lo" counter packets 323 bytes 28651 accept
+		ct state related,established counter packets 21325 bytes 10005438 accept
+		counter packets 4868 bytes 528970 jump ufw-user-output
+	}
+
+	chain ufw-before-forward {
+		ct state related,established counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type destination-unreachable counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type time-exceeded counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type parameter-problem counter packets 0 bytes 0 accept
+		meta l4proto icmp icmp type echo-request counter packets 0 bytes 0 accept
+		counter packets 0 bytes 0 jump ufw-user-forward
+	}
+
+	chain ufw-after-input {
+		udp dport 137 counter packets 1064 bytes 100704 jump ufw-skip-to-policy-input
+		udp dport 138 counter packets 304 bytes 70662 jump ufw-skip-to-policy-input
+		tcp dport 139 counter packets 0 bytes 0 jump ufw-skip-to-policy-input
+		tcp dport 445 counter packets 0 bytes 0 jump ufw-skip-to-policy-input
+		udp dport 67 counter packets 10 bytes 3347 jump ufw-skip-to-policy-input
+		udp dport 68 counter packets 0 bytes 0 jump ufw-skip-to-policy-input
+		fib daddr type broadcast counter packets 2540 bytes 368300 jump ufw-skip-to-policy-input
+	}
+
+	chain ufw-after-output {
+	}
+
+	chain ufw-after-forward {
+	}
+
+	chain ufw-after-logging-input {
+		limit rate 3/minute burst 10 packets counter packets 90 bytes 65400 log prefix "[UFW BLOCK] "
+	}
+
+	chain ufw-after-logging-output {
+	}
+
+	chain ufw-after-logging-forward {
+		limit rate 3/minute burst 10 packets counter packets 0 bytes 0 log prefix "[UFW BLOCK] "
+	}
+
+	chain ufw-reject-input {
+	}
+
+	chain ufw-reject-output {
+	}
+
+	chain ufw-reject-forward {
+	}
+
+	chain ufw-track-input {
+	}
+
+	chain ufw-track-output {
+		meta l4proto tcp ct state new counter packets 580 bytes 36192 accept
+		meta l4proto udp ct state new counter packets 4274 bytes 490891 accept
+	}
+
+	chain ufw-track-forward {
+	}
+
+	chain INPUT {
+		type filter hook input priority filter; policy drop;
+		counter packets 36071 bytes 19829076 jump ufw-before-logging-input
+		counter packets 36071 bytes 19829076 jump ufw-before-input
+		counter packets 4070 bytes 693377 jump ufw-after-input
+		counter packets 152 bytes 150364 jump ufw-after-logging-input
+		counter packets 152 bytes 150364 jump ufw-reject-input
+		counter packets 152 bytes 150364 jump ufw-track-input
+	}
+
+	chain OUTPUT {
+		type filter hook output priority filter; policy accept;
+		counter packets 26516 bytes 10563059 jump ufw-before-logging-output
+		counter packets 26516 bytes 10563059 jump ufw-before-output
+		counter packets 4868 bytes 528970 jump ufw-after-output
+		counter packets 4868 bytes 528970 jump ufw-after-logging-output
+		counter packets 4868 bytes 528970 jump ufw-reject-output
+		counter packets 4868 bytes 528970 jump ufw-track-output
+	}
+
+	chain FORWARD {
+		type filter hook forward priority filter; policy drop;
+		counter packets 0 bytes 0 jump DOCKER-USER
+		counter packets 0 bytes 0 jump DOCKER-ISOLATION-STAGE-1
+		oifname "docker0" ct state related,established counter packets 0 bytes 0 accept
+		oifname "docker0" counter packets 0 bytes 0 jump DOCKER
+		iifname "docker0" oifname != "docker0" counter packets 0 bytes 0 accept
+		iifname "docker0" oifname "docker0" counter packets 0 bytes 0 accept
+		counter packets 0 bytes 0 jump ufw-before-logging-forward
+		counter packets 0 bytes 0 jump ufw-before-forward
+		counter packets 0 bytes 0 jump ufw-after-forward
+		counter packets 0 bytes 0 jump ufw-after-logging-forward
+		counter packets 0 bytes 0 jump ufw-reject-forward
+		counter packets 0 bytes 0 jump ufw-track-forward
+	}
+
+	chain ufw-logging-deny {
+		ct state invalid limit rate 3/minute burst 10 packets counter packets 5 bytes 300 return
+		limit rate 3/minute burst 10 packets counter packets 0 bytes 0 log prefix "[UFW BLOCK] "
+	}
+
+	chain ufw-logging-allow {
+		limit rate 3/minute burst 10 packets counter packets 0 bytes 0 log prefix "[UFW ALLOW] "
+	}
+
+	chain ufw-skip-to-policy-input {
+		counter packets 3918 bytes 543013 drop
+	}
+
+	chain ufw-skip-to-policy-output {
+		counter packets 0 bytes 0 accept
+	}
+
+	chain ufw-skip-to-policy-forward {
+		counter packets 0 bytes 0 drop
+	}
+
+	chain ufw-not-local {
+		fib daddr type local counter packets 152 bytes 150364 return
+		fib daddr type multicast counter packets 2027 bytes 740972 return
+		fib daddr type broadcast counter packets 3918 bytes 543013 return
+		limit rate 3/minute burst 10 packets counter packets 0 bytes 0 jump ufw-logging-deny
+		counter packets 0 bytes 0 drop
+	}
+
+	chain ufw-user-input {
+		tcp dport 80 counter packets 0 bytes 0 accept
+		tcp dport 443 counter packets 0 bytes 0 accept
+		tcp dport 3000 counter packets 0 bytes 0 accept
+		tcp dport 4000 counter packets 0 bytes 0 accept
+	}
+
+	chain ufw-user-output {
+	}
+
+	chain ufw-user-forward {
+	}
+
+	chain ufw-user-logging-input {
+	}
+
+	chain ufw-user-logging-output {
+	}
+
+	chain ufw-user-logging-forward {
+	}
+
+	chain ufw-user-limit {
+		limit rate 3/minute counter packets 0 bytes 0 log prefix "[UFW LIMIT BLOCK] "
+		counter packets 0 bytes 0 reject
+	}
+
+	chain ufw-user-limit-accept {
+		counter packets 0 bytes 0 accept
+	}
+
+	chain DOCKER {
+	}
+
+	chain DOCKER-ISOLATION-STAGE-1 {
+		iifname "docker0" oifname != "docker0" counter packets 0 bytes 0 jump DOCKER-ISOLATION-STAGE-2
+		counter packets 0 bytes 0 return
+	}
+
+	chain DOCKER-ISOLATION-STAGE-2 {
+		oifname "docker0" counter packets 0 bytes 0 drop
+		counter packets 0 bytes 0 return
+	}
+
+	chain DOCKER-USER {
+		counter packets 0 bytes 0 return
+	}
+}
+table ip6 filter {
+	chain ufw6-before-logging-input {
+	}
+
+	chain ufw6-before-logging-output {
+	}
+
+	chain ufw6-before-logging-forward {
+	}
+
+	chain ufw6-before-input {
+		iifname "lo" counter packets 28 bytes 2244 accept
+		rt type 0 counter packets 0 bytes 0 drop
+		ct state related,established counter packets 125568 bytes 124211518 accept
+		meta l4proto ipv6-icmp icmpv6 type echo-reply counter packets 0 bytes 0 accept
+		ct state invalid counter packets 27 bytes 30291 jump ufw6-logging-deny
+		ct state invalid counter packets 27 bytes 30291 drop
+		meta l4proto ipv6-icmp icmpv6 type destination-unreachable counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type packet-too-big counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type time-exceeded counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type parameter-problem counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type echo-request counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-router-solicit ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-router-advert ip6 hoplimit 255 counter packets 60 bytes 8640 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-neighbor-solicit ip6 hoplimit 255 counter packets 140 bytes 10072 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-neighbor-advert ip6 hoplimit 255 counter packets 55 bytes 3728 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 ip6 hoplimit 1 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 ip6 hoplimit 1 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 ip6 hoplimit 1 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 counter packets 0 bytes 0 accept
+		ip6 saddr fe80::/10 ip6 daddr fe80::/10 udp sport 547 udp dport 546 counter packets 4 bytes 710 accept
+		ip6 daddr ff02::fb udp dport 5353 counter packets 1429 bytes 619592 accept
+		ip6 daddr ff02::f udp dport 1900 counter packets 0 bytes 0 accept
+		counter packets 19 bytes 31545 jump ufw6-user-input
+	}
+
+	chain ufw6-before-output {
+		oifname "lo" counter packets 28 bytes 2244 accept
+		rt type 0 counter packets 0 bytes 0 drop
+		ct state related,established counter packets 57622 bytes 18461441 accept
+		meta l4proto ipv6-icmp icmpv6 type destination-unreachable counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type packet-too-big counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type time-exceeded counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type parameter-problem counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type echo-request counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type echo-reply counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-router-solicit ip6 hoplimit 255 counter packets 19 bytes 912 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-neighbor-advert ip6 hoplimit 255 counter packets 140 bytes 8992 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-neighbor-solicit ip6 hoplimit 255 counter packets 37 bytes 2664 accept
+		meta l4proto ipv6-icmp icmpv6 type nd-router-advert ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 counter packets 133 bytes 17488 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp xt match icmp6 ip6 hoplimit 255 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 ip6 hoplimit 1 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 ip6 hoplimit 1 counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp ip6 saddr fe80::/10 xt match icmp6 ip6 hoplimit 1 counter packets 0 bytes 0 accept
+		counter packets 3503 bytes 2637919 jump ufw6-user-output
+	}
+
+	chain ufw6-before-forward {
+		rt type 0 counter packets 0 bytes 0 drop
+		ct state related,established counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type destination-unreachable counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type packet-too-big counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type time-exceeded counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type parameter-problem counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type echo-request counter packets 0 bytes 0 accept
+		meta l4proto ipv6-icmp icmpv6 type echo-reply counter packets 0 bytes 0 accept
+		counter packets 0 bytes 0 jump ufw6-user-forward
+	}
+
+	chain ufw6-after-input {
+		udp dport 137 counter packets 0 bytes 0 jump ufw6-skip-to-policy-input
+		udp dport 138 counter packets 0 bytes 0 jump ufw6-skip-to-policy-input
+		tcp dport 139 counter packets 0 bytes 0 jump ufw6-skip-to-policy-input
+		tcp dport 445 counter packets 0 bytes 0 jump ufw6-skip-to-policy-input
+		udp dport 546 counter packets 0 bytes 0 jump ufw6-skip-to-policy-input
+		udp dport 547 counter packets 0 bytes 0 jump ufw6-skip-to-policy-input
+	}
+
+	chain ufw6-after-output {
+	}
+
+	chain ufw6-after-forward {
+	}
+
+	chain ufw6-after-logging-input {
+		limit rate 3/minute burst 10 packets counter packets 17 bytes 26407 log prefix "[UFW BLOCK] "
+	}
+
+	chain ufw6-after-logging-output {
+	}
+
+	chain ufw6-after-logging-forward {
+		limit rate 3/minute burst 10 packets counter packets 0 bytes 0 log prefix "[UFW BLOCK] "
+	}
+
+	chain ufw6-reject-input {
+	}
+
+	chain ufw6-reject-output {
+	}
+
+	chain ufw6-reject-forward {
+	}
+
+	chain ufw6-track-input {
+	}
+
+	chain ufw6-track-output {
+		meta l4proto tcp ct state new counter packets 830 bytes 66400 accept
+		meta l4proto udp ct state new counter packets 2671 bytes 2571327 accept
+	}
+
+	chain ufw6-track-forward {
+	}
+
+	chain INPUT {
+		type filter hook input priority filter; policy drop;
+		counter packets 127330 bytes 124918340 jump ufw6-before-logging-input
+		counter packets 127330 bytes 124918340 jump ufw6-before-input
+		counter packets 19 bytes 31545 jump ufw6-after-input
+		counter packets 19 bytes 31545 jump ufw6-after-logging-input
+		counter packets 19 bytes 31545 jump ufw6-reject-input
+		counter packets 19 bytes 31545 jump ufw6-track-input
+	}
+
+	chain OUTPUT {
+		type filter hook output priority filter; policy accept;
+		counter packets 61482 bytes 21131660 jump ufw6-before-logging-output
+		counter packets 61482 bytes 21131660 jump ufw6-before-output
+		counter packets 3503 bytes 2637919 jump ufw6-after-output
+		counter packets 3503 bytes 2637919 jump ufw6-after-logging-output
+		counter packets 3503 bytes 2637919 jump ufw6-reject-output
+		counter packets 3503 bytes 2637919 jump ufw6-track-output
+	}
+
+	chain FORWARD {
+		type filter hook forward priority filter; policy drop;
+		counter packets 0 bytes 0 jump ufw6-before-logging-forward
+		counter packets 0 bytes 0 jump ufw6-before-forward
+		counter packets 0 bytes 0 jump ufw6-after-forward
+		counter packets 0 bytes 0 jump ufw6-after-logging-forward
+		counter packets 0 bytes 0 jump ufw6-reject-forward
+		counter packets 0 bytes 0 jump ufw6-track-forward
+	}
+
+	chain ufw6-logging-deny {
+		ct state invalid limit rate 3/minute burst 10 packets counter packets 23 bytes 25704 return
+		limit rate 3/minute burst 10 packets counter packets 4 bytes 4587 log prefix "[UFW BLOCK] "
+	}
+
+	chain ufw6-logging-allow {
+		limit rate 3/minute burst 10 packets counter packets 0 bytes 0 log prefix "[UFW ALLOW] "
+	}
+
+	chain ufw6-skip-to-policy-input {
+		counter packets 0 bytes 0 drop
+	}
+
+	chain ufw6-skip-to-policy-output {
+		counter packets 0 bytes 0 accept
+	}
+
+	chain ufw6-skip-to-policy-forward {
+		counter packets 0 bytes 0 drop
+	}
+
+	chain ufw6-user-input {
+		tcp dport 80 counter packets 0 bytes 0 accept
+		tcp dport 443 counter packets 0 bytes 0 accept
+		tcp dport 3000 counter packets 0 bytes 0 accept
+		tcp dport 4000 counter packets 0 bytes 0 accept
+	}
+
+	chain ufw6-user-output {
+	}
+
+	chain ufw6-user-forward {
+	}
+
+	chain ufw6-user-logging-input {
+	}
+
+	chain ufw6-user-logging-output {
+	}
+
+	chain ufw6-user-logging-forward {
+	}
+
+	chain ufw6-user-limit {
+		limit rate 3/minute counter packets 0 bytes 0 log prefix "[UFW LIMIT BLOCK] "
+		counter packets 0 bytes 0 reject
+	}
+
+	chain ufw6-user-limit-accept {
+		counter packets 0 bytes 0 accept
+	}
+}
+table ip nat {
+	chain DOCKER {
+		iifname "docker0" counter packets 0 bytes 0 return
+	}
+
+	chain POSTROUTING {
+		type nat hook postrouting priority srcnat; policy accept;
+		oifname != "docker0" ip saddr 172.17.0.0/16 counter packets 0 bytes 0 masquerade
+	}
+
+	chain PREROUTING {
+		type nat hook prerouting priority dstnat; policy accept;
+		fib daddr type local counter packets 115 bytes 49148 jump DOCKER
+	}
+
+	chain OUTPUT {
+		type nat hook output priority -100; policy accept;
+		ip daddr != 127.0.0.0/8 fib daddr type local counter packets 16 bytes 960 jump DOCKER
+	}
+}
+table ip6 nat {
+}
+
+🔍 Procesos web escuchando:
+root         749  0.0  0.6 282452 38972 ?        Ss   13:23   0:01 php-fpm: master process (/etc/php/8.2/fpm/php-fpm.conf)
+www-data    1049  0.0  0.2 282972 15580 ?        S    13:24   0:00 php-fpm: pool www
+www-data    1050  0.0  0.2 282972 15580 ?        S    13:24   0:00 php-fpm: pool www
+magic       1509  0.2  0.9 1450460 53916 ?       Ssl  13:24   0:47 node /home/magic/aeon/server.js
+root        7521  0.0  0.0   2484   924 ?        Ss   13:26   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+magic     776915  150  0.9 1412420 57316 ?       Rsl  18:22   0:00 node /home/magic/.nvm/versions/node/v24.1.0/lib/node_modules/pm2/lib/ProcessContainerFork.js
+magic     776922  0.0  0.0   6492  2160 pts/0    S+   18:22   0:00 grep -E nginx|apache|node|python|php
+magic     776924  200  0.8 1408352 48732 ?       Rsl  18:22   0:00 node /home/magic/.nvm/versions/node/v24.1.0/lib/node_modules/pm2/lib/ProcessContainerFork.js
+
+🔍 Últimos errores del sistema:
+░░ 
+░░ The error number returned by this process is 2.
+jun 13 18:22:50 magic (node)[776644]: qr-server.service: Changing to the requested working directory failed: No such file or directory
+jun 13 18:22:50 magic (node)[776644]: qr-server.service: Failed at step CHDIR spawning /usr/bin/node: No such file or directory
+░░ Subject: Process /usr/bin/node could not be executed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The process /usr/bin/node could not be executed and failed.
+░░ 
+░░ The error number returned by this process is 2.
+jun 13 18:22:55 magic (node)[776948]: qr-server.service: Changing to the requested working directory failed: No such file or directory
+jun 13 18:22:55 magic (node)[776948]: qr-server.service: Failed at step CHDIR spawning /usr/bin/node: No such file or directory
+░░ Subject: Process /usr/bin/node could not be executed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The process /usr/bin/node could not be executed and failed.
+░░ 
+░░ The error number returned by this process is 2.

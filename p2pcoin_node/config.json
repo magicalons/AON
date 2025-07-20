@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "profile_encryption": "sha256",
+  "audit_limit": 100
+}

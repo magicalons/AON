@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8" /><title>Login AEON</title></head>
+<body>
+  <h2>Login usuario</h2>
+  <form id="loginForm">
+    <input name="username" placeholder="Usuario" required /><br />
+    <input name="password" type="password" placeholder="Contraseña" required /><br />
+    <button type="submit">Entrar</button>
+  </form>
+  <div id="msg"></div>
+  <script>
+    document.getElementById("loginForm").onsubmit = async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const data = {
+        username: form.username.value,
+        password: form.password.value
+      };
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const json = await res.json();
+      document.getElementById("msg").textContent = json.success ? "Login OK! Wallet key cargada." : "Error: " + json.error;
+      if (json.success) window.location.href = "chat.html";
+    };
+  </script>
+</body>
+</html>

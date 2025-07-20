@@ -1,0 +1,11 @@
+/home/magic/aeon/p2pcoin_node/target/debug/deps/async_process-ece595b51c029e27.d: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/unix.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/mod.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/wait.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/signal.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libasync_process-ece595b51c029e27.rlib: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/unix.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/mod.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/wait.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/signal.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libasync_process-ece595b51c029e27.rmeta: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/unix.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/mod.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/wait.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/signal.rs
+
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/lib.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/unix.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/mod.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/wait.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-process-2.3.1/src/reaper/signal.rs:

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Proyecto Aeon - Chat P2P</title>
+  <style>
+    body {
+      background: #111;
+      color: #0f0;
+      font-family: monospace;
+      padding: 20px;
+    }
+    #output {
+      white-space: pre-wrap;
+      border: 1px solid #0f0;
+      padding: 10px;
+      height: 400px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      background: #222;
+      color: #0f0;
+      border: 1px solid #0f0;
+    }
+  </style>
+</head>
+<body>
+  <h2>🤖 Proyecto Aeon - Nodo IA</h2>
+  <div id="output">🟢 Esperando comandos...\nEscribe: @ia ¿Qué es la IA?</div>
+  <input type="text" id="input" placeholder="Escribe aquí un mensaje o pregunta para la IA..."/>
+
+  <script>
+    const output = document.getElementById('output');
+    const input = document.getElementById('input');
+    const ws = new WebSocket('ws://localhost:8080');
+
+    ws.onopen = () => {
+      output.innerText += '\\n✅ WebSocket conectado a localhost:8080';
+    };
+
+    ws.onmessage = (event) => {
+      output.innerText += '\\n💬 Respuesta IA:\\n' + event.data;
+      output.scrollTop = output.scrollHeight;
+    };
+
+    ws.onerror = (e) => {
+      output.innerText += '\\n❌ Error de conexión WebSocket.';
+    };
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const msg = input.value.trim();
+        if (msg !== '') {
+          output.innerText += `\\n📤 Tú: ${msg}`;
+          if (msg.startsWith('@ia')) {
+            const prompt = msg.replace('@ia', '').trim();
+            ws.send(prompt);
+          }
+          input.value = '';
+        }
+      }
+    });
+  </script>
+</body>
+</html>

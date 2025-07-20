@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Grupal</title>
+  <style>
+    body { background: #222; color: #eee; font-family: sans-serif; }
+    #chat { max-height: 70vh; overflow-y: auto; padding: 10px; border: 1px solid #555; margin-bottom: 10px; }
+    #msg { width: 80%; padding: 10px; }
+    #send { padding: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Chat Grupal</h1>
+  <div id="chat"></div>
+  <input type="text" id="msg" placeholder="Escribe tu mensaje...">
+  <button id="send">Enviar</button>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+    const chat = document.getElementById('chat');
+    const msg = document.getElementById('msg');
+    socket.on('mensaje', data => {
+      const p = document.createElement('p');
+      p.textContent = data;
+      chat.appendChild(p);
+      chat.scrollTop = chat.scrollHeight;
+    });
+    document.getElementById('send').onclick = () => {
+      socket.emit('mensaje', msg.value);
+      msg.value = '';
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_LINUX CMakeFiles/DecentralizedAI.dir/src/main.c.o CMakeFiles/DecentralizedAI.dir/src/module.c.o CMakeFiles/DecentralizedAI.dir/src/network.c.o CMakeFiles/DecentralizedAI.dir/src/ocr.c.o -o DecentralizedAI   -L/home/magic/aeon/my-decentralized-ai/libs  -Wl,-rpath,/home/magic/aeon/my-decentralized-ai/libs -lsqlite3 -lssl -lcrypto -ljson-c 

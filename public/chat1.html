@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat Aeon</title>
+  <style>
+    body {
+      background: #111;
+      color: #eee;
+      font-family: sans-serif;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+    #chat {
+      flex-grow: 1;
+      max-height: 80vh;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+      border: 1px solid #444;
+      padding: 1rem;
+      border-radius: 5px;
+      background-color: #222;
+    }
+    .msg {
+      margin: 0.5rem 0;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      max-width: 75%;
+      word-wrap: break-word;
+    }
+    .ia {
+      color: #9f0;
+      background-color: #1a2e1a;
+      align-self: flex-start;
+    }
+    .yo {
+      color: #0cf;
+      background-color: #1a2c3a;
+      text-align: right;
+      align-self: flex-end;
+    }
+    #prompt {
+      width: 80%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      background: #333;
+      color: #eee;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-left: 0.5rem;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background-color: #0cf;
+      color: #111;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #09a;
+    }
+    form {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat"></div>
+  <form onsubmit="event.preventDefault(); enviar();">
+    <input type="text" id="prompt" placeholder="Escribe algo..." autocomplete="off" autofocus />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    const chat = document.getElementById("chat");
+    const promptInput = document.getElementById("prompt");
+
+    function agregarMensaje(texto, clase) {
+      const div = document.createElement("div");
+      div.className = "msg " + clase;
+      div.textContent = texto;
+      chat.appendChild(div);
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    async function enviar() {
+      const prompt = promptInput.value.trim();
+      if (!prompt) return;
+      agregarMensaje(prompt, "yo");
+      promptInput.value = "";
+      promptInput.disabled = true;
+
+      try {
+        const res = await fetch("http://localhost:8080/completion", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            prompt: prompt,
+            n_predict: 128,
+            stream: false
+          }),
+        });
+
+        if (!res.ok) {
+          agregarMensaje("(error en la conexión al servidor)", "ia");
+          promptInput.disabled = false;
+          return;
+        }
+
+        const data = await res.json();
+        agregarMensaje(data.content || "(sin respuesta)", "ia");
+      } catch (error) {
+        agregarMensaje("(error: " + error.message + ")", "ia");
+      } finally {
+        promptInput.disabled = false;
+        promptInput.focus();
+      }
+    }
+  </script>
+</body>
+</html>

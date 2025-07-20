@@ -1,0 +1,13 @@
+/home/magic/aeon/p2pcoin_node/target/debug/deps/addr-8c58241286d5dec9.d: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/dns.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/domain.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/email.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/error.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/matcher.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/parser.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libaddr-8c58241286d5dec9.rlib: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/dns.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/domain.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/email.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/error.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/matcher.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/parser.rs
+
+/home/magic/aeon/p2pcoin_node/target/debug/deps/libaddr-8c58241286d5dec9.rmeta: /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/lib.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/dns.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/domain.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/email.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/error.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/matcher.rs /home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/parser.rs
+
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/lib.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/dns.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/domain.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/email.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/error.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/matcher.rs:
+/home/magic/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr-0.15.6/src/parser.rs:

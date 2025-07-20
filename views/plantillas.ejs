@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #222; color: #eee; display: flex; justify-content: center; align-items: center; height: 100vh; }
+  form { background: #333; padding: 20px; border-radius: 8px; }
+  input { margin: 10px 0; padding: 8px; width: 100%; border: none; border-radius: 4px; }
+  button { width: 100%; padding: 10px; background: #0b93f6; border: none; color: white; font-weight: bold; border-radius: 4px; cursor: pointer; }
+  .error { color: #f66; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+  <form method="POST" action="/login">
+    <h2>Iniciar Sesión</h2>
+    <% if (error) { %>
+      <div class="error"><%= error %></div>
+    <% } %>
+    <input type="text" name="username" placeholder="Usuario" required autofocus />
+    <input type="password" name="password" placeholder="Contraseña" required />
+    <button type="submit">Entrar</button>
+  </form>
+</body>
+</html>
+

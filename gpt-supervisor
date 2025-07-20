@@ -1,0 +1,55 @@
+const http = require('http');
+const { execSync } = require('child_process');
+const { Configuration, OpenAIApi } = require("openai");
+
+const SERVER_PORT = 4433;
+const CHECK_INTERVAL = 15000; // cada 15 segundos
+const OPENAI_API_KEY = "TU_API_KEY_AQUI"; // ← Reemplaza con tu clave
+
+const configuration = new Configuration({ apiKey: OPENAI_API_KEY });
+const openai = new OpenAIApi(configuration);
+
+function checkServer() {
+  const options = {
+    hostname: 'localhost',
+    port: SERVER_PORT,
+    path: '/',
+    method: 'GET',
+    timeout: 3000,
+  };
+
+  const req = http.request(options, res => {
+    console.log(`[✓] Servidor en puerto ${SERVER_PORT} responde con código ${res.statusCode}`);
+  });
+
+  req.on('error', async error => {
+    console.log(`[✗] Error al conectar con servidor en ${SERVER_PORT}: ${error.message}`);
+
+    // Preguntar a GPT qué hacer
+    const prompt = `El servidor en el puerto ${SERVER_PORT} no responde. El error fue: ${error.message}. ¿Qué acción debo tomar para solucionarlo automáticamente?`;
+
+    try {
+      const completion = await openai.createChatCompletion({
+        model: "gpt-4",
+        messages: [
+          { role: "system", content: "Eres un agente de mantenimiento de servidores totalmente autónomo." },
+          { role: "user", content: prompt }
+        ]
+      });
+
+      const respuesta = completion.data.choices[0].message.content;
+      console.log(`[GPT]: ${respuesta}`);
+
+      // Intentar reiniciar con PM2 automáticamente
+      console.log(`Reiniciando servidor con PM2...`);
+      execSync(`pm2 restart secure-chat`);
+    } catch (e) {
+      console.log("Fallo al consultar a GPT:", e.message);
+    }
+  });
+
+  req.end();
+}
+
+console.log(`🛡️ Nodo GPT Supervisor vigilando puerto ${SERVER_PORT} cada ${CHECK_INTERVAL / 1000}s...`);
+setInterval(checkServer, CHECK_INTERVAL);

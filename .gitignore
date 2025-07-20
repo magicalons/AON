@@ -1,0 +1,89 @@
+# --- Directorios y Archivos de Node.js / Dependencias ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Archivos Sensibles y Configuraciones Locales ---
+.env                               # ¡Muy importante! Para tus variables de entorno sensibles (claves privadas, URLs RPC, etc.)
+*.env.local
+.DS_Store                          # Archivos de macOS
+.vscode/                           # Configuración de VS Code (opcional, si no quieres compartirla)
+
+# --- Artefactos de Compilación y Caché (Blockchain / Contratos) ---
+/artifacts                         # Salida de Hardhat/Truffle (bytecode, ABI JSONs)
+/cache                             # Caché de Hardhat/Truffle
+/coverage                          # Reportes de cobertura de pruebas
+/coverage.json
+/typechain                         # Si usas TypeChain
+/types                             # Archivos de tipos generados
+
+# --- Artefactos de Compilación (Python) ---
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+venv/                              # Entornos virtuales de Python
+
+# --- Artefactos de Compilación (Java) ---
+*.class
+*.jar
+/out
+/target
+
+# --- Archivos de Bases de Datos ---
+*.db
+chat.db
+users.db
+
+# --- Archivos de Logs ---
+*.log
+logs/
+
+# --- Claves y Certificados Generados Localmente (¡Crítico!) ---
+*.pem
+*.p12
+private.key
+*.key
+
+# --- Archivos Grandes o Temporales ---
+*.zip
+*.tar.gz
+*.bin
+*.gguf
+*.whl
+/uploads
+/tmp
+
+# --- Archivos de Guardado/Backup de Editores/Scripts ---
+*.save
+*.js.save
+*.js.save.*
+
+# --- Carpetas de Proyectos/Componentes ESPECÍFICOS ---
+# Las líneas aquí abajo SON EJEMPLOS de carpetas que DEBES ELIMINAR de tu .gitignore
+# si contienen el código fuente principal de tu proyecto AON y deben subirse a GitHub.
+#
+# BASADO EN LA ARQUITECTURA DE AON, DEBERÍAS BORRAR ESTAS LÍNEAS de tu .gitignore:
+/android/                           # Si es tu código de la aplicación APK principal
+/aon_token/                         # Si tu código del token principal está aquí
+/backend/                           # Si es el backend principal de AON
+/contracts/                         # ¡Si aquí está tu código Solidity de contratos, BORRA ESTA LÍNEA!
+/frontend/                          # Si es el frontend principal de AON
+/llama.cpp/                         # ¡Si es tu componente de IA/LLM principal, BORRA ESTA LÍNEA!
+/micro-os/                          # ¡Tu micro-sistema operativo, BORRA ESTA LÍNEA!
+/modelos/                           # Si contiene modelos de IA que quieres subir
+/models/                            # Si contiene modelos de IA que quieres subir
+/ocr/                               # Si el OCR es un módulo core de IA
+/p2p_node/                          # Si es tu implementación de nodos P2P
+/public/                            # Si contiene assets públicos que deben ir al repo
+/scripts/                           # ¡Si tus scripts importantes están aquí, BORRA ESTA LÍNEA!
+/smdp_simulator/                    # ¡Si es tu simulador SM-DP+, BORRA ESTA LÍNEA!
+/smdpplus/                          # ¡Si es tu código SM-DP+, BORRA ESTA LÍNEA!
+/token_crypto/                      # ¡Si aquí está tu código criptográfico PQC específico, BORRA ESTA LÍNEA!
+/views/                             # Si son plantillas de tu frontend/backend
+/www/                               # Si es tu carpeta de assets web principal
+# Otras líneas que podrías considerar borrar si son parte de tu proyecto core:
+/certs/                             # Si los certificados son parte del código abierto no sensible
+/ssl/                               # Si los archivos SSL son parte del código abierto no sensible
+# ... y cualquier otra carpeta que sea parte del código fuente central de AON y no un archivo temporal.

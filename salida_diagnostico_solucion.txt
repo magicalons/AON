@@ -1,0 +1,52 @@
+=== 🔧 DIAGNÓSTICO COMPLETO DEL SISTEMA ===
+
+🧠 Hostname: magic
+📡 Interfaces activas:
+lo: 127.0.0.1/8
+wlp2s0: 192.168.1.164/24
+docker0: 172.17.0.1/16
+🌍 Resolución de localhost:
+127.0.0.1	localhost
+::1     localhost ip6-localhost ip6-loopback
+🔁 Ping a localhost: OK
+🌐 Ping a Internet (google.com): OK
+
+🧪 Servicios web detectados (Node/Apache/Nginx/PHP):
+root         749  0.0  0.6 282452 38972 ?        Ss   13:23   0:01 php-fpm: master process (/etc/php/8.2/fpm/php-fpm.conf)
+www-data    1049  0.0  0.2 282972 15580 ?        S    13:24   0:00 php-fpm: pool www
+www-data    1050  0.0  0.2 282972 15580 ?        S    13:24   0:00 php-fpm: pool www
+magic       1509  0.2  0.9 1450716 54180 ?       Ssl  13:24   0:49 node /home/magic/aeon/server.js
+root        7521  0.0  0.0   2484   924 ?        Ss   13:26   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+magic     806403  115  1.0 1446040 63880 ?       Rsl  18:33   0:00 node /home/magic/.nvm/versions/node/v24.1.0/lib/node_modules/pm2/lib/ProcessContainerFork.js
+magic     806410  127  0.9 1412156 58844 ?       Rsl  18:33   0:00 node /home/magic/.nvm/versions/node/v24.1.0/lib/node_modules/pm2/lib/ProcessContainerFork.js
+🧭 Puertos web en escucha (80/443 y alternativos):
+❌ Ningún servicio en puertos comunes web
+
+📦 Node.js:
+/home/magic/.nvm/versions/node/v24.1.0/bin/node
+v24.1.0
+
+🛡 Reglas activas del firewall:
+- iptables: 39 cadenas
+- nftables: 4 tablas
+
+🔎 Servicios activos: 40
+🔥 Últimos errores críticos:
+░░ The process /usr/bin/node could not be executed and failed.
+░░ 
+░░ The error number returned by this process is 2.
+
+📜 Últimos errores relacionados con Node.js o Express:
+jun 13 18:33:15 magic (node)[806431]: qr-server.service: Changing to the requested working directory failed: No such file or directory
+jun 13 18:33:15 magic (node)[806431]: qr-server.service: Failed at step CHDIR spawning /usr/bin/node: No such file or directory
+░░ Subject: Process /usr/bin/node could not be executed
+░░ The process /usr/bin/node could not be executed and failed.
+░░ The error number returned by this process is 2.
+
+🔍 Diagnóstico systemd para servicio qr-server.service:
+Archivo servicio: /etc/systemd/system/qr-server.service
+ExecStart actual: /usr/bin/node /home/magic/secure-chat/qr-server/server.mjs
+Ruta de node usada: /usr/bin/node
+✅ La ruta ExecStart apunta a un node ejecutable.
+
+✅ Diagnóstico completo generado.

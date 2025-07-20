@@ -1,0 +1,13 @@
+[package]
+name = "token_crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rcgen = "0.13" # Para generar certificados X.509
+pem = "0.8"    # Para trabajar con el formato PEM (asegúrate de que sea 0.8, no 3.0 para evitar conflictos con libp2p)
+tokio = { version = "1.0", features = ["full"] } # Runtime asíncrono para libp2p
+futures = "0.3" # Utilidades para futures
+libp2p = { version = "0.40.0", features = ["full"] } # libp2p y sus componentes
+dirs = "5.0"   # Para encontrar el directorio HOME del usuario
+blake3 = "1.5" # Para la función de ID de mensaje en Gossipsub

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prueba WebSocket Seguro</title>
+</head>
+<body>
+  <h1>WebSocket Seguro (WSS) Test</h1>
+  <button id="btn">Enviar mensaje</button>
+  <pre id="log"></pre>
+
+  <script>
+    const log = document.getElementById('log');
+    const ws = new WebSocket('wss://localhost:3443/ws');
+
+    ws.onopen = () => {
+      log.textContent += 'Conectado con WSS\n';
+    };
+
+    ws.onmessage = (event) => {
+      log.textContent += 'Servidor: ' + event.data + '\n';
+    };
+
+    ws.onerror = (error) => {
+      log.textContent += 'Error: ' + error.message + '\n';
+    };
+
+    ws.onclose = () => {
+      log.textContent += 'Conexión cerrada\n';
+    };
+
+    document.getElementById('btn').onclick = () => {
+      if(ws.readyState === WebSocket.OPEN){
+        ws.send('Hola servidor seguro desde frontend!');
+      }
+    };
+  </script>
+</body>
+</html>
