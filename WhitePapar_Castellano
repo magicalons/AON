@@ -1,5 +1,8 @@
 # Whitepaper de AON: IA Descentralizada para la Seguridad de Infraestructuras Críticas y Conectividad Soberana
 
+**Fecha de Compilación:** 19 de Julio de 2025
+**Autor:** Adrià Alonso Fernandez
+
 ---
 
 ## Resumen Ejecutivo (Executive Summary)
@@ -8,7 +11,7 @@ En la era digital actual, las infraestructuras críticas que sustentan nuestras 
 
 **AON** emerge como la respuesta pionera a este desafío existencial. Somos la primera plataforma de Inteligencia Artificial **descentralizada** a nivel mundial, diseñada específicamente para operar con una seguridad, auditabilidad y resiliencia sin igual. Nuestra solución se fundamenta en pilares innovadores y una propuesta de valor única:
 
-1.  **Conectividad Global de Por Vida (Activo Exclusivo):** Con un **suministro gestionado estratégicamente por fases** (iniciando con 5.000 unidades y expandiéndose a 20.000 para la infraestructura global, con fases futuras decididas por la comunidad), cada token AON representa una **eSIM de conectividad global satelital y terrestre de por vida**, eliminando barreras y facturas recurrentes y simbolizando la soberanía sobre la conectividad personal.
+1.  **Conectividad Global de Por Vida (Activo Exclusivo):** Con un suministro gestionado estratégicamente por fases (iniciando con 5.000 unidades y expandiéndose a 20.000 para la infraestructura global, con fases futuras decididas por la comunidad), cada token AON representa una **eSIM de conectividad global satelital y terrestre de por vida**, eliminando barreras y facturas recurrentes y simbolizando la soberanía sobre la conectividad personal.
 2.  **Certificación ISO 31000 Integrada:** Incorporamos el estándar internacional de gestión de riesgos ISO 31000 desde el diseño, garantizando un marco robusto para la identificación, análisis, evaluación y tratamiento de riesgos. Esto no solo asegura el cumplimiento normativo, sino que también infunde una confianza indispensable para la adopción por parte de empresas y gobiernos.
 3.  **Seguridad Post-Quantum (PQM) Nativa:** Anticipándonos a la era de la computación cuántica, AON implementa algoritmos criptográficos resistentes a los ataques cuánticos (Kyber, Dilithium). Esto asegura la integridad y confidencialidad de los datos y las operaciones a largo plazo, protegiendo contra amenazas futuras que invalidarían las criptografías actuales.
 4.  **Auditoría Forense en Tiempo Real & Soberanía Digital (SSI & Web3 DID):** Un motor de IA descentralizado permite la detección de anomalías y auditoría forense activa en tiempo real. Esto se cimenta en la Identidad Digital Auto-Soberana (SSI) y Decentralized Identifiers (DID) de Web3, garantizando el control total del usuario sobre sus datos e identidad.
@@ -83,172 +86,4 @@ La identidad digital en AON se basa en los principios de **Identidad Digital Aut
 
 AON opera sobre una arquitectura híbrida única que combina la inmutabilidad de la **tecnología blockchain** con la resiliencia y el alcance global de las **redes satelitales** y los principios de **Web3**. Esta sinergia permite a AON funcionar de forma continua y segura, incluso en escenarios de interrupción de la conectividad convencional o ataques dirigidos a infraestructuras terrestres. La integración de redes *mesh* adicionales potencia aún más esta capacidad de operación sin precedentes.
 
-### 2.7. Estrategia de Expansión y Alianzas Estratégicas
-
-AON no busca reemplazar unilateralmente la infraestructura existente. Nuestro modelo está diseñado para la **interoperabilidad** y la **colaboración estratégica**. Buscaremos activamente fusiones o alianzas con compañías telefónicas establecidas y proveedores SM-DP+ para apalancar su infraestructura y experiencia operativa, permitiendo una escalabilidad global más rápida y eficiente de las eSIM AON, mientras mantenemos nuestros principios de descentralización, soberanía y seguridad.
-
----
-
-## 3. Mercado Objetivo (Target Market)
-
-AON se posiciona para abordar las necesidades de seguridad y conectividad de los sectores más críticos y exigentes a nivel global.
-
-### 3.1. Gobiernos y Defensa
-
-* **Sistemas de Inteligencia y Comunicación Segura:** Proporcionar una infraestructura de IA y conectividad que es inexpugnable a ataques cuánticos y centralizados, ideal para operaciones sensibles, comunicaciones clasificadas y sistemas de defensa autónomos.
-* **Auditoría y Cumplimiento Soberano:** Ofrecer una plataforma auditable y transparente que cumpla con los más altos estándares de seguridad y soberanía de datos, crucial para la seguridad nacional.
-
-### 3.2. Instituciones Financieras
-
-* **Gestión de Riesgos y Cumplimiento Normativo:** Implementar soluciones de IA para la detección de fraude, análisis de riesgos y cumplimiento de regulaciones (AML, KYC) con un nivel de transparencia y resistencia a ataques sin precedentes.
-* **Seguridad de Transacciones:** Proteger las transacciones y los datos financieros contra amenazas actuales y futuras (incluida la cuántica), garantizando la integridad y la confidencialidad de los activos.
-
-### 3.3. Empresas de Tecnología y Proyectos IoT
-
-* **Plataforma para Aplicaciones IA Descentralizadas:** Ofrecer una base robusta y segura para que desarrolladores y empresas construyan sus propias aplicaciones de IA descentralizadas, aprovechando la PQM y la auditoría en tiempo real de AON.
-* **Conectividad de Por Vida para Dispositivos IoT:** Proporcionar una solución de conectividad de bajo mantenimiento y alta seguridad para flotas de dispositivos IoT, eliminando la necesidad de contratos y gestionando la conectividad de forma autónoma y segura.
-
-### 3.4. Mercados Emergentes (África y Latinoamérica)
-
-* **Democratización de la Conectividad:** Iniciar la expansión de AON en regiones con alta demanda de acceso a internet asequible y fiable, donde la infraestructura tradicional es limitada o costosa.
-* **Inclusión Digital:** Empoderar a comunidades y empresas en estas regiones con una conectividad soberana, segura y resiliente, catalizando el desarrollo económico y social.
-
----
-
-## 4. Modelo Tokenomics (AON Token Economy)
-
-El token AON es el corazón económico del ecosistema AON, diseñado para incentivar la participación, financiar el desarrollo y asegurar la sostenibilidad a largo plazo del proyecto, reflejando su naturaleza exclusiva y de alto valor.
-
-### 4.1. Suministro Total y Distribución Inicial
-
-* **Suministro Total (Fase 1):** **5.000 (cinco mil) tokens AON.** Este suministro inicial subraya la exclusividad y el alto valor de cada unidad, dado que cada token representa una eSIM de conectividad global de por vida.
-
-* **Asignación de Distribución (Fase 1 - 5.000 tokens):** Los porcentajes se han ajustado proporcionalmente para este suministro inicial, buscando un balance entre liquidez, desarrollo, recompensas y financiación.
-
-    * **Comunidad y Recompensas:** **35% (1.750 tokens)**
-        * Destinado a recompensar la participación temprana y de alto valor, contribuciones *open source* (código, documentación, traducciones), programas de *bug bounty*, y recompensas por participación activa en la gobernanza y los canales de la comunidad.
-        * *Objetivo:* Construir una base de usuarios altamente comprometida que sea la fuerza motriz del proyecto, dada la exclusividad del activo.
-    * **Liquidez DEX:** **30% (1.500 tokens)**
-        * Asignado para proporcionar liquidez inicial en intercambios descentralizados (DEX), asegurando un mercado saludable y accesible para el token AON desde el lanzamiento. Esto es crucial para la adopción y el descubrimiento de precios.
-    * **Private Sale:** **15% (750 tokens)**
-        * Dirigido a inversores estratégicos y socios iniciales que aporten capital y valor a largo plazo al proyecto. Estos fondos se utilizarán para impulsar el desarrollo y la expansión.
-    * **Equipo y Advisors:** **15% (750 tokens)**
-        * Destinado a recompensar y retener al equipo fundador y a los asesores clave. Estos tokens estarán sujetos a un **calendario de *vesting*** riguroso para alinear sus intereses con el éxito a largo plazo del proyecto. Un modelo común incluye un **bloqueo inicial (cliff) de 6 a 12 meses**, seguido de una **liberación lineal durante 2 a 4 años adicionales**. Para asesores y contribuidores clave, pueden aplicarse modelos de *vesting* más ágiles, como **entregas semanales o quincenales durante 4 a 6 meses** tras un período inicial de compromiso, para fomentar una dedicación continua.
-        * **Compensación Ajustada al Valor (Post-Vesting Inicial):** Después de la finalización del calendario de *vesting* inicial (ej. los primeros 4 meses), la DAO de AON podrá votar la aprobación de **salidas adicionales de tokens** para colaboradores clave, **ajustadas al precio de mercado actual** del token AON. Este mecanismo busca asegurar que el valor real de la compensación se mantenga, incentivando el compromiso continuo y protegiendo a los colaboradores ante la volatilidad del mercado. La implementación de este mecanismo, incluyendo sus parámetros (ej. valor fiat objetivo, frecuencia de ajuste, límites máximos de tokens a liberar por este medio), estará sujeta a **propuestas detalladas y votación de la DAO**, garantizando una gestión transparente y controlada de la oferta del token.
-    * **Fondo de Desarrollo (Tesorería DAO):** **5% (250 tokens)**
-        * Un fondo inicial para cubrir los gastos esenciales de desarrollo, investigación PQC, auditorías de seguridad (incluyendo la ISO 31000 para gestión de riesgos), y necesidades operativas críticas. Este fondo será gestionado y auditado de forma transparente por la DAO, asegurando la sostenibilidad del proyecto.
-
-### 4.2. Fases de Expansión del Suministro: Hacia un Total de 20.000 Tokens (Inicialmente)
-
-Para financiar la expansión de la infraestructura, el desarrollo avanzado y la atracción de nuevo talento clave para la evolución de AON, el suministro total de tokens se expandirá de manera estratégica a lo largo de fases controladas.
-
-* **Suministro Adicional (Fases 2 y 3):** Se planifica la emisión de **15.000 tokens adicionales** para cubrir la expansión.
-    * **Propósito:** Estos tokens se destinarán principalmente a financiar la expansión de la infraestructura (adquisición de ancho de banda, alianzas con SM-DP+ y operadores), el desarrollo avanzado de los componentes de AON y la atracción de nuevo talento clave para la evolución del ecosistema.
-    * **Timing y Mecanismo:** Estas liberaciones se realizarán estratégicamente, teniendo en cuenta el valor de mercado del token en ese momento para maximizar la financiación efectiva y la adquisición de talento en términos competitivos. La DAO definirá los detalles exactos del timing (en los próximos 2 a 4 meses tras la fase 1), la división entre fase 2 y 3, y los mecanismos de emisión/venta de estos tokens adicionales.
-* **Suministro Total Final (Pre-Fase 4):** El suministro total de tokens AON alcanzará **20.000 unidades** tras la finalización de la Fase 3. Cada uno de estos tokens continuará representando un derecho de acceso de por vida a la conectividad global.
-* **Fase 4 y Más Allá (Gobernanza Comunitaria):** Cualquier futura expansión del suministro de tokens AON más allá de los 20.000 tokens iniciales (y, por lo tanto, el número de eSIMs adicionales) será **decidida y gobernada enteramente por la DAO de AON a través de un proceso de votación transparente**. Esto asegura que el crecimiento del ecosistema esté siempre alineado con la visión y las necesidades de la comunidad.
-
-### 4.3. Mecanismos de Sostenibilidad y Fees por Transacción
-
-Para asegurar la sostenibilidad del ecosistema y el valor del token, se aplicará una pequeña tarifa por transacción, diseñada para ser eficiente y no intrusiva.
-
-* **Fees de Transacción:** Las transacciones dentro del ecosistema AON (por ejemplo, transferencias de tokens, interacciones con contratos inteligentes relacionados con servicios) incurrirán en pequeñas *fees*. La distribución de estos *fees* se diseñará para equilibrar el crecimiento y la sostenibilidad:
-    * **Fondo de Desarrollo y Tesorería DAO:** Una parte de estos *fees* se dirigirá a la Tesorería de la DAO para financiar el desarrollo continuo, la adquisición de ancho de banda a proveedores satelitales/terrestres, y las recompensas comunitarias, asegurando un ciclo de crecimiento sostenible.
-    * **Quema Automática:** Otra parte de los *fees* se someterá a una **quema automática**, reduciendo permanentemente el suministro total de tokens. Este mecanismo deflacionario busca aumentar la escasez y, potencialmente, el valor a largo plazo del token AON. La proporción exacta de *fees* destinada a quema será definida y ajustable por votación de la comunidad, permitiendo una adaptación dinámica a las condiciones del mercado.
-    * **Liquidez Automática (Potencial):** Una porción podría redirigirse a los pools de liquidez en DEX, ayudando a mantener la profundidad y estabilidad de la liquidez del token AON.
-    * **Recompensas para Holders (Potencial):** Una pequeña porción podría distribuirse entre los poseedores de tokens AON, incentivando el *holding* a largo plazo y la participación en programas de *staking*.
-
-* ***Staking* (Potencial Futuro):** La comunidad podría votar la implementación de mecanismos de *staking* donde los poseedores de tokens AON bloqueen sus tokens para mantener activa su eSIM (si se decide un modelo de "activación" por *staking*), o para obtener mayores derechos de gobernanza o recompensas adicionales por asegurar la red y sus servicios.
-
----
-
-## 5. Roadmap Detallado (Roadmap)
-
-Este plan de acción está diseñado para maximizar la tracción y la recaudación de fondos en la *private sale*, mientras se construye una base sólida para el proyecto de IA descentralizada.
-
-### Fase 1 (0-6 meses): Cimientos Tecnológicos y Preparación para Inversores
-
-* **Mes 1-2:**
-    * **Token y Contrato Inteligente:** Desarrollo, pruebas exhaustivas y auditoría inicial del contrato inteligente del token AON, implementando la tokenomics definida.
-    * **MVP de IA (Prueba de Concepto / Funcionalidad Básica):** Desarrollo de una versión extremadamente básica pero funcional del componente de IA con PQM, junto con una interfaz mínima (APK o web app simple) o una API que demuestre la esencia de la validación descentralizada de IA y la detección de anomalías.
-    * **Preparación del Repositorio Open Source:** Asegurar un `README.md` impecable, el archivo `LICENSE` (licencia de código abierto), y un borrador de `CONTRIBUTING.md` (guía para colaboradores).
-    * **Material de Inversión:** Creación de un *pitch deck* profesional, un *whitepaper* (o al menos un "litepaper" si el *whitepaper* completo está en desarrollo), y un documento de preguntas frecuentes (FAQ) para inversores.
-* **Mes 3:**
-    * **Lanzamiento de Private Sale:** Anuncio del inicio de la ronda de *private sale* en todos los canales de comunicación (blog, redes sociales, comunidades de inversores).
-    * **Objetivo de Recaudación (Mes 3):** Apuntar a recaudar entre €50.000 y €100.000 (el objetivo total del pitch). Esta tracción inicial es vital para demostrar el interés del mercado.
-    * **Marketing Dirigido a Inversores:** Contacto activo y personalizado con inversores ángel y fondos de capital semilla que se alineen con la visión de IA descentralizada y blockchain de AON.
-    * **Búsqueda Activa de Colaboradores:** Intensificación de la búsqueda de desarrolladores y colaboradores para el *core* del proyecto de IA y blockchain. Ofrecer guía y soporte para sus primeras contribuciones.
-    * **Gestión de la Comunidad:** Apertura y gestión activa de canales de comunicación (ej. Discord, Telegram) para responder preguntas, fomentar la discusión y generar un fuerte sentido de comunidad.
-* **Mes 4:**
-    * **GRAN ANUNCIO PÚBLICO DEL PROYECTO (Lanzamiento):**
-        * Publicación de un artículo completo en el blog/sitio web del proyecto.
-        * Anuncio en todas las plataformas clave: Reddit (r/opensource, r/programming, etc.), DEV Community, Hacker News, Twitter/X, LinkedIn.
-        * Destacar el MVP de IA, la visión del proyecto, el modelo tokenomics y los logros alcanzados.
-    * **Cierre de la Private Sale:** Búsqueda activa de los últimos compromisos para alcanzar el objetivo total de €50.000 - €100.000.
-    * **Escalar el Desarrollo y la Comunidad:** Con los fondos y el interés inicial, el enfoque se desplaza a expandir el desarrollo de la IA y la infraestructura descentralizada, y a crecer la base de usuarios y colaboradores.
-    * **Comunicación Post-Lanzamiento:** Informar a la comunidad sobre los próximos pasos, la hoja de ruta a corto y medio plazo, y cómo se utilizarán los fondos recaudados.
-
----
-
-## 6. Ventaja Competitiva (Competitive Advantage)
-
-AON se distingue por su enfoque pionero y su integración única de tecnologías de vanguardia.
-
-* **Pioneros Mundiales:** Somos la **primera infraestructura de IA descentralizada del mundo** que integra **ISO 31000 + PQM + Conectividad de Por Vida** en un único token.
-* **Enfoque Holístico en la Seguridad:** Priorizamos la **seguridad real**, la **auditoría en tiempo real** y el **cumplimiento normativo**, superando el *hype* tecnológico.
-* **Resiliencia Extrema:** Nuestra integración híbrida asegura una operatividad ininterrumpida en **redes satelitales y *mesh***, ofreciendo una robustez sin precedentes.
-
----
-
-## 7. Solicitud de Inversión (Investment Request)
-
-Buscamos recaudar entre **€50.000 y €100.000** para catalizar las siguientes fases críticas del proyecto:
-
-* Obtener la **Certificación ISO 31000** y realizar auditorías de seguridad exhaustivas de nuestros contratos y sistemas.
-* Impulsar el **desarrollo tecnológico avanzado** de nuestros componentes centrales (Micro-OS, APK, IA, PQM, SSI/DID, SM-DP+).
-* Manejar la **Estrategia de marketing y crecimiento de la comunidad** de alto valor, atrayendo a los primeros adoptantes y colaboradores clave.
-
----
-
-## 8. Equipo y Asesores (Team & Advisors)
-
-* **Propósito:** Generar confianza y credibilidad mostrando la experiencia y el compromiso de las personas detrás de AON.
-* **Contenido:**
-    * **Biografías del Equipo Central:** Para cada miembro clave (fundadores, líderes de desarrollo, seguridad, IA, operaciones), incluir:
-        * Nombre y rol.
-        * Experiencia relevante (empresas anteriores, proyectos, logros específicos en blockchain, seguridad, IA, telecomunicaciones).
-        * Educación relevante.
-        * Enlaces a perfiles profesionales (ej. LinkedIn, GitHub, Twitter).
-    * **Asesores:** Si tienes asesores, incluir sus nombres, roles y una breve descripción de por qué son valiosos para el proyecto (su experiencia, su red de contactos, su impacto).
-
----
-
-## 9. Seguridad y Auditorías (Security & Audits)
-
-* **Propósito:** Reafirmar el compromiso inquebrantable de AON con la seguridad, más allá de la PQM y la ISO 31000.
-* **Contenido:**
-    * **Auditorías de Smart Contracts:** Detallar el plan para auditorías de seguridad de los contratos inteligentes (mencionar a la empresa auditora si ya está seleccionada o el tipo de auditorías que se realizarán).
-    * **Pruebas Rigurosas:** Describir el enfoque de pruebas (unitarias, de integración, *fuzzing*, pruebas de penetración, pruebas de resistencia cuántica).
-    * **Manejo de Vulnerabilidades:** Explicar el proceso para gestionar y corregir las vulnerabilidades descubiertas (referencia a `SECURITY.md`).
-    * **Seguridad de la Infraestructura:** Describir cómo se asegura la infraestructura de la IA descentralizada, las redes satelitales y los nodos de la DAO.
-
----
-
-## 10. Consideraciones Legales y de Cumplimiento (Legal & Compliance)
-
-* **Propósito:** Abordar las implicaciones legales y regulatorias, demostrando un enfoque responsable.
-* **Contenido:**
-    * **Clasificación del Token:** Explicar la clasificación legal del token AON (ej. token de utilidad, de servicio, híbrido), lo cual es crucial para el cumplimiento normativo.
-    * **Jurisdicción:** Indicar dónde está registrada la entidad legal del proyecto o la jurisdicción bajo la cual opera la DAO.
-    * **Cumplimiento Normativo:** Compromiso con las leyes y regulaciones aplicables (ej. KYC/AML si aplica, regulaciones de telecomunicaciones en mercados objetivo).
-    * **Descargos de Responsabilidad:** Incluir los descargos de responsabilidad estándar sobre los riesgos de inversión en criptoactivos y la naturaleza experimental del proyecto.
-
----
-
-## 11. Conclusión (Conclusion)
-
-* **Propósito:** Resumir los puntos clave, reiterar la visión y hacer una llamada a la acción final.
-* **Contenido:**
-    * Reafirmar la oportunidad única que AON presenta para una infraestructura digital más segura, soberana y conectada.
-    * Reiterar la solución innovadora y el impacto potencial.
-    * Llamada a la acción clara: "Únete a nuestra comunidad", "Contacta para explorar oportunidades de inversión", "Contribuye a nuestro código *open source*".
+### 2.7. Estrategia de Exp
