@@ -1,159 +1,75 @@
-# AON: Decentralized AI, Sovereign Quantum Security, and Lifetime Connectivity
+# AON: IA Descentralizada para la Seguridad de Infraestructuras Críticas y Conectividad Soberana
+
+![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20Desarrollo-blue)
+[![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
 
 ---
 
-### The Current Problem
+## ¿Qué es AON?
 
-**Critical infrastructures** (finance, defense, healthcare) are increasingly exposed to cyber risks and the imminent threat of **quantum computing attacks**. Current AI solutions are **centralized**, do not comply with **international risk management standards (ISO 31000)**, and lack the robustness required against the next generation of threats.
+**AON** es la primera infraestructura de Inteligencia Artificial **descentralizada** a nivel mundial, diseñada para operar con una seguridad, auditabilidad y resiliencia sin igual. [cite_start]Protegemos infraestructuras críticas y democratizamos la conectividad global al integrar seguridad post-cuántica (PQM), gestión de riesgos ISO 31000 y conectividad de por vida en un único ecosistema. [cite: 4]
 
----
+## El Problema que Resolvemos
 
-### Our Unique Solution: AON
+[cite_start]Las infraestructuras críticas globales están bajo una amenaza creciente de ciberataques sofisticados y la inminente llegada de la computación cuántica[cite: 6]. [cite_start]Las soluciones de IA centralizadas actuales son vulnerables, carecen de estándares de riesgo global y no ofrecen la resiliencia necesaria para los activos más valiosos[cite: 7].
 
-AON is the **world's first decentralized AI infrastructure** integrating an unprecedented value proposition:
+## Nuestra Solución Única
 
-* **Lifetime Global Connectivity:** Each **AON token** represents a **lifetime satellite and terrestrial eSIM global connectivity**, eliminating barriers and recurring bills for its holders. With a **strategically managed supply across phases** (starting with 5,000 units and expanding to 20,000 for global infrastructure, with future phases decided by the community), the number of available eSIMs will grow in alignment with network expansion.
-* **Post-Quantum Security (PQM):** Proven resistance against quantum computing attacks, ensuring long-term integrity and confidentiality (Kyber, Dilithium).
-* **ISO 31000 Risk Management & Real-Time Forensic Auditing:** Native integration of risk management standards and an AI engine for **real-time anomaly detection and active forensic auditing**.
-* **Digital Sovereignty (SSI & Web3 DID):** Based on **Self-Sovereign Identity (SSI) and Web3 Decentralized Identifiers (DID)**, ensuring full user control over their data and identity.
-* **Advanced Hybrid Decentralized Architecture:** **Blockchain + satellite networks + Web3** for operational resilience that functions even outside conventional internet infrastructure. Includes robust **Secure Identity and Device Management (SM-DP+)** linked to risk standards.
-* **Expansion & Strategic Alliances Strategy:** AON does not seek to unilaterally replace existing infrastructure. Our model is designed for **interoperability** and **strategic collaboration**. We will actively seek mergers or alliances with established telecom companies and SM-DP+ providers to leverage their infrastructure and operational expertise, enabling faster and more efficient global scalability of AON eSIMs, while maintaining our principles of decentralization, sovereignty, and security.
+[cite_start]AON ofrece una propuesta de valor sin precedentes basada en seis pilares fundamentales[cite: 9]:
 
----
+1.  [cite_start]**Conectividad Global de Por Vida:** Cada token AON representa una **eSIM de conectividad global satelital y terrestre de por vida**, eliminando barreras y facturas recurrentes y simbolizando la soberanía personal[cite: 10]. [cite_start]El suministro de tokens se expandirá estratégicamente por fases, alineándose con la infraestructura de la red, con un **35% del suministro inicial dedicado a la comunidad y recompensas** para incentivar la participación activa[cite: 11, 30].
+2.  [cite_start]**Certificación ISO 31000 Integrada:** Diseño y operaciones alineados con el estándar internacional de gestión de riesgos, asegurando confianza y cumplimiento normativo[cite: 13, 39].
+3.  [cite_start]**Seguridad Post-Cuántica (PQM) Nativa:** Implementación de algoritmos resistentes a ataques cuánticos (Kyber, Dilithium) para garantizar la integridad y confidencialidad de datos a largo plazo[cite: 12].
+4.  [cite_start]**Auditoría Forense en Tiempo Real & Soberanía Digital:** Motor de IA descentralizado para detección de anomalías y auditoría activa, basado en Identidad Digital Auto-Soberana (SSI) y Decentralized Identifiers (DID)[cite: 13, 14].
+5.  **Arquitectura Híbrida Avanzada:** Combinación de Blockchain, redes satelitales y Web3 para una resiliencia extrema, incluso sin conectividad convencional. [cite_start]Incluye una robusta Gestión Segura de Identidades y Dispositivos (SM-DP+) vinculada a los estándares de riesgo[cite: 15, 16].
+6.  [cite_start]**Expansión y Alianzas Estratégicas:** Modelo diseñado para la interoperabilidad y colaboración con operadores telco y proveedores SM-DP+ para una escalabilidad global eficiente, manteniendo nuestros principios de descentralización, soberanía y seguridad[cite: 17, 18, 19].
 
-### Target Market
+## Utilidad del Token AON
 
-We target sectors where AI and connectivity security, sovereignty, and resilience are critical:
+El token AON es el motor económico del ecosistema, facilitando:
 
-* **Governments and Defense:** Secure, auditable, and sovereign artificial intelligence and communication systems.
-* **Financial Institutions:** Robust risk management, regulatory compliance, and transaction security with AI.
-* **Technology Companies and IoT Projects:** A robust platform for building secure, decentralized AI applications, as well as lifetime connectivity solutions for devices.
-* **Emerging Markets (Africa & Latin America):** We initiate the democratization of connectivity in regions with high demand for affordable and reliable access.
+* [cite_start]**Acceso a Conectividad:** Cada token otorga conectividad global de por vida[cite: 10].
+* [cite_start]**Gobernanza Descentralizada (DAO):** Los poseedores de tokens AON votan sobre el futuro del proyecto[cite: 120].
+* **Recompensas por Participación Activa (Validación PQC):** Los usuarios pueden **ganar tokens AON** al participar activamente en la validación descentralizada de seguridad Post-Cuántica (PQC) entre sí. [cite_start]Los tokens obtenidos como recompensa (provenientes de la asignación del 35% del suministro inicial para Comunidad y Recompensas [cite: 30, 243][cite_start]) podrán ser **utilizados dentro del ecosistema, intercambiados por otros activos o servicios, o convertidos a efectivo a través de intercambios descentralizados (DEX) [cite: 245, 247, 248]**, incentivando directamente la participación en la robustez y resiliencia de la red.
+* [cite_start]**Acceso a Servicios Avanzados:** La comunidad decidirá si ciertas funcionalidades de seguridad avanzada requerirán el uso o *staking* de tokens[cite: 190].
 
----
+## Tokenomics (Resumen)
 
-### Tokenomics (AON Token)
+* [cite_start]**Suministro Inicial (Fase 1):** 5.000 tokens AON[cite: 27, 241].
+* [cite_start]**Distribución (Fase 1):** Comunidad y Recompensas (35%) [cite: 30, 243][cite_start], Liquidez DEX (30%) [cite: 31, 246][cite_start], Private Sale (15%) [cite: 32, 249][cite_start], Equipo y Advisors (15%) [cite: 33, 252][cite_start], Fondo de Desarrollo (Tesorería DAO) (5%)[cite: 34, 260].
+* [cite_start]**Expansión:** Suministro total previsto de 20.000 tokens en fases controladas para financiar el crecimiento[cite: 27, 264]. [cite_start]Futuras expansiones decididas por la DAO[cite: 28, 270].
+* [cite_start]**Sostenibilidad:** Fees por transacción que financian el desarrollo, recompensas y una quema automática de tokens para garantizar la escasez y la sostenibilidad a largo plazo[cite: 35].
 
-* **Total Supply:** **Initially 5,000 AON tokens**, expanding to **20,000 AON tokens** in controlled phases to finance growth (each a lifetime global connectivity eSIM). Future expansions decided by the DAO.
-* **Distribution:**
-    * Community & Rewards: 35%
-    * DEX Liquidity: 30%
-    * Private Sale: 15%
-    * Team & Advisors: 15% (with rigorous *vesting* and **value-adjusted compensation** decided by the DAO).
-    * Development Fund (DAO Treasury): 5%.
-* **Sustainability:** Transactions within the ecosystem include **fees** that fund development, ongoing community rewards, and an **automatic token burn** to ensure long-term scarcity and sustainability.
+## Hoja de Ruta (Hitos Clave)
 
----
+* **Mes 1-2:** Desarrollo de Smart Contract y MVP de IA (PoC PQM). [cite_start]Preparación de repositorio Open Source[cite: 194, 195, 196, 197].
+* **Mes 3:** Lanzamiento de Private Sale (€50.000 - €100.000 objetivo de recaudación). [cite_start]Marketing e inicio de comunidad[cite: 199, 200, 201].
+* **Mes 4:** Gran Anuncio Público. Cierre de Private Sale. [cite_start]Escalamiento de desarrollo[cite: 207, 208, 213, 214].
+* [cite_start]**Mes 5-8:** Expansión, alianzas, certificaciones y desarrollo avanzado[cite: 40].
 
-### Roadmap (4-8 months)
+## Ventaja Competitiva
 
-* **Month 1-2:** Architecture design and Micro-OS PoC. Initial PQC implementation (Kyber, Dilithium).
-* **Month 3:** Private Sale launch with investor presentations and initial *partners*.
-* **Month 4:** Public announcement of the **open-source** repository + **ISO 31000 certification pre-launch**.
-* **Month 5-8:** Community expansion, strategic alliances, final certification, and advanced development of AI and connectivity components.
+* [cite_start]**Pioneros Mundiales:** Primera IA descentralizada que integra ISO 31000 + PQM + Conectividad de Por Vida[cite: 42].
+* [cite_start]**Enfoque Holístico en la Seguridad:** Prioridad en seguridad real, auditoría en tiempo real y cumplimiento normativo[cite: 43].
+* [cite_start]**Resiliencia Extrema:** Operatividad ininterrumpida en redes satelitales y *mesh*[cite: 44].
+* [cite_start]**Innovación Financiera:** De gasto recurrente a inversión única y vitalicia en ciberseguridad[cite: 289, 290, 292].
 
----
+## Solicitud de Inversión
 
-### Competitive Advantage
-
-* **Global Pioneers:** The **world's first decentralized AI** integrating **ISO 31000 + PQM + Lifetime Connectivity** in a single token.
-* **Holistic Security Focus:** We prioritize **real security**, **real-time auditing**, and **regulatory compliance**, transcending mere technological *hype*.
-* **Extreme Resilience:** Hybrid integration for uninterrupted operation across **satellite and mesh networks**.
+[cite_start]Buscamos recaudar entre **€50.000 y €100.000** para certificación ISO 31000, desarrollo tecnológico avanzado y crecimiento de la comunidad[cite: 46, 47, 48, 49].
 
 ---
 
-### Investment Request
+## Contribuye
 
-We are seeking to raise between **€50,000 and €100,000** for:
+¡Tu participación es bienvenida! Consulta nuestra [Guía de Contribución](CONTRIBUTING.md) para empezar.
 
-* Obtaining **ISO 31000 Certification** and conducting comprehensive security audits.
-* Driving **advanced technological development** of our core components.
-* Funding our **marketing and high-value community growth strategy**.
+## Licencia
 
----
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-<br>
+## Seguridad
 
-# AON: IA Descentralizada, Seguridad Cuántica Soberana y Conectividad de Por Vida
+Si encuentras una vulnerabilidad de seguridad, por favor, repórtala de forma responsable siguiendo las directrices en [SECURITY.md](SECURITY.md).
 
 ---
-
-### El Problema Actual
-
-Las **infraestructuras críticas** (finanzas, defensa, salud) están cada vez más expuestas a riesgos cibernéticos y la amenaza inminente de **ataques de computación cuántica**. Las soluciones de IA predominantes son **centralizadas**, no cumplen con los **estándares internacionales de gestión de riesgos (ISO 31000)** y carecen de la robustez necesaria frente a la próxima generación de amenazas.
-
----
-
-### Nuestra Solución Única: AON
-
-AON es la **primera infraestructura de IA descentralizada del mundo** que integra una propuesta de valor sin precedentes:
-
-* **Conectividad Global de Por Vida:** Cada **token AON** representa una **eSIM de conectividad global satelital y terrestre de por vida**, eliminando barreras y facturas recurrentes para sus poseedores. Con un **suministro gestionado estratégicamente por fases** (iniciando con 5.000 unidades y expandiéndose a 20.000 para la infraestructura global, con fases futuras decididas por la comunidad), el número de eSIM disponibles crecerá en alineación con la expansión de la red.
-* **Seguridad Post-Cuántica (PQM):** Resistencia probada contra ataques de computación cuántica, garantizando integridad y confidencialidad a largo plazo (Kyber, Dilithium).
-* **Gestión de Riesgos ISO 31000 y Auditoría Forense en Tiempo Real:** Integración nativa de estándares de gestión de riesgos y un motor de IA para **detección de anomalías y auditoría forense activa en tiempo real**.
-* **Soberanía Digital (SSI & Web3 DID):** Basada en **Identidad Digital Auto-Soberana (SSI) y Decentralized Identifiers (DID) de Web3**, garantizando control total del usuario sobre sus datos e identidad.
-* **Arquitectura Híbrida Descentralizada:** **Blockchain + redes satelitales + Web3** para una resiliencia operativa que funciona incluso fuera del internet convencional. Incluye una robusta **Gestión Segura de Identidades y Dispositivos (SM-DP+)** vinculada a los estándares de riesgo.
-* **Estrategia de Expansión y Alianzas Estratégicas:** AON no busca reemplazar unilateralmente la infraestructura existente. Nuestro modelo está diseñado para la **interoperabilidad** y la **colaboración estratégica**. Buscaremos activamente fusiones o alianzas con compañías telefónicas establecidas y proveedores SM-DP+ para apalancar su infraestructura y experiencia operativa, permitiendo una escalabilidad global más rápida y eficiente de las eSIM AON, mientras mantenemos nuestros principios de descentralización, soberanía y seguridad.
-
----
-
-### Mercado Objetivo
-
-Apuntamos a sectores donde la seguridad, la soberanía y la resiliencia de la IA y la conectividad son críticas:
-
-* **Gobiernos y Defensa:** Sistemas de inteligencia artificial y comunicación seguros, auditables y soberanos.
-* **Instituciones Financieras:** Gestión robusta de riesgos, cumplimiento normativo y seguridad de transacciones con IA.
-* **Empresas de Tecnología y Proyectos IoT:** Plataforma robusta para construir aplicaciones de IA descentralizadas y seguras, así como soluciones de conectividad de por vida para dispositivos.
-* **Mercados Emergentes (África y Latinoamérica):** Iniciamos la democratización de la conectividad en regiones con alta demanda de acceso asequible y fiable.
-
----
-
-### Tokenomics (Token AON)
-
-* **Suministro Total:** **Inicialmente 5.000 tokens AON**, expandiéndose a **20.000 tokens AON** en fases controladas para financiar crecimiento (cada uno una eSIM de conectividad de por vida). Futuras expansiones decididas por la DAO.
-* **Distribución:**
-    * Comunidad y Recompensas: 35%
-    * Liquidez DEX: 30%
-    * Private Sale: 15%
-    * Equipo y Advisors: 15% (con *vesting* riguroso y **compensación ajustada al valor** decidida por la DAO).
-    * Fondo de Desarrollo (Tesorería DAO): 5%.
-* **Sostenibilidad:** Las transacciones dentro del ecosistema incluyen **fees** que financian el desarrollo, recompensas continuas para la comunidad y una **quema automática** de tokens para garantizar la escasez y la sostenibilidad a largo plazo.
-
----
-
-### Roadmap (4-8 meses)
-
-* **Mes 1-2:** Diseño de arquitectura y PoC de micro-SO. Implementación inicial de PQC (Kyber, Dilithium).
-* **Mes 3:** Lanzamiento de Private Sale con inversores y primeros *partners*.
-* **Mes 4:** Anuncio público del repositorio **open source** + **certificación ISO 31000 pre-lanzamiento**.
-* **Mes 5-8:** Expansión de la comunidad, alianzas estratégicas, certificación final y desarrollo avanzado de los componentes de IA y conectividad.
-
----
-
-### Ventaja Competitiva
-
-* **Pioneros Mundiales:** La **primera IA descentralizada del mundo** que integra **ISO 31000 + PQM + Conectividad de Por Vida** en un único token.
-* **Enfoque Holístico en la Seguridad:** Priorizamos la **seguridad real**, la **auditoría en tiempo real** y el **cumplimiento normativo**, superando el *hype* tecnológico.
-* **Resiliencia Extrema:** Integración híbrida para una operatividad ininterrumpida en **redes satelitales y *mesh***.
-
----
-
-### Solicitud de Inversión
-
-Buscamos recaudar entre **€50.000 y €100.000** para:
-
-* Obtener la **Certificación ISO 31000** y realizar auditorías de seguridad exhaustivas.
-* Impulsar el **desarrollo tecnológico avanzado** de nuestros componentes centrales.
-* Financiar nuestra **estrategia de marketing y crecimiento de la comunidad** de alto valor.
-
----
-
-<br>
-
-# AON : IA Décentralisée, Sécurité Quantique Souveraine et Connectivité à Vie
-
----
-
-### Le Problème Actuel
-
-Les
