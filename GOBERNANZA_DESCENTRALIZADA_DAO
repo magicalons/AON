@@ -1,156 +1,348 @@
-# AON: A Decentralized Certification DAO
+```markdown
+# AON: Decentralized AI for Critical Infrastructure Security and Sovereign Connectivity
 
-This document outlines the architecture and operation of AON, a Decentralized Autonomous Organization (DAO) designed to provide a trustless and modular validation layer across various industries.
-
----
-
-## 1. The DAO as a Trustless Validation Layer
-
-AON functions as a neutral, decentralized certification authority. It's responsible for verifying:
-
-- Devices
-- Firmware
-- Identities (via Self-Sovereign Identity - SSI)
-- Sensors and Data
-- Risk and Compliance (e.g., ISO 31000)
-
-Any industry can seamlessly integrate with AON to validate or be validated, removing the need for central authorities or intermediaries.
+![Project Status](https://img.shields.io/badge/Status-In%20Development-blue)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/aon-project/aon/blob/main/LICENSE)
 
 ---
 
-## 2. Modular Architecture by Sector
+## Welcome to AON!
 
-The AON DAO is structured into vertical modules (SubDAOs), each dedicated to a specific domain:
-
-| SubDAO / Module | Purpose                                                                                                                                                                  |
-| :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HealthDAO       | Verifies medical devices, patient identity (SSI), and data traceability.                                                                                                 |
-| FinDAO          | Validates decentralized credentials and ensures post-quantum security in banking.                                                                                          |
-| AutoDAO         | Manages firmware, sensors, and vehicle-to-vehicle (V2V) trust within autonomous systems (e.g., Tesla).                                                                   |
-| DefDAO          | Secures military and tactical IoT (drones, radios, edge nodes) with Post-Quantum Cryptography (PQC) resilience.                                                          |
-| InfraDAO        | Certifies critical infrastructure components (e.g., routers, satellites, eSIM nodes).                                                                                      |
-
-All SubDAOs leverage the same foundational AON base layer, ensuring universal interoperability and unified governance.
+In a world where privacy is a luxury and cybersecurity a constant battle, **AON** emerges as the globe's first **decentralized Artificial Intelligence** infrastructure. Designed for unparalleled security, auditability, and resilience, AON safeguards critical infrastructures and democratizes global connectivity. It achieves this by integrating **post-quantum security (PQM)**, **ISO 31000 risk management**, and **lifetime connectivity** into a single, cohesive ecosystem.
 
 ---
 
-## 🧑‍⚖3. Distributed Governance and Incentives
+## The Problem We Solve
 
-Each module relies on expert validators, who can be technical specialists or institutional entities.
-
-Governance is handled via on-chain voting, staking mechanisms, and reputation systems.
-
-The AON token is used for access, validation, and certification.
-
-A significant 35% of network revenue is re-distributed monthly to active validators across all sectors, fostering sustainable incentive alignment.
+Global critical infrastructures in sectors like finance, defense, and health face escalating threats from sophisticated cyberattacks and the imminent arrival of quantum computing. Current centralized AI solutions are inherently vulnerable, lack a unified global risk management framework (ISO 31000), and don't offer the necessary resilience for the most valuable assets. Furthermore, global connectivity remains restricted by geographical barriers, high roaming costs, and persistent recurring bills.
 
 ---
 
-##  4. Shared Technical Infrastructure
+## Our Unique Solution: The Pillars of AON
 
-All sectors benefit from a robust shared technical infrastructure, which includes:
+AON offers an unprecedented value proposition, built on the synergistic integration of advanced technologies and a decentralized governance model:
 
-- DIDs (Decentralized Identifiers): Providing unique, interoperable identities for both devices and individuals.
-- FIDO2 + PQC: Enabling post-quantum-ready authentication with strong, future-proof security guarantees.
-- eSIM + SM-DP: Ensuring secure identity at the hardware level, particularly crucial for mobile and automotive applications.
-- ISO 31000 framework: Offering a standardized language for managing risk and ensuring assurance across diverse industries.
-
----
-
-## Real-World Example
-
-1.  A hospital utilizes HealthDAO to certify a medical ventilator.
-
-2.  This certification is then automatically trusted by:
-    * FinDAO (for related insurance or billing processes).
-    * DefDAO (if the device is deployed in field hospitals or military operations).
-    * InfraDAO (if the device's supply chain involves satellite-linked logistics).
-
-This unified approach ensures consistent device trust across various sectors, all while strictly upholding decentralization and security principles.
+1.  **Lifetime Global Connectivity:** Each **AON token** represents **lifetime global satellite and terrestrial eSIM connectivity**. This eliminates geographical barriers, recurring bills, and the need for contracts, symbolizing true personal sovereignty over connectivity.
+2.  **Native Post-Quantum Security (PQM):** We implement cryptographic algorithms resilient to quantum attacks (Kyber, Dilithium). This ensures the long-term integrity and confidentiality of data and communications, even against the threat of large-scale quantum computers.
+3.  **Decentralized AI & ISO 31000 Risk Management:** A decentralized Artificial Intelligence engine enables **real-time anomaly detection** and **active forensic auditing**. This is grounded in the integration of the international risk management standard **ISO 31000** from the design phase, ensuring regulatory compliance and indispensable trust.
+4.  **Digital Sovereignty (SSI & Web3 DID) & End to CAPTCHAs:** Digital identity in AON is based on **Self-Sovereign Digital Identity (SSI)** principles and **Web3 Decentralized Identifiers (DID)**, guaranteeing full user control over their data. This robust identity verification **obsoletes the need for CAPTCHAs and reCAPTCHAs**, which currently consume approximately **7.5 million kWh of energy** and generate **7.5 million pounds of CO2** from data transmission alone, at an estimated cost of **over 1.5 million euros annually** for reCAPTCHA's energy. AON eliminates this unnecessary cost and environmental impact.
+5.  **Advanced Hybrid Architecture for Extreme Resilience:** We combine the immutability of **blockchain technology** with the resilience and global reach of **satellite networks** and **Web3 principles**. This enables uninterrupted operation even in scenarios of conventional connectivity disruption, including robust Secure Mobile-Device Provisioning (SM-DP+) for identities and devices.
+6.  **Expansion Strategy & Strategic Alliances:** Our model is designed for **interoperability** and **strategic collaboration** with established telecommunications companies and SM-DP+ providers. This allows for faster and more efficient global scaling of AON eSIMs, while achieving **massive energy savings** for companies like Google (whose data centers consume **30.8 million MWh** annually) and governments, by reducing the need for redundant and centralized processing.
 
 ---
 
-## Core Team and Leadership
+## The AON Token: Our Shared Value Model
 
-* [Pending: Add Key Team Members]
-* [Pending: Add Principal CEO]
+The AON token is the economic engine of the ecosystem, designed to incentivize participation and ensure long-term sustainability.
+
+* **Lifetime Connectivity Access:** Each token grants lifetime access to global satellite and terrestrial connectivity.
+* **Decentralized Governance (DAO):** AON token holders vote on key decisions and the future of the project.
+* **Active Participation Rewards:** Users can earn AON tokens by actively participating in decentralized Post-Quantum Security (PQC) validation. **Every month, 35% of all revenue generated by user validation and ecosystem services will be distributed to AON token holders!** These funds can be withdrawn in fiat currency directly from the blockchain or their bank account, or used for future services within the AON ecosystem, directly incentivizing participation and value for the community.
+* **Access to Advanced Services:** The community may decide if certain advanced security functionalities will require the use or staking of tokens.
+
+---
+
+## Tokenomics (Executive Summary)
+
+* **Initial Supply (Phase 1):** 5,000 AON tokens.
+* **Controlled Expansion:** The total projected supply is **20,000 AON tokens**, introduced in controlled phases to fund global infrastructure growth. Any future expansion will be decided by the DAO.
+* **Distribution (Phase 1 - 5,000 tokens):**
+
+    | Category                 | Percentage |
+    | :----------------------- | :--------- |
+    | Community & Rewards      | 35%        |
+    | DEX Liquidity            | 30%        |
+    | Private Sale             | 15%        |
+    | Team & Advisors          | 15%        |
+    | Development Fund (DAO)   | 5%         |
+
+* **Sustainability:** Transaction fees fund development, rewards, and an **automatic token burn** mechanism to ensure long-term scarcity and sustainability.
+
+---
+
+## Roadmap (Key Milestones)
+
+* **Month 1-2:** Architecture design and micro-OS PoC. Initial PQC (Kyber, Dilithium) implementation. Development, testing, and initial auditing of the AON token smart contract. **Development and launch of the functional APK for blockchain and PQC validation, designed to generate profitability from month one.**
+* **Month 3:** Launch of Private Sale with investors and early partners. Launch of an AI MVP (basic proof of concept).
+* **Month 4:** **GRAND PUBLIC ANNOUNCEMENT of the project and official launch of this Open Source repository.** ISO 31000 pre-launch certification.
+* **Month 5-8:** Community expansion, strategic alliances with Telcos and SM-DP+ providers. Advanced development of AI and connectivity components. Final certification.
+
+---
+
+## Competitive Advantage: Why AON?
+
+* **Global Pioneers:** The **world's first decentralized AI** integrating **ISO 31000 + PQM + Lifetime Connectivity + Profit Sharing** into a single ecosystem.
+* **Holistic Security Approach:** Prioritizes real security, real-time auditing, and regulatory compliance, surpassing mere technological hype.
+* **Extreme Resilience:** Hybrid integration for uninterrupted operation across satellite and mesh networks.
+* **Collaborative Model:** Designed for interoperability and strategic collaboration with existing infrastructure.
+* **Unique Incentive:** Monthly distribution of 35% of profits to users/holders.
+
+---
+
+## Investment Request
+
+**Phase 1 - Initial Seed Capital:**
+We are seeking between **€15,000 and €25,000** to:
+* Create a **functional APK** that connects to a **blockchain network for Post-Quantum Cryptography (PQC) validation**.
+* Demonstrate **functionality and profitability from month one** with this APK.
+* With this **demonstrated functional APK**, we plan to launch a **token sale on Ethereum via a DAO** to finance the project's subsequent phases.
+* Scale AI integration in the following month.
+
+**Phase 2 and Beyond - Expansion:**
+We anticipate a later round of between **€50,000 and €100,000** to:
+* Obtain **ISO 31000 Certification** and conduct comprehensive security audits.
+* Drive **advanced technological development** of our core components.
+* Fund our **marketing strategy** and high-value community growth.
+
+---
+
+## AON Protected Governance
+
+AON implements a unique governance model designed for robust protection, with built-in checks and balances to ensure the founder's technical authority, limited veto power for strategic partners, and anti-corruption measures by design.
+
+---
+
+### 1. Technical Chamber (Founder's Authority)
+
+Comprised of: The Founder, developers, and technical validators.
+
+**Powers:**
+* Approve or reject technological advancements.
+* Manage security updates, PQC algorithms, and node operations.
+
+**Voting:**
+* The Founder's vote holds **3x weight**.
+* No external entities (e.g., banks, military) can vote in this chamber.
+
+---
+
+### 2. Strategic Chamber (Military, Banks, etc.)
+
+Limited to matters concerning:
+* Geopolitical strategy.
+* Institutional use of the DAO.
+* National security (critical infrastructure, sensitive data).
+
+**Authority:**
+* Can exercise a **veto only on topics explicitly marked as "National Security."**
+* **Cannot vote on:**
+    * Internal governance.
+    * Tokenomics.
+    * Expulsion of founders.
+
+---
+
+### 3. Open Community Chamber
+
+Votes on:
+* Projects.
+* Reward distribution.
+* Collective certifications.
+
+**Mechanisms:**
+* **Reputational Staking:** Validators with higher validation activity have greater voting weight.
+* **Anti-Whale Protection:** Limits any single actor from holding more than **5% of the total voting power**.
+
+---
+
+### 4. National Security Veto (Armored)
+
+This veto is activated **only if**:
+* **75% of the Strategic Council** approves it **AND**
+* **At least 1 member of the Technical Council** also approves it.
+
+**Founder's Safeguard:**
+* The Founder can **legally abstain** from this vote while retaining their technical authority.
+* If the veto is used **maliciously**, the system triggers a **public DAO alert** and records a **voting snapshot** for transparency.
+
+---
+
+### 5. Self-Protection Clauses (Unexpellable Founder)
+
+These clauses are embedded within the smart contract or the DAO's Memorandum of Understanding (MoU):
+
+**🚫 Anti-Expulsion:**
+* No chamber can propose a vote to remove the Founder, **except if**:
+    * There is objective proof of a crime, officially signed by **two distinct courts** (or a globally notarized DAO certificate).
+
+**⛔ Anti-Censorship:**
+* The Founder cannot be blocked from proposing, voting on, or updating the infrastructure.
+
+**📜 Anti-Centralization:**
+* If more than **33% of nodes originate from a single actor** (e.g., military, bank), new decisions are automatically frozen until node diversity is restored.
 
 ---
 ---
 
-# AON: Una DAO de Certificación Descentralizada
+# AON: IA Descentralizada para la Seguridad de Infraestructuras Críticas y Conectividad Soberana
 
-Este documento describe la arquitectura y el funcionamiento de AON, una Organización Autónoma Descentralizada (DAO) diseñada para proporcionar una capa de validación sin confianza (trustless) y modular para diversas industrias.
-
----
-
-## 1. La DAO como Capa de Validación Sin Confianza
-
-AON actúa como un organismo de certificación neutral y descentralizado que verifica:
-
-- Dispositivos
-- Firmware
-- Identidades (a través de SSI - Identidad Auto-Soberana)
-- Sensores y Datos
-- Riesgos y Cumplimiento (p. ej., ISO 31000)
-
-Cada industria puede integrarse sin problemas en AON para validar o ser validada, eliminando la necesidad de autoridades centrales o intermediarios.
+![Project Status](https://img.shields.io/badge/Status-In%20Development-blue)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/aon-project/aon/blob/main/LICENSE)
 
 ---
 
-## 🧩 2. Arquitectura Modular por Sector
+## ¡Bienvenido a AON!
 
-La DAO se estructura en módulos verticales (SubDAOs), cada uno sirviendo a un dominio específico:
-
-| SubDAO / Módulo | Propósito                                                                                                                                                                  |
-| :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HealthDAO       | Verifica dispositivos médicos, la identidad del paciente (SSI) y la trazabilidad de los datos.                                                                           |
-| FinDAO          | Valida credenciales descentralizadas y la seguridad post-cuántica en el sector bancario.                                                                                   |
-| AutoDAO         | Gestiona el firmware, los sensores y la confianza vehículo a vehículo (V2V) en sistemas autónomos (p. ej., Tesla).                                                        |
-| DefDAO          | Asegura el IoT militar y táctico (drones, radios, nodos de borde) con resiliencia de Criptografía Post-Cuántica (PQC).                                                   |
-| InfraDAO        | Certifica infraestructuras críticas (p. ej., routers, satélites, nodos eSIM).                                                                                              |
-
-Todas las SubDAOs comparten la misma capa base de AON, lo que garantiza la interoperabilidad y una gobernanza unificada.
+En un mundo donde la privacidad es un lujo y la ciberseguridad una batalla constante, **AON** emerge como la primera infraestructura de **Inteligencia Artificial descentralizada** del mundo. Diseñada para operar con una seguridad, auditabilidad y resiliencia sin precedentes, AON protege infraestructuras críticas y democratiza la conectividad global, integrando seguridad post-cuántica (PQM), gestión de riesgos ISO 31000 y conectividad de por vida en un único ecosistema.
 
 ---
 
-## 🧑‍⚖️ 3. Gobernanza Distribuida e Incentivos
+## El Problema que Resolvemos
 
-Cada módulo cuenta con validadores expertos, que pueden ser especialistas técnicos o entidades institucionales.
-
-La gobernanza se gestiona mediante votación en cadena, mecanismos de staking y sistemas de reputación.
-
-El token AON se utiliza para el acceso, la validación y la certificación.
-
-Un significativo 35% de los ingresos de la red se redistribuye mensualmente a los validadores activos de todos los sectores, asegurando una alineación sostenible de incentivos.
+Las infraestructuras críticas globales (finanzas, defensa, salud) están bajo una amenaza creciente de ciberataques sofisticados y la inminente llegada de la computación cuántica. Las soluciones de IA centralizadas actuales son inherentemente vulnerables, carecen de un marco unificado de gestión de riesgos global (ISO 31000) y no ofrecen la resiliencia necesaria para los activos más valiosos. Además, la conectividad global sigue limitada por barreras geográficas, costosos servicios de roaming y facturas recurrentes.
 
 ---
 
-## 🔐 4. Infraestructura Técnica Compartida
+## Nuestra Solución Única: Los Pilares de AON
 
-Todos los sectores se benefician de una robusta infraestructura técnica compartida, que incluye:
+AON ofrece una propuesta de valor sin precedentes, basada en la integración sinérgica de tecnologías avanzadas y un modelo de gobernanza descentralizado:
 
-- DIDs (Identificadores Descentralizados): Proporcionan identidades únicas e interoperables tanto para dispositivos como para personas.
-- FIDO2 + PQC: Permiten una autenticación preparada para la era post-cuántica con sólidas garantías de seguridad a prueba del futuro.
-- eSIM + SM-DP: Aseguran la identidad a nivel de hardware, crucial para aplicaciones móviles y automotrices.
-- ISO 31000 framework: Ofrece un lenguaje estandarizado para la gestión de riesgos y la garantía de calidad en diversas industrias.
-
----
-
-## Ejemplo del Mundo Real
-
-1.  Un hospital certifica un ventilador médico utilizando HealthDAO.
-
-2.  Ese certificado es automáticamente confiado por:
-    * FinDAO (para procesos de seguros o facturación relacionados).
-    * DefDAO (si el dispositivo se utiliza en hospitales de campaña o en operaciones militares).
-    * InfraDAO (si la cadena de suministro del dispositivo implica logística vinculada por satélite).
-
-Este enfoque unificado garantiza la confianza coherente en los dispositivos en diversos sectores, manteniendo al mismo tiempo una estricta descentralización y seguridad.
+1.  **Conectividad Global de por Vida:** Cada **token AON** representa **conectividad eSIM global satelital y terrestre de por vida**, eliminando barreras, facturas recurrentes y la necesidad de contratos, simbolizando una verdadera soberanía personal sobre la conectividad.
+2.  **Seguridad Post-Cuántica Nativa (PQM):** Implementamos algoritmos criptográficos resistentes a ataques cuánticos (Kyber, Dilithium), asegurando la integridad y confidencialidad a largo plazo de los datos y las comunicaciones, incluso ante la amenaza de grandes computadoras cuánticas.
+3.  **IA Descentralizada y Gestión de Riesgos ISO 31000:** Un motor de Inteligencia Artificial descentralizado permite la **detección de anomalías en tiempo real** y la **auditoría forense activa**. Esto se basa en la integración del estándar internacional de gestión de riesgos **ISO 31000** desde el diseño, asegurando el cumplimiento normativo y una confianza indispensable.
+4.  **Soberanía Digital (SSI & Web3 DID) y Fin a los CAPTCHAs:** La identidad digital en AON se basa en los principios de **Identidad Digital Auto-Soberana (SSI)** y los **Identificadores Descentralizados Web3 (DID)**, garantizando el control total del usuario sobre sus datos. Esta robusta verificación de identidad **deja obsoleta la necesidad de CAPTCHAs y reCAPTCHAs**, que actualmente consumen aproximadamente **7.5 millones de kWh de energía** y generan **7.5 millones de libras de CO2** solo por la transmisión de datos, con un costo estimado de **más de 1.5 millones de euros anuales** para la energía de reCAPTCHAs. AON elimina este costo y impacto ambiental innecesarios.
+5.  **Arquitectura Híbrida Avanzada para una Resiliencia Extrema:** Combinamos la inmutabilidad de la **tecnología blockchain** con la resiliencia y el alcance global de las **redes satelitales** y los **principios Web3**. Esto permite una operación ininterrumpida incluso en escenarios de interrupción de la conectividad convencional, incluyendo una robusta Provisión Segura de Dispositivos Móviles (SM-DP+) para identidades y dispositivos.
+6.  **Estrategia de Expansión y Alianzas Estratégicas:** Nuestro modelo está diseñado para la **interoperabilidad** y la **colaboración estratégica** con empresas de telecomunicaciones establecidas y proveedores de SM-DP+. Esto permite una escalabilidad global más rápida y eficiente de las eSIM de AON, al tiempo que logra **ahorros masivos de energía** para empresas como Google (cuyos centros de datos consumen **30.8 millones de MWh** anualmente) y gobiernos, al reducir la necesidad de procesamiento redundante y centralizado.
 
 ---
 
-## Equipo Principal y Liderazgo
+## El Token AON: Nuestro Modelo de Valor Compartido
 
-* [Pendiente: Añadir Miembros del Equipo Clave]
-* [Pendiente: Añadir CEO Principal]
+El token AON es el motor económico del ecosistema, diseñado para incentivar la participación y asegurar la sostenibilidad a largo plazo.
+
+* **Acceso a Conectividad de por Vida:** Cada token otorga acceso de por vida a conectividad satelital y terrestre global.
+* **Gobernanza Descentralizada (DAO):** Los poseedores de tokens AON votan sobre decisiones clave y el futuro del proyecto.
+* **Recompensas por Participación Activa:** Los usuarios pueden ganar tokens AON participando activamente en la validación descentralizada de Seguridad Post-Cuántica (PQC). **¡Cada mes, el 35% de todos los ingresos generados por la validación de usuarios y los servicios del ecosistema se distribuirá a los poseedores de tokens AON!** Estos fondos se pueden retirar en moneda fiduciaria directamente desde la blockchain o su cuenta bancaria, o utilizarse para futuros servicios dentro del ecosistema AON, incentivando directamente la participación y el valor para la comunidad.
+* **Acceso a Servicios Avanzados:** La comunidad puede decidir si ciertas funcionalidades de seguridad avanzadas requerirán el uso o el staking de tokens.
+
+---
+
+## Tokenomics (Resumen Ejecutivo)
+
+* **Suministro Inicial (Fase 1):** 5,000 tokens AON.
+* **Expansión Controlada:** El suministro total proyectado es de **20,000 tokens AON**, introducidos en fases controladas para financiar el crecimiento de la infraestructura global. Cualquier expansión futura será decidida por la DAO.
+* **Distribución (Fase 1 - 5,000 tokens):**
+
+    | Categoría                  | Porcentaje |
+    | :------------------------- | :--------- |
+    | Comunidad y Recompensas    | 35%        |
+    | Liquidez DEX               | 30%        |
+    | Venta Privada              | 15%        |
+    | Equipo y Asesores          | 15%        |
+    | Fondo de Desarrollo (DAO)  | 5%         |
+
+* **Sostenibilidad:** Las tarifas de transacción financian el desarrollo, las recompensas y un mecanismo de **quema automática de tokens** para asegurar la escasez y sostenibilidad a largo plazo.
+
+---
+
+## Hoja de Ruta (Hitos Clave)
+
+* **Mes 1-2:** Diseño de arquitectura y PoC de micro-OS. Implementación inicial de PQC (Kyber, Dilithium). Desarrollo, prueba y auditoría inicial del contrato inteligente del token AON. **Desarrollo y lanzamiento de la APK funcional para la validación de blockchain y PQC, diseñada para generar rentabilidad desde el primer mes.**
+* **Mes 3:** Lanzamiento de la Venta Privada con inversores y socios iniciales. Lanzamiento de un MVP de IA (prueba de concepto básica).
+* **Mes 4:** **GRAN ANUNCIO PÚBLICO del proyecto y lanzamiento oficial de este repositorio de Código Abierto.** Certificación pre-lanzamiento ISO 31000.
+* **Mes 5-8:** Expansión de la comunidad, alianzas estratégicas con Telcos y proveedores de SM-DP+. Desarrollo avanzado de componentes de IA y conectividad. Certificación final.
+
+---
+
+## Ventaja Competitiva: ¿Por Qué AON?
+
+* **Pioneros Globales:** La **primera IA descentralizada del mundo** que integra **ISO 31000 + PQM + Conectividad de por Vida + Reparto de Ganancias** en un único ecosistema.
+* **Enfoque de Seguridad Holístico:** Prioriza la seguridad real, la auditoría en tiempo real y el cumplimiento normativo, superando el mero hype tecnológico.
+* **Resiliencia Extrema:** Integración híbrida para una operación ininterrumpida a través de redes satelitales y de malla.
+* **Modelo Colaborativo:** Diseñado para la interoperabilidad y la colaboración estratégica con la infraestructura existente.
+* **Incentivo Único:** Distribución mensual del 35% de las ganancias a usuarios/poseedores.
+
+---
+
+## Solicitud de Inversión
+
+**Fase 1 - Capital Semilla Inicial:**
+Buscamos entre **€15,000 y €25,000** para:
+* Crear una **APK funcional** que se conecte a una **red blockchain para la validación de Criptografía Post-Cuántica (PQC)**.
+* Demostrar **funcionalidad y rentabilidad desde el primer mes** con esta APK.
+* Con esta **APK funcional demostrada**, planeamos lanzar una **venta de tokens en Ethereum a través de una DAO** para financiar las fases posteriores del proyecto.
+* Escalar la integración de IA en el mes siguiente.
+
+**Fase 2 y Más Allá - Expansión:**
+Anticipamos una ronda posterior de entre **€50,000 y €100,000** para:
+* Obtener la **Certificación ISO 31000** y realizar auditorías de seguridad exhaustivas.
+* Impulsar el **desarrollo tecnológico avanzado** de nuestros componentes centrales.
+* Financiar nuestra **estrategia de marketing** y el crecimiento de la comunidad de alto valor.
+
+---
+
+## Gobernanza Protegida AON
+
+AON implementa un modelo de gobernanza único diseñado para una protección robusta, con controles y equilibrios incorporados para asegurar la autoridad técnica del fundador, un poder de veto limitado para los socios estratégicos y medidas anticorrupción por diseño.
+
+---
+
+### 1. Cámara Técnica (Tu Mandas)
+
+Formada por: Tú (fundador), desarrolladores, validadores técnicos.
+
+**Poder:**
+* Aprobar o rechazar mejoras tecnológicas.
+* Gestionar actualizaciones de seguridad, algoritmos PQC, nodos.
+
+**Votos:**
+* Tu voto pesa **x3**.
+* Nadie (ni bancos ni ejércitos) puede votar aquí.
+
+---
+
+### 2. Cámara Estratégica (Ejército, Bancos, etc.)
+
+Se limita a:
+* Estrategia geopolítica.
+* Uso institucional de la DAO.
+* Seguridad nacional (infraestructura crítica, datos sensibles).
+
+**Autoridad:**
+* Pueden usar veto **solo en temas marcados como "Seguridad Nacional."**
+* **No pueden votar sobre:**
+    * Gobernanza interna.
+    * Tokenomics.
+    * Expulsión de fundadores.
+
+---
+
+### 3. Comunidad Abierta
+
+Votan sobre:
+* Proyectos.
+* Reparto de recompensas.
+* Certificados colectivos.
+
+**Mecanismos:**
+* **Staking Reputacional:** Los que validan más, pesan más.
+* **Antiballena:** Limita que nadie tenga más del **5% del poder** total.
+
+---
+
+### 4. Veto de Seguridad Nacional (Blindado)
+
+Solo se activa si:
+* **75% del Consejo Estratégico** lo aprueban **Y**
+* **Al menos 1 miembro del Consejo Técnico** también lo aprueba.
+
+**Salvaguarda del Fundador:**
+* Tú puedes **abstenerte legalmente** y seguir con poder técnico.
+* Si el veto es usado **maliciosamente**, el sistema lanza una **alerta pública DAO** + un **snapshot de votación** para transparencia.
+
+---
+
+### 5. Cláusulas de Autoprotección (Fundador Inexpulsable)
+
+Estas se meten en el smart contract o en el MoU DAO:
+
+**🚫 Anti-Expulsión:**
+* Ninguna cámara puede proponer votación para remover al fundador, **excepto si**:
+    * Hay prueba objetiva de delito firmado por **2 tribunales distintos** (o certificado global DAO notariado).
+
+**⛔ Anti-Censura:**
+* El fundador no puede ser bloqueado de proponer, votar o actualizar la infraestructura.
+
+**📜 Anti-Centralización:**
+* Si más del **33% de los nodos provienen de un único actor** (ejército, banco, etc.), se congelan automáticamente nuevas decisiones hasta diversificación.
+```
