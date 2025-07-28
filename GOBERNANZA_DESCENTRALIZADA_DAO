@@ -1,81 +1,156 @@
-# Gobernanza Descentralizada de AON (DAO)
+# AON: A Decentralized Certification DAO
+
+This document outlines the architecture and operation of AON, a Decentralized Autonomous Organization (DAO) designed to provide a trustless and modular validation layer across various industries.
 
 ---
 
-La esencia de AON radica en su naturaleza de código abierto y definida por la comunidad. Creemos firmemente que las decisiones sobre el futuro de nuestra infraestructura segura, soberana y de conectividad global deben residir en las manos de sus usuarios y contribuyentes. Por ello, AON está gobernado por una **Organización Autónoma Descentralizada (DAO)**, empoderada por el token AON.
+## 1. The DAO as a Trustless Validation Layer
 
-Este documento describe la estructura y el proceso de gobernanza de la DAO de AON, asegurando una toma de decisiones transparente y comunitaria.
+AON functions as a neutral, decentralized certification authority. It's responsible for verifying:
 
----
+- Devices
+- Firmware
+- Identities (via Self-Sovereign Identity - SSI)
+- Sensors and Data
+- Risk and Compliance (e.g., ISO 31000)
 
-## 1. El Token AON: Tu Voz y Activo Estratégico en la DAO
-
-El **token AON** es más que una simple criptomoneda; representa no solo un acceso de por vida a la conectividad global, sino que es tu poder de voto directo y tu activo estratégico dentro de la DAO. Dada su **escasez extrema (5.000 unidades en total)**, cada token AON confiere una influencia significativa en la dirección del proyecto.
-
-* **Poder de Voto:** Cada token AON que poseas equivale a un voto directo en las propuestas de la DAO. Cuantos más tokens poseas, mayor será tu influencia proporcional y tu responsabilidad en las decisiones que definen el futuro del ecosistema AON.
-* **Incentivo a la Participación:** Los poseedores de tokens serán activamente incentivados a participar en la gobernanza, reconociendo que sus decisiones impactarán directamente el valor, la evolución y la sostenibilidad a largo plazo de la red AON y su propuesta de valor única (conectividad, seguridad PQM, auditoría forense en tiempo real).
-
----
-
-## 2. Proceso de Propuestas y Votación: Construyendo el Consenso Comunitario
-
-La gobernanza de AON seguirá un ciclo de vida estructurado, garantizando que todas las propuestas sean consideradas y votadas de manera justa, transparente y eficiente.
-
-### Fases de una Propuesta:
-
-1.  **Discusión Informal (Off-Chain):**
-    * **Propósito:** Generar ideas iniciales, debatir conceptos, explorar la viabilidad técnica y recopilar feedback preliminar antes de formalizar una propuesta.
-    * **Dónde:** Principalmente en nuestro [Canal de Discord](LINK_A_TU_CANAL_DE_DISCORD) o [Foro de Gobernanza](LINK_A_TU_FORO_DE_GOBERNANZA_EJ_SNAPSHOT_FORUM).
-    * **Resultado:** Un borrador de la propuesta más pulido, con apoyo y dirección inicial de la comunidad.
-
-2.  **Creación Formal de Propuesta (On-Chain/Off-Chain con Verificación):**
-    * **Quién puede proponer:** Los poseedores de tokens que cumplan con un umbral mínimo de AON (ej. `X` tokens AON). Este umbral será definido y ajustable por la DAO a medida que el ecosistema madure.
-    * **Contenido de la Propuesta:**
-        * **Título Claro:** Un resumen conciso y descriptivo de la propuesta.
-        * **Descripción Detallada:** Exposición del problema o la oportunidad, la solución propuesta, una justificación sólida, el impacto esperado (positivo/negativo) y cualquier cambio técnico, de tokenomics o de gobernanza necesario.
-        * **Opciones de Votación:** Opciones claras y concisas como "Sí", "No", "Abstenerse".
-    * **Plataforma:** Las propuestas se formalizarán y se someterán a votación en nuestra plataforma de gobernanza (ej. [Snapshot para votación off-chain](LINK_A_TU_ESPACIO_EN_SNAPSHOT_SI_USAS_ESTO) o directamente vía contrato de gobernanza on-chain).
-
-3.  **Período de Votación:**
-    * **Duración:** Las propuestas estarán abiertas a votación durante un período predefinido (ej. 72 horas, 5 días), decidido por la DAO para equilibrar la participación y la eficiencia.
-    * **Quórum:** Un número mínimo de votos (un porcentaje del suministro total o de los tokens en *staking*) debe participar para que la votación sea considerada válida. Este quórum será definido y ajustable por la DAO.
-    * **Mayoría:** La propuesta se aprueba si alcanza la mayoría requerida (ej. simple mayoría de los votos emitidos, o una mayoría cualificada para decisiones críticas).
-
-4.  **Implementación de la Propuesta Aprobada:**
-    * Si una propuesta es aprobada, el equipo central (inicialmente) o un grupo de ejecutores designados y auditados por la DAO será responsable de implementar los cambios.
-    * Las acciones que requieran cambios en contratos inteligentes o en el código base (como actualizaciones PQC o del micro-OS) serán ejecutadas de manera transparente, segura y verificable en la blockchain.
+Any industry can seamlessly integrate with AON to validate or be validated, removing the need for central authorities or intermediaries.
 
 ---
 
-## 3. Áreas de Gobernanza: El Alcance del Poder Comunitario
+## 2. Modular Architecture by Sector
 
-La DAO de AON tendrá autoridad sobre aspectos críticos y estratégicos del proyecto, asegurando que la comunidad dirija su evolución. Esto incluye, pero no se limita a:
+The AON DAO is structured into vertical modules (SubDAOs), each dedicated to a specific domain:
 
-* **Evolución del Tokenomics:** Ajustes a las asignaciones de tokens, porcentajes de *fees*, mecanismos de quema, incentivos por *staking*, y la adaptación de los parámetros de la **compensación ajustada al valor** para colaboradores clave.
-* **Políticas de Uso de la eSIM:** Definición y ajuste de límites de datos, prioridades de red, o cualquier otra política de uso de la conectividad que la comunidad considere necesaria para la sostenibilidad a largo plazo y la equidad del servicio.
-* **Asignación de Fondos de la Tesorería:** Cómo se utilizan los fondos acumulados en la tesorería de la DAO (para desarrollo, mantenimiento de la red, adquisición de ancho de banda, alianzas estratégicas, recompensas comunitarias, auditorías de seguridad como ISO 31000).
-* **Alianzas Estratégicas:** Aprobación de acuerdos con proveedores SM-DP+, operadores satelitales/terrestres, o cualquier otra asociación importante que impacte la infraestructura y el crecimiento de AON.
-* **Actualizaciones del Protocolo y Arquitectura:** Cambios en el micro-OS, la aplicación APK, la implementación de PQC, el motor de IA para auditoría forense, y la integración con SSI/Web3 DID.
-* **Programas de Recompensas y Airdrops:** Definición de futuros airdrops, programas de recompensas para contribuyentes continuos y mecanismos para asegurar una distribución justa y anti-Sybil.
+| SubDAO / Module | Purpose                                                                                                                                                                  |
+| :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HealthDAO       | Verifies medical devices, patient identity (SSI), and data traceability.                                                                                                 |
+| FinDAO          | Validates decentralized credentials and ensures post-quantum security in banking.                                                                                          |
+| AutoDAO         | Manages firmware, sensors, and vehicle-to-vehicle (V2V) trust within autonomous systems (e.g., Tesla).                                                                   |
+| DefDAO          | Secures military and tactical IoT (drones, radios, edge nodes) with Post-Quantum Cryptography (PQC) resilience.                                                          |
+| InfraDAO        | Certifies critical infrastructure components (e.g., routers, satellites, eSIM nodes).                                                                                      |
 
----
-
-## 4. Transparencia y Responsabilidad: Pilares de la Confianza Descentralizada
-
-La DAO de AON operará con la máxima transparencia para fomentar la confianza y la responsabilidad en cada nivel.
-
-* **Auditoría On-Chain:** Todas las votaciones de la DAO, las transacciones de la Tesorería de la DAO y los registros de eventos clave serán inmutablemente registrados en la blockchain, garantizando total transparencia y auditabilidad para cualquier miembro de la comunidad.
-* **Canales de Comunicación Abiertos:** Se anima a la comunidad a participar activamente en las discusiones, a solicitar aclaraciones sobre cualquier propuesta o decisión, y a auditar las acciones de la DAO a través de los exploradores de bloques.
+All SubDAOs leverage the same foundational AON base layer, ensuring universal interoperability and unified governance.
 
 ---
 
-## 5. Participa en la Gobernanza: Sé Parte del Futuro de AON
+## 🧑‍⚖3. Distributed Governance and Incentives
 
-Tu participación es vital para el éxito, la verdadera descentralización y la evolución de AON. Te invitamos a involucrarte activamente:
+Each module relies on expert validators, who can be technical specialists or institutional entities.
 
-* **Adquiere tokens AON:** Para obtener poder de voto y ser un pilar de nuestra comunidad.
-* **Revisa el Código y la Documentación:** Familiarízate con nuestros repositorios de GitHub para entender las bases técnicas del proyecto.
+Governance is handled via on-chain voting, staking mechanisms, and reputation systems.
 
-Juntos construiremos una infraestructura de conectividad verdaderamente soberana, segura y comunitaria para las próximas generaciones.
+The AON token is used for access, validation, and certification.
+
+A significant 35% of network revenue is re-distributed monthly to active validators across all sectors, fostering sustainable incentive alignment.
 
 ---
+
+##  4. Shared Technical Infrastructure
+
+All sectors benefit from a robust shared technical infrastructure, which includes:
+
+- DIDs (Decentralized Identifiers): Providing unique, interoperable identities for both devices and individuals.
+- FIDO2 + PQC: Enabling post-quantum-ready authentication with strong, future-proof security guarantees.
+- eSIM + SM-DP: Ensuring secure identity at the hardware level, particularly crucial for mobile and automotive applications.
+- ISO 31000 framework: Offering a standardized language for managing risk and ensuring assurance across diverse industries.
+
+---
+
+## Real-World Example
+
+1.  A hospital utilizes HealthDAO to certify a medical ventilator.
+
+2.  This certification is then automatically trusted by:
+    * FinDAO (for related insurance or billing processes).
+    * DefDAO (if the device is deployed in field hospitals or military operations).
+    * InfraDAO (if the device's supply chain involves satellite-linked logistics).
+
+This unified approach ensures consistent device trust across various sectors, all while strictly upholding decentralization and security principles.
+
+---
+
+## Core Team and Leadership
+
+* [Pending: Add Key Team Members]
+* [Pending: Add Principal CEO]
+
+---
+---
+
+# AON: Una DAO de Certificación Descentralizada
+
+Este documento describe la arquitectura y el funcionamiento de AON, una Organización Autónoma Descentralizada (DAO) diseñada para proporcionar una capa de validación sin confianza (trustless) y modular para diversas industrias.
+
+---
+
+## 1. La DAO como Capa de Validación Sin Confianza
+
+AON actúa como un organismo de certificación neutral y descentralizado que verifica:
+
+- Dispositivos
+- Firmware
+- Identidades (a través de SSI - Identidad Auto-Soberana)
+- Sensores y Datos
+- Riesgos y Cumplimiento (p. ej., ISO 31000)
+
+Cada industria puede integrarse sin problemas en AON para validar o ser validada, eliminando la necesidad de autoridades centrales o intermediarios.
+
+---
+
+## 🧩 2. Arquitectura Modular por Sector
+
+La DAO se estructura en módulos verticales (SubDAOs), cada uno sirviendo a un dominio específico:
+
+| SubDAO / Módulo | Propósito                                                                                                                                                                  |
+| :-------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HealthDAO       | Verifica dispositivos médicos, la identidad del paciente (SSI) y la trazabilidad de los datos.                                                                           |
+| FinDAO          | Valida credenciales descentralizadas y la seguridad post-cuántica en el sector bancario.                                                                                   |
+| AutoDAO         | Gestiona el firmware, los sensores y la confianza vehículo a vehículo (V2V) en sistemas autónomos (p. ej., Tesla).                                                        |
+| DefDAO          | Asegura el IoT militar y táctico (drones, radios, nodos de borde) con resiliencia de Criptografía Post-Cuántica (PQC).                                                   |
+| InfraDAO        | Certifica infraestructuras críticas (p. ej., routers, satélites, nodos eSIM).                                                                                              |
+
+Todas las SubDAOs comparten la misma capa base de AON, lo que garantiza la interoperabilidad y una gobernanza unificada.
+
+---
+
+## 🧑‍⚖️ 3. Gobernanza Distribuida e Incentivos
+
+Cada módulo cuenta con validadores expertos, que pueden ser especialistas técnicos o entidades institucionales.
+
+La gobernanza se gestiona mediante votación en cadena, mecanismos de staking y sistemas de reputación.
+
+El token AON se utiliza para el acceso, la validación y la certificación.
+
+Un significativo 35% de los ingresos de la red se redistribuye mensualmente a los validadores activos de todos los sectores, asegurando una alineación sostenible de incentivos.
+
+---
+
+## 🔐 4. Infraestructura Técnica Compartida
+
+Todos los sectores se benefician de una robusta infraestructura técnica compartida, que incluye:
+
+- DIDs (Identificadores Descentralizados): Proporcionan identidades únicas e interoperables tanto para dispositivos como para personas.
+- FIDO2 + PQC: Permiten una autenticación preparada para la era post-cuántica con sólidas garantías de seguridad a prueba del futuro.
+- eSIM + SM-DP: Aseguran la identidad a nivel de hardware, crucial para aplicaciones móviles y automotrices.
+- ISO 31000 framework: Ofrece un lenguaje estandarizado para la gestión de riesgos y la garantía de calidad en diversas industrias.
+
+---
+
+## Ejemplo del Mundo Real
+
+1.  Un hospital certifica un ventilador médico utilizando HealthDAO.
+
+2.  Ese certificado es automáticamente confiado por:
+    * FinDAO (para procesos de seguros o facturación relacionados).
+    * DefDAO (si el dispositivo se utiliza en hospitales de campaña o en operaciones militares).
+    * InfraDAO (si la cadena de suministro del dispositivo implica logística vinculada por satélite).
+
+Este enfoque unificado garantiza la confianza coherente en los dispositivos en diversos sectores, manteniendo al mismo tiempo una estricta descentralización y seguridad.
+
+---
+
+## Equipo Principal y Liderazgo
+
+* [Pendiente: Añadir Miembros del Equipo Clave]
+* [Pendiente: Añadir CEO Principal]
